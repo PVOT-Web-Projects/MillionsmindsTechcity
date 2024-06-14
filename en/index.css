@@ -1,0 +1,154 @@
+.intro-info-header img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+.intro-info-header {
+  padding-right: 20px;
+  width: 55%;
+}
+.intro-info-content {
+  padding-left: 20px;
+  width: 45%;
+}
+.intro-info-content h3 {
+  font-size: 35px;
+  margin: 0 0 20px;
+}
+.intro-content-text {
+  font-size: 18px !important;
+  margin: 0 0 10px;
+}
+.wrap-intro-info {
+  display: flex;
+}
+.flex-item.text-center.ganesh-logo-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.flex-item.text-center.ganesh-logo-flex p {
+  margin: 0 0 20px;
+  text-align: center;
+}
+.wrap-galleries-content {
+  display: flex !important;
+}
+.galleries-images-slider {
+  height: 100%;
+}
+.wrap-images-element {
+  height: 100% !important;
+}
+@media (max-width: 1279px) {
+  .wrap-intro-info {
+    display: block;
+  }
+  .intro-info-header {
+    padding-right: 0;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .intro-info-content {
+    padding-left: 0;
+    width: 100%;
+  }
+  .wrap-galleries-content {
+    display: block !important;
+  }
+}
+
+/* Small Cards */
+
+.smallCards_list {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+  align-items: center;
+}
+.smallCards_item {
+  padding: 20px 30px;
+  text-align: center;
+  width: max-content;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.smallCards_item:hover {
+  color: #8c8782;
+}
+
+.vr {
+  height: 86px;
+  width: 1px;
+  background-color: #000;
+  opacity: 0.7;
+  margin: 8px 0;
+}
+.smallCards_item_heading {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.smallCards_item p {
+  font-size: 15px;
+  margin: 0 0 5px;
+}
+@media (max-width: 1280px) {
+  .smallCards_list {
+    flex-wrap: wrap;
+  }
+  .smallCards_item {
+    width: 30%;
+  }
+}
+@media (max-width: 767px) {
+  .smallCards_item {
+    width: 48%;
+  }
+  .vr:nth-child(4) {
+    display: none;
+  }
+  .vr:nth-child(8) {
+    display: none;
+  }
+  .vr:nth-child(12) {
+    display: none;
+  }
+  .smallCards_item {
+    padding: 15px;
+  }
+}
+.wrap-img img {
+  object-fit: cover;
+}
+.smallText {
+  font-size: 18px;
+  margin: 10px 0 0;
+  line-height: 22px;
+}
+.promotions-module .promotions-header-title {
+  font-size: 25px !important;
+  
+}
+.test_section{
+    text-align: center;
+    padding: 0 20px;
+    margin: 0 0 50px;
+}
+.test_section .test_section_title{
+    font-size: 35px;
+    margin: 0 0 30px;
+}
+.test_section_text{
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+.partners-content-element::before{
+    content: none !important;
+}
+.partners-header-title{
+    font-size: 35px !important;
+    color: #494542 !important;
+    text-align: center;
+}
