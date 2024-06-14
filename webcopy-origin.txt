@@ -1,0 +1,1192 @@
+Uri: https://www.google.com/recaptcha/api.js?render=explicit&onload=onCaptchaLoaded
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\recaptcha\api.js
+Content Type: text/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-0QT9Z7RRFC
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\gtag\js
+Content Type: application/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-PC83WQR7XV
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\gtag\js-1
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/131-2cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\131-2cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/132-3cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\132-3cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/133-6cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\133-6cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/146-st3cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\146-st3cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/147-st4cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\147-st4cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/148-st5cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\148-st5cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/149-st6cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\149-st6cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/204-4cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\204-4cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/214-81cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\214-81cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/226-93cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\226-93cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/229-95cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\229-95cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/231-97cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\231-97cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/236-101cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\236-101cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/237-102cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\237-102cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/238-104cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\238-104cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/239-103cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\239-103cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/240-105cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\240-105cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/241-106cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\241-106cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/243-108cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\243-108cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/25-a0cfpano1800x785.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\25-a0cfpano1800x785.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/293-92cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\293-92cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/294-94cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\294-94cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/297-84cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\297-84cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/300-87cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\300-87cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/301-88cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\301-88cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/304-91cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\304-91cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/305-82cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\305-82cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/306-79cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\306-79cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/310-96cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\310-96cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/314-3cfhab1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\314-3cfhab1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/335-53cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\335-53cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/336-54cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\336-54cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/338-56cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\338-56cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/340-58cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\340-58cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/343-61cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\343-61cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/344-62cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\344-62cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/347-65cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\347-65cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/348-66cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\348-66cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/349-67cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\349-67cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/352-70cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\352-70cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/357-75cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\357-75cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/361-79cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\361-79cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/363-81cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\363-81cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/366-84cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\366-84cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/369-87cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\369-87cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/372-90cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\372-90cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/379-98cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\379-98cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/381-101cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\381-101cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/383-103cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\383-103cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/387-107cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\387-107cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/392-113cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\392-113cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/404-126cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\404-126cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/409-05cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\409-05cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/410-06cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\410-06cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/416-13cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\416-13cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/419-15cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\419-15cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/426-22cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\426-22cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/428-24cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\428-24cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/431-27cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\431-27cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/432-28cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\432-28cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/433-29cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\433-29cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/434-30cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\434-30cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/437-33cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\437-33cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/441-37cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\441-37cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/444-40cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\444-40cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/445-41cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\445-41cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/448-44cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\448-44cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/450-46cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\450-46cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/451-47cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\451-47cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/452-48cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\452-48cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/453-49cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\453-49cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/454-9cfport1800x935.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\454-9cfport1800x935.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/457-12cfport1800x935.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\457-12cfport1800x935.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/464-6cfport1800x935.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\464-6cfport1800x935.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/465-7cfport1800x935.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\465-7cfport1800x935.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/516-03cfhabnest1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\516-03cfhabnest1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/517-01cfhabnest1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\517-01cfhabnest1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/518-02cfhabnest1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\518-02cfhabnest1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/519-02cfhabdeluxe1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\519-02cfhabdeluxe1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/520-01cfhabdeluxe1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\520-01cfhabdeluxe1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/521-03cfhabprivilege1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\521-03cfhabprivilege1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/522-04cfhabprivilege1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\522-04cfhabprivilege1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/523-05cfhabprivilege1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\523-05cfhabprivilege1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/524-06cfhabprivilege1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\524-06cfhabprivilege1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/527-01cfhabprivilege1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\527-01cfhabprivilege1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/528-02cfhabprivilege1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\528-02cfhabprivilege1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/529-08cfhabduplexsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\529-08cfhabduplexsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/530-01cfhabduplexsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\530-01cfhabduplexsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/531-02cfhabduplexsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\531-02cfhabduplexsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/533-04cfhabduplexsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\533-04cfhabduplexsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/534-06cfhabduplexsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\534-06cfhabduplexsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/535-07cfhabduplexsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\535-07cfhabduplexsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/536-09cfhabduplexsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\536-09cfhabduplexsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/537-03cfhabsantanyisuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\537-03cfhabsantanyisuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/538-04cfhabsantanyisuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\538-04cfhabsantanyisuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/539-01cfhabsantanyisuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\539-01cfhabsantanyisuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/540-02cfhabsantanyisuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\540-02cfhabsantanyisuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/541-19cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\541-19cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/542-01cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\542-01cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/543-02cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\543-02cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/545-05cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\545-05cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/546-07cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\546-07cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/547-09cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\547-09cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/548-10cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\548-10cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/549-11cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\549-11cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/550-13cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\550-13cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/551-14cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\551-14cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/552-15cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\552-15cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/553-16cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\553-16cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/554-17cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\554-17cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/555-18cfhabcanferreretasuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\555-18cfhabcanferreretasuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/556-0cfhabterracesuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\556-0cfhabterracesuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/557-1cfhabterracesuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\557-1cfhabterracesuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/558-2cfhabterracesuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\558-2cfhabterracesuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/56-43cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\56-43cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/560-0cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\560-0cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/561-1cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\561-1cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/563-3cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\563-3cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/564-4cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\564-4cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/565-5cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\565-5cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/566-6cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\566-6cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/567-7cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\567-7cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/569-9cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\569-9cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/570-10cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\570-10cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/572-12cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\572-12cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/573-13cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\573-13cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/574-14cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\574-14cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/575-15cfhabpoolsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\575-15cfhabpoolsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/578-03cfhabjuniorsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\578-03cfhabjuniorsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/579-04cfhabjuniorsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\579-04cfhabjuniorsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/580-05cfhabjuniorsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\580-05cfhabjuniorsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/581-06cfhabjuniorsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\581-06cfhabjuniorsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/582-07cfhabjuniorsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\582-07cfhabjuniorsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/583-01cfhabjuniorsuite1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\583-01cfhabjuniorsuite1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/595-00cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\595-00cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/598-85cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\598-85cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/621-134cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\621-134cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/623-136cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\623-136cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/626-139cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\626-139cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/627-140cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\627-140cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/628-133cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\628-133cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/629-142cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\629-142cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/630-143cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\630-143cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/631-144cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\631-144cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/632-145cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\632-145cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/633-146cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\633-146cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/634-141cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\634-141cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/640-147cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\640-147cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/642-149cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\642-149cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/643-150cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\643-150cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/644-151cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\644-151cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/645-152cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\645-152cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/646-153cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\646-153cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/647-154cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\647-154cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/648-155cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\648-155cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/650-157cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\650-157cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/651-158cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\651-158cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/images/652-156cf1300x870.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\images\652-156cf1300x870.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11basta-resorna_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11basta-resorna_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11boat_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11boat_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11conde-nast-traveler-spain_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11conde-nast-traveler-spain_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11conde-nast-traveler_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11conde-nast-traveler_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11conde-nast-traveller-2022_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11conde-nast-traveller-2022_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11conde-nast-traveller-italia_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11conde-nast-traveller-italia_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11conde-nast-traveller_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11conde-nast-traveller_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11departures-2020-summer_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11departures-2020-summer_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11evening-standard_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11evening-standard_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11forbes-2024_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11forbes-2024_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11forbes-enero_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11forbes-enero_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11forbes_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11forbes_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11ft-weekend_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11ft-weekend_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11grazia_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11grazia_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11harpers-bazaar_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11harpers-bazaar_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11house-and-garden_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11house-and-garden_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11national-geographic-traveller_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11national-geographic-traveller_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11salon-de_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11salon-de_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11suitcase_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11suitcase_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11tatler-2022_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11tatler-2022_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11tatler_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11tatler_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11townandcountry_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11townandcountry_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11vanity-fair-italy_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11vanity-fair-italy_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11vogue-living_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11vogue-living_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/11wallpaper_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\11wallpaper_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/48carta1_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\48carta1_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/48carta2_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\48carta2_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/48carta3_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\48carta3_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/48carta4_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\48carta4_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/48carta5_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\48carta5_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/48carta6_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\48carta6_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/48carta7_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\48carta7_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/5carta1_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\5carta1_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/5carta2_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\5carta2_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/5carta3_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\5carta3_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/6carta1_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\6carta1_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/6carta2_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\6carta2_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/8carta1_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\8carta1_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/backoffice/pdf/files/dossier-rutas_en.pdf
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\backoffice\pdf\files\dossier-rutas_en.pdf
+Content Type: application/pdf
+
+Uri: https://www.hotelcanferrereta.com/en/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/404/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\404\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/agenda/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\agenda\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/agenda/2/mercado-santanyi/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\agenda\2\mercado-santanyi\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/agenda/3/fira-santanyi/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\agenda\3\fira-santanyi\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/agenda/4/art-santanyi/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\agenda\4\art-santanyi\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/agenda/?cat=1
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\agenda\index-1.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/agenda/?cat=2
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\agenda\index-2.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/agenda/?cat=3
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\agenda\index-3.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/awards/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\awards\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/book-table-mesa-fresca/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\book-table-mesa-fresca\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/book-table-ocre/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\book-table-ocre\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/contact/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\contact\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/cookies/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\cookies\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/cycling/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\cycling\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/directory/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\directory\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/events/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\events\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/gallery/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\gallery\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/art/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\art\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/can-ferrereta/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\can-ferrereta\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/can-ferrereta/nest-room/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\can-ferrereta\nest-room\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/CanFerreretaHotel/can-ferrereta-suite/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\CanFerreretaHotel\can-ferrereta-suite\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/CanFerreretaHotel/deluxe-room/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\CanFerreretaHotel\deluxe-room\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/CanFerreretaHotel/duplex-suite/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\CanFerreretaHotel\duplex-suite\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/CanFerreretaHotel/junior-suite/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\CanFerreretaHotel\junior-suite\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/CanFerreretaHotel/pool-suite/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\CanFerreretaHotel\pool-suite\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/CanFerreretaHotel/privilege-room/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\CanFerreretaHotel\privilege-room\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/CanFerreretaHotel/santanyi-suite/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\CanFerreretaHotel\santanyi-suite\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/CanFerreretaHotel/terrace-suite/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\CanFerreretaHotel\terrace-suite\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/press/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\press\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/hotel/story/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\hotel\story\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/legal/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\legal\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/mallorca/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\mallorca\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/mallorca/experiences/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\mallorca\experiences\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/mallorca/interest-points/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\mallorca\interest-points\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/privacy/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/promotions/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\promotions\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/promotions/10/promosuites/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\promotions\10\promosuites\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/promotions/6/mallorca-active/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\promotions\6\mallorca-active\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/promotions/7/mallorca-yogi/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\promotions\7\mallorca-yogi\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/promotions/8/mallorca-deluxe/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\promotions\8\mallorca-deluxe\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/promotions/9/mallorca-gastronomic/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\promotions\9\mallorca-gastronomic\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/reserve-rooms/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\reserve-rooms\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/restaurant/ocre/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\restaurant\ocre\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/restaurants/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\restaurants\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/restaurants/la-fresca/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\restaurants\la-fresca\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/rooms/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\rooms\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/spa/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\spa\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/en/webmap/
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\en\webmap\index.htm
+Content Type: text/html
+
+Uri: https://www.hotelcanferrereta.com/static/css/main.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\css\main.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/css/motor/font/style.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\css\motor\font\style.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/css/motor/motor.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\css\motor\motor.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/css/vendor/jquery-ui.min.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\css\vendor\jquery-ui.min.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/css/vendor/jquery-ui.theme.min.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\css\vendor\jquery-ui.theme.min.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/css/vendor/lightbox.min.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\css\vendor\lightbox.min.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/css/vendor/slick.min.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\css\vendor\slick.min.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/favicons/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\favicons\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://www.hotelcanferrereta.com/static/favicons/favicon-16x16.png
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\favicons\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://www.hotelcanferrereta.com/static/favicons/favicon-32x32.png
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\favicons\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://www.hotelcanferrereta.com/static/favicons/favicon.ico
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\favicons\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://www.hotelcanferrereta.com/static/favicons/safari-pinned-tab.svg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\favicons\safari-pinned-tab.svg
+Content Type: image/svg+xml
+
+Uri: https://www.hotelcanferrereta.com/static/favicons/site.webmanifest
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\favicons\site.webmanifest
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/fonts/c2t/style.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\fonts\c2t\style.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/fonts/fontstyle.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\fonts\fontstyle.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/fonts/icomoon/style.css
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\fonts\icomoon\style.css
+Content Type: text/css
+
+Uri: https://www.hotelcanferrereta.com/static/img/playa.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\img\playa.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/static/img/poster-video-home.jpg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\img\poster-video-home.jpg
+Content Type: image/jpeg
+
+Uri: https://www.hotelcanferrereta.com/static/js/custom.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\custom.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/img-resp.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\img-resp.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/main.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\main.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/maps.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\maps.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/motor.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\motor.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/vendor/gmaps.min.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\vendor\gmaps.min.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/vendor/jquery-2.1.4.min.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\vendor\jquery-2.1.4.min.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/vendor/jquery-ui.min.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\vendor\jquery-ui.min.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/vendor/jquery.cookie.min.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\vendor\jquery.cookie.min.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/vendor/lightbox.min.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\vendor\lightbox.min.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/js/vendor/slick.min.js
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\js\vendor\slick.min.js
+Content Type: application/javascript
+
+Uri: https://www.hotelcanferrereta.com/static/svg/logos/logo-white.svg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\svg\logos\logo-white.svg
+Content Type: image/svg+xml
+
+Uri: https://www.hotelcanferrereta.com/static/svg/logos/logo_simbolo_1.svg
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\svg\logos\logo_simbolo_1.svg
+Content Type: image/svg+xml
+
+Uri: https://www.hotelcanferrereta.com/static/video/01_CanFerrereta.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\01_CanFerrereta.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/02_CanFerrereta.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\02_CanFerrereta.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/03_CanFerrereta.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\03_CanFerrereta.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/05_CanFerrereta.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\05_CanFerrereta.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/14_CanFerrereta.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\14_CanFerrereta.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/2022_video_cf_hotel.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\2022_video_cf_hotel.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/canFerreretaOcre.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\canFerreretaOcre.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/canFerreretaSaCalma.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\canFerreretaSaCalma.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/canFerreretaSaFresca.mp4
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\canFerreretaSaFresca.mp4
+Content Type: video/mp4
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P006.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P006.m4v
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P016.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P016.m4v
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P025.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P025.m4v
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P068.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P068.m4v
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P075.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P075.m4v
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P098.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P098.m4v
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P100.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P100.m4v
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P114.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P114.m4v
+Content Type: 
+
+Uri: https://www.hotelcanferrereta.com/static/video/Cf-1080P130.m4v
+File Name: C:\Downloaded Web Sites\www.hotelcanferrereta.com\static\video\Cf-1080P130.m4v
+Content Type: 
+

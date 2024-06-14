@@ -1,0 +1,59 @@
+/* BRANDON */
+@font-face{
+    font-family:Brandon;
+    font-display: swap;
+    src: url('./Brandon/BrandonGrotesque-Regular.ttf');
+         url('./Brandon/BrandonGrotesque-Regular.woff2') format('woff2'),
+		 url('./Brandon/BrandonGrotesque-Regular.woff') format('woff'),
+		 url('./Brandon/BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg');
+    font-weight:400;
+}
+@font-face{
+    font-family:Brandon;
+    font-display: swap;
+    src: url('./Brandon/BrandonGrotesque-Medium.ttf');
+         url('./Brandon/BrandonGrotesque-Medium.woff2') format('woff2'),
+		 url('./Brandon/BrandonGrotesque-Medium.woff') format('woff'),
+		 url('./Brandon/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg');
+    font-weight:500;
+}
+@font-face{
+    font-family:Brandon;
+    font-display: swap;
+    src: url('./Brandon/BrandonGrotesque-Bold.ttf');
+         url('./Brandon/BrandonGrotesque-Bold.woff2') format('woff2'),
+		 url('./Brandon/BrandonGrotesque-Bold.woff') format('woff'),
+		 url('./Brandon/BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg');
+    font-weight:700;
+}
+
+/* BRANDON */
+@font-face{
+    font-family:Brown;
+    font-display: swap;
+    src: url('./Brown/Brown-Light.ttf');
+         url('./Brown/Brown-Light.woff2') format('woff2'),
+		 url('./Brown/Brown-Light.woff') format('woff'),
+		 url('./Brown/Brown-Light.svg#Brown-Light') format('svg');
+    font-weight:300;
+}
+@font-face{
+    font-family:Brown;
+    font-display: swap;
+    src: url('./Brown/Brown-Regular.ttf');
+         url('./Brown/Brown-Regular.woff2') format('woff2'),
+		 url('./Brown/Brown-Regular.woff') format('woff'),
+		 url('./Brown/Brown-Regular.svg#Brown-Regular') format('svg');
+    font-weight:400;
+}
+
+/* LT */
+@font-face{
+    font-family:CFType;
+    font-display: swap;
+    src: url('./CF/CFType-Regular.ttf');
+         url('./CF/CFType-Regular.woff2') format('woff2'),
+		 url('./CF/CFType-Regular.woff') format('woff'),
+		 url('./CF/CFType-Regular.svg#CFType-Regular') format('svg');
+    font-weight:400;
+}
