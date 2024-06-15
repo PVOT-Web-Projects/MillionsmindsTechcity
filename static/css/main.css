@@ -3438,13 +3438,11 @@ html .ui-button.ui-state-disabled:active {
 }
 @media (min-width: 540px) {
   .footer-links-partners .wrap-footer-partners {
-
     padding: 60px 0 15px;
     border-bottom: 1px solid #d0ccca;
 
     padding: 100px 0 90px;
     /* border-bottom: 1px solid #d0ccca; */
-
   }
 }
 .footer-partners-header {
@@ -3498,7 +3496,6 @@ html .ui-button.ui-state-disabled:active {
 
     padding: 0 20px;
     width: 100%;
-
   }
   .partners-content-element:nth-child(2) {
     position: relative;
@@ -3515,7 +3512,6 @@ html .ui-button.ui-state-disabled:active {
     background-color: #d0ccca;
 
     background-color: #fff;
-
   }
   .partners-content-element .wrap-partnerns-element {
     border-bottom: none;
@@ -12289,36 +12285,38 @@ body.motor .motor-page {
   background-repeat: no-repeat;
 }
 
-
 @media (max-width: 540px) {
   .partners-content-element {
-  
     /* padding: 0 20px; */
     width: 100% !important;
   }
 }
 
-
-.mail-linktag{
-    text-transform: lowercase !important;
+.mail-linktag {
+  text-transform: lowercase !important;
 }
-.gallery-list-element{
+.gallery-list-element {
   width: 33.33% !important;
 }
-.gallery-element-img{
+.gallery-element-img {
   object-fit: cover;
 }
 @media (max-width: 1024px) {
-  .gallery-list-element{
+  .gallery-list-element {
     width: 50% !important;
     display: inline-block;
   }
 }
 
-
 @media (max-width: 768px) {
-  .gallery-list-element{
+  .gallery-list-element {
     width: 100% !important;
   }
 }
 
+.menu-button .wrap-menu-button .menu-button-text {
+  color: #1c75b7;
+}
+.menu-button .wrap-menu-button .menu-button-icon span {
+  background-color: #1c75b7;
+}
