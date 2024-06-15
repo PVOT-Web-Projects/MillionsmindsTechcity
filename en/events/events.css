@@ -1,0 +1,274 @@
+
+
+.building_image{
+    background-size:contain !important;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordian_text{
+    font-size:18px;
+    color: gray;
+    line-height:120%;
+    width: 75%;
+}
+
+.footer_partner_flex{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4rem !important;
+}
+
+.accordion-header.active {
+    color: #1c75b6;
+}
+
+.accordian_flex {
+    border-bottom:1px solid #a8a8a894;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0px;
+}
+
+.accordian_number {
+    font-size: 18px;
+    color: gray;
+    /* font-weight: bold; */
+}
+
+.accordian_icon {
+    color:gray;
+    font-size: 16px;
+}
+.accordion-header:hover{
+    color: #1c75b6;
+}
+
+.accordion-header {
+    /* background-color: #007bff; */
+    color: #86bce3;
+    cursor: pointer;
+    padding: 15px;
+    text-align: left;
+    border: none;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    /* border-radius: 4px; */
+    outline: none;
+    transition: background-color 0.3s ease;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: white;
+    padding: 0 0px 0px 40px;
+}
+
+.accordion-content p {
+    color: gary;
+    margin: 10px 0;
+}
+
+
+
+
+
+@media (min-width: 540px) {
+    .galleries-module .wrap_gallery_one {
+        padding: 170px 0px 40px 0px !important;
+
+
+    }
+}
+
+@media (min-width: 1280px) {
+
+
+    .footer_partner_flex{
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 4rem !important;
+    }
+
+
+
+
+    .galleries-module.info-left .galleries-content-images {
+      float: right;
+    }
+    .galleries-module.info-left .galleries-content-info {
+      float: left;
+    }
+
+    .gallery_info1{
+        float:left !important;
+    }
+    .galleries-module.info-left .galleries-content-info .gallery_slider3 {
+      padding-right: 60px;
+    }
+    .galleries-module.info-left .galleries-info {
+      left: calc(100% + 15px);
+      padding-left: 20px;
+      padding-bottom: 0;
+    }
+    .galleries-module.info-left.banner-mod
+      .info-slider-element
+      .wrap-info-element {
+      padding: 120px 0 70px 70px;
+    }
+  }
+  @media (min-width: 1280px) and (min-width: 1680px) {
+    .galleries-module.info-left .galleries-content-info .gallery_slider3 {
+      padding-right: 100px;
+    }
+    .galleries-module.info-left .galleries-info {
+      padding-left: 30px;
+    }
+  }
+
+
+  @media (min-width: 1280px) {
+    .galleries-module.info-right .galleries-content-images {
+      float: left;
+    }
+    .galleries-module.info-right .galleries-content-info {
+      float: right;
+    }
+    .gallery_info1{
+        float:left !important;
+    }
+    .galleries-module.info-right .galleries-content-info .gallery_slider3 {
+      padding-left: 60px;
+    }
+    .galleries-module.info-right .galleries-info {
+      right: calc(100% + 15px);
+      padding-right: 20px;
+      padding-bottom: 0;
+    }
+    .galleries-module.info-right.banner-mod
+      .info-slider-element
+      .wrap-info-element {
+      padding: 120px 70px 70px 0;
+    }
+
+    .galleries-module.info-right .galleries-content-info .gallery_slider1 {
+        padding-right: 60px !important;
+        padding-left: 0 !important;
+      }
+  }
+
+
+  @media (min-width: 1280px) and (min-width: 1680px) {
+    .galleries-module.info-right .galleries-content-info .gallery_slider3 {
+      padding-left: 100px;
+    }
+    .galleries-module.info-right .galleries-info {
+      padding-right: 30px;
+    }
+    .galleries-module.info-left .galleries-content-info .gallery_slider1 {
+        padding-right: 100px !important;
+        padding-left: 0 !important;
+      }
+  }
+
+
+  @media (min-width: 1280px) {
+    .galleries-module.banner-mod .galleries-content .wrap-galleries-content {
+      position: relative;
+    }
+    .galleries-module.banner-mod .galleries-content-images {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .galleries-module.banner-mod .galleries-content-info .gallery_slider1{
+        padding-left: 0;
+        padding-right: 0;
+      }
+    .galleries-module.banner-mod
+      .galleries-content-images
+      .galleries-images-slider {
+      height: 100%;
+      width: 100%;
+    }
+    .galleries-module.banner-mod .images-slider-element {
+      height: 100%;
+    }
+    .galleries-module.banner-mod .images-slider-element .wrap-images-element {
+      padding-top: 0;
+      height: 100%;
+    }
+    .galleries-module.banner-mod .gallery_info1 {
+      position: relative;
+      z-index: 1;
+      min-height: 540px;
+    }
+
+    .galleries-module.info-left .galleries-content-info .gallery_slider1 {
+        padding-right: 60px !important;
+        padding-left: 0 !important;
+      }
+
+    .galleries-module.banner-mod .galleries-content-info {
+        position: relative;
+        z-index: 1;
+        min-height: 540px;
+      }
+    .galleries-module.banner-mod .galleries-content-info .gallery_slider3 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .galleries-module.banner-mod
+      .info-slider-element
+      .wrap-info-element
+      .info-element-pretitle {
+      display: none;
+    }
+    .galleries-module.banner-mod
+      .info-slider-element
+      .wrap-info-element
+      .info-element-btns {
+      text-align: left;
+    }
+    .galleries-module.banner-mod.banner-photo
+      .info-slider-element
+      .wrap-info-element
+      .info-element-title,
+    .galleries-module.banner-mod.banner-photo
+      .info-slider-element
+      .wrap-info-element
+      .info-element-subtitle,
+    .galleries-module.banner-mod.banner-photo
+      .info-slider-element
+      .wrap-info-element
+      .info-element-text {
+      color: #fff;
+    }
+    .galleries-module.banner-mod.banner-photo
+      .info-slider-element
+      .wrap-info-element
+      .info-element-btns
+      .btn-more
+      .btn-more-text {
+      color: #fff;
+    }
+    .galleries-module.banner-mod.banner-photo
+      .info-slider-element
+      .wrap-info-element
+      .info-element-btns
+      .btn-more
+      .btn-more-text:after {
+      color: #fff;
+    }
+  }

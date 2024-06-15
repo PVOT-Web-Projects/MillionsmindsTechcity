@@ -51,8 +51,12 @@
         <!-- /Webfonts -->
         <!-- CSSTheme -->
         <link rel="stylesheet" type="text/css" href="../../static/css/main.css">
+        <link rel="stylesheet" href="./events.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- /CSSTheme -->
         <!-- CSSVendor -->
+        <link href="https://cdn.jsdelivr.net/npm/jolty-ui@0.2.0/dist/jolty-ui.min.css" rel="stylesheet">
+
         <link
             rel="stylesheet"
             type="text/css"
@@ -60,6 +64,8 @@
             media="none"
             onload="if(media!='all')media='all'"
         >
+        
+        <script src="https://cdn.jsdelivr.net/npm/jolty@0.6.2/dist/jolty.min.js"></script>
         <noscript>
             <link rel="stylesheet" type="text/css" href="../../static/css/vendor/lightbox.min.css">
         </noscript>
@@ -67,6 +73,7 @@
         <!-- /CSSVendor -->
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="../../static/favicons/apple-touch-icon.png">
+        <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
         <link
             rel="icon"
             type="image/png"
@@ -85,10 +92,18 @@
         <meta name="msapplication-TileColor" content="#8c8782">
         <meta name="msapplication-config" content="/static/favicons/browserconfig.xml">
         <meta name="theme-color" content="#8c8782">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- /Favicons -->
         <!-- custom script head   -->
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async="" src="../../gtag/js?id=G-0QT9Z7RRFC"></script>
+       
+<script>
+    const { Dialog } = window.jolty;
+    Dialog.initAll();
+</script>
+
+
         <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -120,6 +135,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   gtag('config', 'G-PC83WQR7XV');
         </script>
+
+<script>
+ document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+        const accordionItem = header.parentElement;
+        const accordionContent = header.nextElementSibling;
+
+        // Close all other accordion items
+        document.querySelectorAll('.accordion-item').forEach(item => {
+            const itemHeader = item.querySelector('.accordion-header');
+            const itemContent = item.querySelector('.accordion-content');
+
+            if (item !== accordionItem) {
+                itemHeader.classList.remove('active');
+                itemContent.style.maxHeight = 0;
+            }
+        });
+
+        // Toggle the active class for the clicked item
+        header.classList.toggle('active');
+
+        // Adjust the max-height of the accordion content
+        if (header.classList.contains('active')) {
+            accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+        } else {
+            accordionContent.style.maxHeight = 0;
+        }
+    });
+});
+
+
+
+          </script>
+  
+
+
+
         <!-- /custom script head   -->
     </head>
     <body class="full-intern">
@@ -448,10 +500,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </div>
+
+
+
+
         <!-- first section -->
         <section id="section2" class="galleries-module info-left">
             <div class="big-wrapper">
-                <div class="wrap-galleries-module">
+                <div class="wrap-galleries-module wrap_gallery_one">
                     <div class="galleries-info align-right">
                         <div class="galleries-info-counter">
                             <div class="slider-counter">
@@ -472,11 +528,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </div>
                             </div>
                             <div class="galleries-content-info">
-                                <div class="galleries-info-slider3">
+                                <div class="galleries-info-slider gallery_slider3">
                                     <div class="info-slider-element">
                                         <div class="wrap-info-element">
                                             <p class="info-element-pretitle"></p>
-                                            <p class="info-element-title bigger">Our Story</p>
+                                            <p class="info-element-title bigger"  data-aos="fade-right">Our Story</p>
                                             <!-- <p class="info-element-subtitle">OCRE RESTAURANT</p> -->
                                             <p class="info-element-text">One of the leading real estate developers of Gujarat founded in 1965 by Late Shri Govindbhai C Patel, the founder of GHCL. The company begun its business of construction and real estate development in and around Ahmedabad.</p>
                                             <div class="info-element-btns align-left">
@@ -493,6 +549,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </section>
+
+
+
+
         <!-- flex content -->
         <section class="products-module spacer">
             <div class="big-wrapper">
@@ -602,32 +662,75 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </section>
+
+
+
         <!-- new section -->
         <section id="section" class="galleries-module info-right background-white">
             <div class="big-wrapper">
                 <div class="wrap-galleries-module">
                     <div class="galleries-content">
                         <div class="wrap-galleries-content">
-                            <div class="galleries-content-info1">
-                                <div class="galleries-info-slider4">
+                            <div class="galleries-content-info">
+                                <div class="galleries-info-slider">
                                     <div class="info-slider-element">
-                                        <div class="wrap-info-element">
-                                            <p class="info-element-subtitle">14M sq.ft</p>
-                                            <p class="info-element-text">Experience work-life bliss in our expansive 14M sq. ft. integrated development with dedicated office spaces, luxurious residences, and vibrant malls and hotels.</p>
-                                            <p class="info-element-subtitle">IT/ITeS SEZ</p>
-                                            <p class="info-element-text">Thrive in our IT/ITeS SEZ Special Economic Zone, a hub of technological progress and business excellence, offering endless opportunities.</p>
-                                            <p class="info-element-subtitle">5M sq.ft</p>
-                                            <p class="info-element-text">Find your perfect home in our 5M sq. ft. Residential Development, where modern living meets timeless design, ensuring unparalleled comfort.</p>
-                                            <p class="info-element-subtitle">64 Acres</p>
-                                            <p class="info-element-text">Embrace nature in our vast 64-acre land, a space dedicated to crafting sustainable communities and a greener, more vibrant future</p>
-                                            <p class="info-element-subtitle">8M sq.ft</p>
-                                            <p class="info-element-text">Experience a vibrant community at our 8M sq. ft. Tech Park, fostering collaboration and innovation for businesses to flourish.</p>
-                                            <!-- <div class="info-element-btns align-left">
-                                                <div class="btn-more arrow-right">
-                                                    <a href="../contact/index.htm" class="btn-more-text">READ MORE</a>
+         
+
+                                        <div class="accordion">
+                                            <div class="accordion-item">
+                                                <div class="accordian_flex">
+                                                    <div class="accordian_number">01.</div>
+                                                    <button class="accordion-header active" data-always-open="true">14M sq.ft span</button>
+                                                    <div class="accordian_icon">x</div>
                                                 </div>
-                                            </div> -->
+                                                <div class="accordion-content" style="max-height: 100px !important;">
+                                                    <p class="accordian_text">Experience work-life bliss in our expansive 14M sq. ft integrated development with dedicated office spaces, luxurious residences, and vibrant malls and hotels.</p>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordian_flex">
+                                                    <div class="accordian_number">02.</div>
+                                                    <button class="accordion-header">IT/ITeS SEZ</button>
+                                                    <div class="accordian_icon">x</div>
+                                                </div>
+                                                <div class="accordion-content">
+                                                    <p  class="accordian_text">Thrive in our IT/ITeS SEZ Special Economic Zone, a hub of technological progress and business excellence, offering endless opportunities.</p>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordian_flex">
+                                                    <div class="accordian_number">03.</div>
+                                                    <button class="accordion-header">5M sq.ft</button>
+                                                    <div class="accordian_icon">x</div>
+                                                </div>
+                                                <div class="accordion-content">
+                                                    <p  class="accordian_text">Find your perfect home in our 5M sq. ft. Residential Development, where modern living meets timeless design, ensuring unparalleled comfort.</p>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordian_flex">
+                                                    <div class="accordian_number">04.</div>
+                                                    <button class="accordion-header">8M sq.ft</button>
+                                                    <div class="accordian_icon">x</div>
+                                                </div>
+                                                <div class="accordion-content">
+                                                    <p  class="accordian_text">Embrace nature in our vast 64-acre land, a space dedicated to crafting sustainable communities and a greener, more vibrant future.</p>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <div class="accordian_flex">
+                                                    <div class="accordian_number">05.</div>
+                                                    <button class="accordion-header">14M sq.ft</button>
+                                                    <div class="accordian_icon">x</div>
+                                                </div>
+                                                <div class="accordion-content">
+                                                    <p  class="accordian_text">Experience work-life bliss in our expansive 14M sq. ft. integrated development with dedicated office spaces, luxurious residences, and vibrant malls and hotels.</p>
+                                                </div>
+                                            </div>
                                         </div>
+
+
+
                                     </div>
                                 </div>
                             </div>
@@ -635,7 +738,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="galleries-images-slider js-images-slider">
                                     <div class="images-slider-element">
                                         <div class="wrap-images-element">
-                                            <div class="images-element-photo " style="background-image: url('https://millionmindstechcity.com/wp-content/themes/ganeshhousing/img/about/aboutcircle.png');"></div>
+                                            <div class="images-element-photo building_image " style="background-image: url('https://millionmindstechcity.com/wp-content/themes/ganeshhousing/img/about/aboutcircle.png');"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -645,6 +748,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </section>
+
+
+
+
         <!-- new item  -->
         <section id="section3" class="galleries-module info-right background-white">
             <div class="big-wrapper">
@@ -742,6 +849,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </section>
+
+
+
+
         <!-- our vision -->
         <section id="section3" class="galleries-module info-right background-white">
             <div class="big-wrapper">
@@ -757,7 +868,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="galleries-content">
                         <div class="wrap-galleries-content">
                             <div class="galleries-content-info">
-                                <div class="galleries-info-slider3">
+                                <div class="galleries-info-slider">
                                     <div class="info-slider-element">
                                         <div class="wrap-info-element">
                                             <p class="info-element-pretitle"></p>
@@ -792,6 +903,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </section>
+
+
         
         <!-- our goal -->
         <section id="section" class="galleries-module info-right background-white">
@@ -807,8 +920,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div class="galleries-content">
                         <div class="wrap-galleries-content">
-                            <div class="galleries-content-info1">
-                                <div class="galleries-info-slider4">
+                            <div class="galleries-content-info gallery_info1">
+                                <div class="galleries-info-slider gallery_slider1">
                                     <div class="info-slider-element">
                                         <div class="wrap-info-element">
                                             <p class="info-element-pretitle"></p>
@@ -853,6 +966,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </section>
+
+
+
         <!-- LETS GROW TOGETHER -->
         <section id="section1" class="galleries-module info-right background-white full-intern-space submenu-space">
             <div class="big-wrapper">
@@ -948,6 +1064,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
             </div>
         </section>
+
+
+
         <section class="footer-container">
             <div class="wrap-footer-container">
                 <div class="footer-multimedia">
@@ -956,14 +1075,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <div class="wrap-footer-gallery">
                                 <div class="footer-gallery-info">
                                     <p class="footer-gallery-text">"We open our doors to visitors from all over the world"</p>
-                                    <p class="footer-gallery-subtext">Can Ferrereta</p>
+                                    <p class="footer-gallery-subtext">Million Minds Tech City </p>
                                 </div>
-                                <figure
+                                <!-- <figure
                                     class="footer-gallery-img lazyload"
                                     data-filename="109-11cf1300x870.jpg"
                                     aria-label=""
                                     role="img"
-                                ></figure>
+                                ></figure> -->
+                                <div class="footer-gallery-img" style="background-image: url('/static/img/footer_image.jpg');">
+
+                                </div>
                             </div>
                         </div>
                         <i class="btn-top btn-circle icon-arrow_top js-scroll-top">
@@ -986,9 +1108,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                 </div>
                                                 <div class="info-element-content">
                                                     <div class="wrap-info-content">
-                                                        <p class="info-content-text">  Carrer de Can Ferrereta, 12</p>
-                                                        <p class="info-content-text">07650 ·  Santanyí · Mallorca</p>
-                                                        <p class="info-content-text">Islas Baleares · España</p>
+                                                        <p class="info-content-text"> 
+                                                            MILLION MINDS TECH CITY</p>
+                                                        <p class="info-content-text">OPPOSITE NIRMA UNIVERSITY
+
+                                                            – OFF. SG HIGHWAY,</p>
+                                                        <p class="info-content-text"> AHMEDABAD,
+
+                                                            GUJARAT 382470</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1003,16 +1130,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                 <div class="info-element-content">
                                                     <div class="wrap-info-content">
                                                         <a href="tel:T. +34 971 905 905" class="info-content-text link">
-                                                            <span class="maintext">T. +34 971 905 905</span>
-                                                            <span class="subtext">- Hotel</span>
+                                                            <span class="maintext">T.079 - 67776251</span>
+                                                            <!-- <span class="subtext">- Hotel</span> -->
                                                         </a>
                                                         <a href="tel:T. +34 971 905 905" class="info-content-text link" style="display: none">
-                                                            <span class="maintext">T. +34 971 905 905</span>
-                                                            <span class="subtext">- Reservations</span>
+                                                            <span class="maintext">T.079 - 67776251</span>
+                                                            <!-- <span class="subtext">- Reservations</span> -->
                                                         </a>
-                                                        <a href="mailto:hola@hotelcanferrereta.com" class="info-content-text link">
+                                                        <a href="mailto:enquiries@millionmindstechcity.com" class="info-content-text link">
                                                             <span class="subtext first">Info -</span>
-                                                            <span class="maintext">hola@hotelcanferrereta.com</span>
+                                                            <span class="maintext">enquiries@millionmindstechcity.com</span>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -1027,8 +1154,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                 </div>
                                                 <div class="info-element-content">
                                                     <div class="wrap-info-content">
-                                                        <a href="tel:+34 971 787 230" class="info-content-text link">T. +34 971 905 905</a>
-                                                        <a href="mailto:restaurant@hotelcanferrereta.com" class="info-content-text link">restaurant@hotelcanferrereta.com</a>
+                                                        <a href="tel:079 - 67776251" class="info-content-text link">T. 079 - 67776251</a>
+                                                        <a href="mailto:enquiries@millionmindstechcity.com" class="info-content-text link">enquiries@millionmindstechcity.com</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1043,7 +1170,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             </div>
                                             <div class="footer-section-info">
                                                 <div class="wrap-section-info">
-                                                    <p class="section-info-text">If you have any questions or would like to receive further information, please send us an email and we would be delighted to help you.</p>
+                                                    <p class="section-info-text">Your journey begins here! Reach out to us now, and let’s transform your ideas into reality.</p>
                                                     <div class="section-info-btn btn-more arrow-right">
                                                         <p class="btn-more-text">Contact</p>
                                                     </div>
@@ -1052,20 +1179,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         </div>
                                     </a>
                                 </div>
-                                <div class="footer-links-socials">
+                                <!-- <div class="footer-links-socials">
                                     <div class="wrap-footer-socials">
                                         <div class="footer-socials-header">
                                             <p class="socials-header-title">FIND US</p>
                                         </div>
                                         <div class="footer-socials-content">
                                             <div class="wrap-socials-content">
-                                                <a href="https://www.instagram.com/hotelcanferrereta/" target="_blank" class="socials-content-element icon-instagram"></a>
-                                                <a href="https://www.facebook.com/CanFerrereta/" target="_blank" class="socials-content-element icon-facebook"></a>
+                                                <a href="" target="_blank" class="socials-content-element icon-instagram"></a>
+                                                <a href="" target="_blank" class="socials-content-element icon-facebook"></a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="footer-links-partners">
+                                </div> -->
+                                <!-- <div class="footer-links-partners">
                                     <div class="wrap-footer-partners">
                                         <div class="footer-partners-header">
                                             <p class="partners-header-title">OUR COLLECTION</p>
@@ -1099,7 +1226,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="footer-links-partners">
                                     <div class="wrap-footer-partners">
                                         <div class="footer-partners-header">
@@ -1107,19 +1234,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         </div>
                                         <div class="footer-partners-content">
                                             <div class="partners-content-element">
-                                                <div class="wrap-partnerns-element">
+                                                <div class="wrap-partnerns-element footer_partner_flex">
                                                     <img
-                                                        src=""
+                                                        src="https://millionmindstechcity.com/wp-content/uploads/2023/12/rsp-logo.png"
                                                         class="partnerns-element-img lazyload-static"
                                                         alt="Small Luxury Hotels"
-                                                        data-filename="/static/svg/logos/SLH-Logo.svg"
+                                                        
+                                                    >
+                                                    <img
+                                                        src="https://millionmindstechcity.com/wp-content/uploads/2023/12/tsi-logo.png"
+                                                        class="partnerns-element-img lazyload-static"
+                                                        alt="Small Luxury Hotels"
+                                                        
+                                                    >
+                                                    <img
+                                                        src="https://millionmindstechcity.com/wp-content/uploads/2023/12/ganesh-housing-logo.png"
+                                                        class="partnerns-element-img lazyload-static"
+                                                        alt="Small Luxury Hotels"
+                                                        
                                                     >
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="footer-links-partners">
+                                <!-- <div class="footer-links-partners">
                                     <div class="wrap-footer-partners">
                                         <div class="footer-partners-header">
                                             <p class="partners-header-title">Awards</p>
@@ -1137,68 +1276,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </footer>
                         <footer class="footer-static ">
                             <div class="wrap-footer-static">
-                                <div class="footer-static-header">
-                                    <div class="wrap-static-header">
-                                        <p class="static-header-title">Can Ferrereta © 2022</p>
-                                    </div>
-                                </div>
+                                
                                 <div class="footer-static-content">
                                     <ul class="static-content-links">
-                                        <li class="content-links-element">
-                                            <a href="../hotel/press/index.htm">
-                                                <div class="wrap-links-element">
-                                                    <p class="links-element-text">Press</p>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="content-links-element">
-                                            <a href="../legal/index.htm">
-                                                <div class="wrap-links-element">
-                                                    <p class="links-element-text">Legal Notice</p>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="content-links-element">
-                                            <a href="../cookies/index.htm">
-                                                <div class="wrap-links-element">
-                                                    <p class="links-element-text">Cookies</p>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li class="content-links-element">
-                                            <a href="../privacy/index.htm">
-                                                <div class="wrap-links-element">
-                                                    <p class="links-element-text">Privacy Policy</p>
-                                                </div>
-                                            </a>
-                                        </li>
+                                       
                                         <li class="content-links-element">
                                             <div class="wrap-links-element js-open-popup" data-selection="employment">
-                                                <p class="links-element-text">Work with us</p>
+                                                <p class="links-element-text">Privacy Policy</p>
                                             </div>
                                         </li>
                                         <li class="content-links-element js-open-popup" data-selection="newsletter">
                                             <div class="wrap-links-element">
-                                                <p class="links-element-text">Newsletter</p>
+                                                <p class="links-element-text">Cookie Policy</p>
                                             </div>
                                         </li>
                                         <li class="content-links-element">
-                                            <a href="../webmap/index.htm">
+                                            <a href="">
                                                 <div class="wrap-links-element">
-                                                    <p class="links-element-text">Webmap</p>
+                                                    <p class="links-element-text">Terms Of Use</p>
                                                 </div>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
+                                <div class="footer-static-header">
+                                    <div class="wrap-static-header">
+                                        <p class="static-header-title">© 2024 Ganesh Housing Corporation, All rights Reserved.</p>
+                                    </div>
+                                </div>
                             </div>
                         </footer>
-                        <div class="popup-module" data-popup="employment">
+
+
+
+                        <!-- <div class="popup-module" data-popup="employment">
                             <div class="popup-backmask js-close-popup"></div>
                             <div class="popup-box bigger">
                                 <div class="wrap-popup-box">
@@ -1229,15 +1345,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
+
+
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+
+<!-- important -->
         <div class="footer-end background-white">
             <div class="big-wrapper">
                 <div class="wrap-footer-end">
-                    <div class="footer-end-element">
+                    <!-- <div class="footer-end-element">
                         <div class="wrap-end-element">
                             <a href="https://www.preludecollection.com/" target="_blank">
                                 <div class="end-element-img">
@@ -1251,8 +1375,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="end-element-info"></div>
                             </a>
                         </div>
-                    </div>
-                    <div class="footer-end-element">
+                    </div> -->
+                    <!-- <div class="footer-end-element">
                         <div class="wrap-end-element">
                             <div class="end-element-add">
                                 <img
@@ -1263,11 +1387,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 >
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
-        <aside class="cookies-module">
+
+
+
+
+
+
+
+
+
+        
+        <!-- <aside class="cookies-module">
             <div class="wrap-cookies">
                 <i class="cookies-icon icon-info"></i>
                 <p class="cookies-text">Cookie notice</p>
@@ -1278,8 +1412,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <a target="_blank" href="../cookies/index.htm" class="moreinfo-btn-text">MORE INFO</a>
                 </div>
             </div>
-        </aside>
-        <div class="popup-module full-page" data-popup="newsletter">
+        </aside> -->
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="popup-module full-page" data-popup="newsletter">
             <div class="popup-backmask js-close-popup"></div>
             <div class="popup-box">
                 <div class="wrap-popup-box">
@@ -1395,8 +1539,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="popup-module" data-popup="login">
+        </div> -->
+
+
+
+        <!-- <div class="popup-module" data-popup="login">
             <div class="popup-backmask js-close-popup"></div>
             <div class="popup-box bigger">
                 <div class="wrap-popup-box">
@@ -1404,7 +1551,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="popup-box-content">
                         <div class="popup-login">
                             <div class="wrap-popup-login">
-                                <!-- LOGIN -->
+                                
                                 <div id="login" class="login-box active">
                                     <div class="login-header">
                                         <div class="wrap-login-header">
@@ -1442,7 +1589,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         </form>
                                     </div>
                                 </div>
-                                <!-- RECOVERY -->
+                                
                                 <div id="recovery" class="login-box">
                                     <div class="login-header">
                                         <div class="wrap-login-header">
@@ -1470,7 +1617,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         </form>
                                     </div>
                                 </div>
-                                <!-- LOGN NAV -->
+                              
                                 <div class="login-nav">
                                     <div class="wrap-login-nav">
                                         <div class="login-nav-element active js-login-section" data-section="login">
@@ -1497,7 +1644,48 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         <!-- First INIT -->
         <script src="../../static/js/vendor/jquery-2.1.4.min.js"></script>
         <!-- /First INIT -->
@@ -1511,6 +1699,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <script src="../../static/js/main.js"></script>
         <script src="../../static/js/custom.js"></script>
         <script src="../../static/js/img-resp.js"></script>
+        <script src="./script.js"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+
         <!-- /Local JS -->
         <!-- custom script end_footer   -->
         <!-- /custom script end_footer   -->

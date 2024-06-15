@@ -3499,7 +3499,7 @@ html .ui-button.ui-state-disabled:active {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 160px;
+  max-width: 125px;
   height: auto;
 }
 .partners-content-element .wrap-partnerns-element .partnerns-element-text {
@@ -3599,7 +3599,7 @@ html .ui-button.ui-state-disabled:active {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   line-height: 142.8571428571%;
-  max-width: 130px;
+  /* max-width: 130px; */
 }
 @media (min-width: 540px) {
   .footer-static-content .static-content-links {
