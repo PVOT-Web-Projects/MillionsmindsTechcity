@@ -292,6 +292,18 @@ body{
   text-align: center;
   font-family: "CFType", sans-serif
 }
+@media(max-width:1280px){
+  .visionaries_heading{
+    font-size: 40px;
+  
+  }
+}
+@media(max-width:767px){
+  .visionaries_heading{
+    font-size: 30px;
+  
+  }
+}
 .partnerns-element-text{
   opacity: 1 !important;
 }

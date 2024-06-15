@@ -2014,14 +2014,20 @@ html .ui-button.ui-state-disabled:active {
 }
 @media (min-width: 540px) and (max-width: 1023px) {
   .menu-dropdown .wrap-menu-dropdown:after {
-    content: "";
+    content: "";
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 50%;
+    background-image: url("../img/mainLogo.png");
     transform: translateX(-50%) translateY(-50%);
     font-family: "icomoon";
     font-size: 105px;
     color: rgba(140, 135, 130, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
   }
 }
 @media (min-width: 540px) and (max-width: 1023px) and (min-width: 768px) {
