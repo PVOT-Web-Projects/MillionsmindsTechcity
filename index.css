@@ -295,3 +295,6 @@ body{
 .partnerns-element-text{
   opacity: 1 !important;
 }
+.promotions-module .wrap-promotions-module {
+  padding-bottom: 0;
+}
