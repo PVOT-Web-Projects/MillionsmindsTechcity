@@ -12304,7 +12304,9 @@ body.motor .motor-page {
 }
 .gallery-list-element{
   width: 33.33% !important;
-  object-fit: cover !important;
+}
+.gallery-element-img{
+  object-fit: cover;
 }
 @media (max-width: 1024px) {
   .gallery-list-element{
