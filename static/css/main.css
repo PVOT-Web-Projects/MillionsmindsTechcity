@@ -1459,17 +1459,42 @@ html .ui-button.ui-state-disabled:active {
   transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
 }
 @media (min-width: 1280px) {
-  .menu-button .wrap-menu-button .menu-button-text:before {
-    content: "";
+  .white-menu .menu-button .wrap-menu-button .menu-button-text:before {
+    content: " ";
     position: absolute;
     left: 18px;
     top: 50%;
+    background-image: url("../img/left_arrow.svg");
     transform: translateY(-50%) translateX(5px) scale(0.5);
     font-family: "icomoon";
     font-size: 8px;
     color: #8c8782;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     opacity: 0;
     transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
+    width: 30px;
+    height: 30px;
+}
+.menu-button .wrap-menu-button .menu-button-text:before {
+  content: " ";
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  background-image: url("../img/left_arrow\ copy.svg");
+  transform: translateY(-50%) translateX(5px) scale(0.5);
+  font-family: "icomoon";
+  font-size: 8px;
+  color: #8c8782;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0;
+  transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
+  width: 30px;
+  height: 30px;
+}
   }
   .menu-button:hover .wrap-menu-button .menu-button-icon span:nth-child(2),
   .menu-button:focus .wrap-menu-button .menu-button-icon span:nth-child(2) {
@@ -12319,4 +12344,21 @@ body.motor .motor-page {
 }
 .menu-button .wrap-menu-button .menu-button-icon span {
   background-color: #1c75b7;
+}
+
+.dropdown-links-element .wrap-links-element .dropdown-element-text {
+ 
+  color: #1c75b7;
+ 
+}
+.dropdown-links-element:hover .dropdown-element-text{
+color: #8c8782;
+}
+.wrap-menu-dropdown svg{
+  fill:#1c75b7;
+  border-color: #1c75b7;
+}
+.wrap-menu-dropdown svg:hover{
+  fill: #8c8782;
+  border-color: #8c8782;
 }
