@@ -85,6 +85,9 @@
     <!-- CSSTheme -->
     <link rel="stylesheet" type="text/css" href="../../static/css/main.css" />
     <!-- /CSSTheme -->
+      <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- CSSVendor -->
     <link
@@ -218,6 +221,12 @@
     }
     .showcase-list{
       display: flex !important;
+    }
+    .visionaries_heading{
+      color: #2f4d7f !important;
+      font-size: 40px !important;
+      display: flex !important;
+      justify-content: center !important;
     }
 
 
@@ -761,7 +770,9 @@
       <div class="wrap-top-module">
               <div class="top-module-video"> 
             <div class="wrap-top-video">
-              <div class="masterplanoneimg ">
+              <div 
+             
+              class="masterplanoneimg ">
                 <img  class="images-element-photo " src="../../static/img/masterplanimg1.png" alt="">
               </div>
             </div>
@@ -794,7 +805,8 @@
         </li>
       </ul>			</div>
         </div> -->
-        <div class="top-module-scroll">
+        <div
+        class="top-module-scroll">
           <div class="wrap-top-scroll js-scroll-down">
             <p class="top-scroll-title">Elevating Lifestyles Million Minds Tech City
               Pioneers a New Era of Balanced Living</p>
@@ -855,7 +867,9 @@
                   <div class="galleries-content-images">
                       <div class="galleries-images-slider js-images-slider">
 
-                              <div class="images-slider-element">
+                              <div 
+                              data-aos="slide-right"
+                              class="images-slider-element">
                                   <div class="wrap-images-element">
                                       <!-- <figure class="images-element-photo lazyload" aria-label="DELUXE" role="img" data-filename="597-01cfhabdeluxe1300x870.jpg"></figure> -->
                                       <div>
@@ -866,7 +880,9 @@
 
                       </div>
                   </div>
-                  <div class="galleries-content-info">
+                  <div 
+                  data-aos="slide-left"
+                  class="galleries-content-info">
                       <div class="galleries-info-slider ">
                           <div class="info-slider-element">
                               <div class="wrap-info-element">
@@ -900,7 +916,11 @@
     
           <div class="showcase-content">
               <ul class="showcase-list">
-                            <li class="showcase-list-element">
+                            <li
+                            data-aos="fade-up"
+                            data-aos-duration="2000"
+                            data-aos-delay="300"
+                             class="showcase-list-element">
                       <!--<a href="">-->
                       <div class="wrap-showcase-element">
                           <div class="showcase-element-img">
@@ -911,7 +931,11 @@
                       </div>
                       <!--</a>-->
                   </li>
-                            <li class="showcase-list-element">
+                            <li 
+                            data-aos="fade-up"
+                            data-aos-duration="2500"
+                            data-aos-delay="500"
+                            class="showcase-list-element">
                       <!--<a href="">-->
                       <div class="wrap-showcase-element">
                           <div class="showcase-element-img">
@@ -922,7 +946,11 @@
                       </div>
                       <!--</a>-->
                   </li>
-                            <li class="showcase-list-element">
+                            <li
+                            data-aos="fade-up" 
+                            data-aos-duration="3000"
+                            data-aos-delay="1000"
+                            class="showcase-list-element">
                       <!--<a href="">-->
                       <div class="wrap-showcase-element">
                           <div class="showcase-element-img">
@@ -933,7 +961,11 @@
                       </div>
                       <!--</a>-->
                   </li>
-                  <li class="showcase-list-element">
+                  <li
+                  data-aos="fade-up"
+                  data-aos-duration="3500"
+                            data-aos-delay="1500"
+                   class="showcase-list-element">
                     <!--<a href="">-->
                     <div class="wrap-showcase-element">
                         <div class="showcase-element-img">
@@ -953,12 +985,6 @@
 
 
 
-
-
-
-
-
-
 <section id="section2" class="galleries-module info-left ">
   <div class="big-wrapper">
       <div class="wrap-galleries-module">
@@ -975,17 +1001,24 @@
                       <div class="galleries-images-slider js-images-slider">
 
                               <div class="images-slider-element">
-                                  <div class="wrap-images-element">
+                                  <div 
+                                  data-aos="slide-left"
+                                  class="wrap-images-element">
                                       <!-- <figure class="images-element-photo lazyload" aria-label="Privilege " role="img" data-filename="510-05cfhabprivilege1300x870.jpg"></figure> -->
                                       <div>
-                                        <img  class="images-element-photo " src="../../static/img/masterplanimg3.png" alt="">
+                                        <img 
+                                         class="images-element-photo " 
+                                        
+                                        src="../../static/img/masterplanimg3.png" alt="">
                                       </div>
                                     </div>
                               </div>
 
                       </div>
                   </div>
-                  <div class="galleries-content-info">
+                  <div 
+                  data-aos="slide-right"
+                  class="galleries-content-info">
                       <div class="galleries-info-slider ">
                           <div class="info-slider-element">
                               <div class="wrap-info-element">
@@ -1016,6 +1049,391 @@
 
 
 
+
+
+
+
+
+
+<section class="galleries-module info-right active-nav background-white">
+  <h2 class="visionaries_heading">Transforming Ahmedabad’s Landscape with Green Initiatives</h2>
+  <div class="big-wrapper" data-aos="fade-up"
+  data-aos-duration="1000"
+  data-aos-delay="10"
+  data-aos-once="true"
+  data-aos-easing="ease-in-out">
+    <div class="wrap-galleries-module">
+      <div class="galleries-info">
+        
+        <div class="galleries-info-counter">
+          <div class="slider-counter">
+            <span class="counter-num">0</span>
+            <span class="counter-total">0</span>
+          </div>
+        </div>
+      </div>
+      <div class="galleries-content">
+        <div class="wrap-galleries-content">
+          <div class="galleries-content-images">
+            <div class="galleries-images-slider js-images-slider">
+
+              <div class="images-slider-element">
+                <div class="wrap-images-element">
+                  
+                  <div class="images-element-photo" style="background-image: url('https://millionmindstechcity.com/wp-content/uploads/2024/04/Untitled-2.png')" aria-label="DELUXE"></div>
+                </div>
+              </div>
+              <div class="images-slider-element">
+                <div class="wrap-images-element">
+                  <div class="images-element-photo" style="background-image: url('https://millionmindstechcity.com/wp-content/uploads/2024/04/Untitled-2.png')" aria-label="DELUXE"></div>
+                </div>
+              </div>
+              <div class="images-slider-element">
+                <div class="wrap-images-element">
+                  <div class="images-element-photo" style="background-image: url('https://millionmindstechcity.com/wp-content/uploads/2024/04/Untitled-2.png')" aria-label="DELUXE"></div>
+                </div>
+              </div>
+              <div class="images-slider-element">
+                <div class="wrap-images-element">
+                  
+                  <div class="images-element-photo" style="background-image: url('https://millionmindstechcity.com/wp-content/uploads/2024/04/Untitled-2.png')" aria-label="DELUXE"></div>
+                </div>
+              </div>
+              <div class="images-slider-element">
+                <div class="wrap-images-element">
+                  <div class="images-element-photo" style="background-image: url('https://millionmindstechcity.com/wp-content/uploads/2024/04/Untitled-2.png')" aria-label="DELUXE"></div>
+                </div>
+              </div>
+              <div class="images-slider-element">
+                <div class="wrap-images-element">
+                  <div class="images-element-photo" style="background-image: url('https://millionmindstechcity.com/wp-content/uploads/2024/04/Untitled-2.png')" aria-label="DELUXE"></div>
+                </div>
+              </div>
+              <div class="images-slider-element">
+                <div class="wrap-images-element">
+                  <div class="images-element-photo" style="background-image: url('https://millionmindstechcity.com/wp-content/uploads/2024/04/Untitled-2.png')" aria-label="DELUXE"></div>
+                </div>
+              </div>
+              <div class="images-slider-element">
+                <div class="wrap-images-element">
+                  <div class="images-element-photo" style="background-image: url('https://millionmindstechcity.com/wp-content/uploads/2024/04/Untitled-2.png')" aria-label="DELUXE"></div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="galleries-content-info">
+            <div class="galleries-info-slider js-info-slider">
+              <div class="info-slider-element">
+                <div class="wrap-info-element">
+                  <p class="info-element-title">Street Light</p>
+                  <p class="info-element-subtitle">Solar Street Light</p>
+                  <p class="info-element-text" style="margin-bottom:10px ;">
+                    Illuminate pathways sustainably with our energy-efficient solar street lights.
+                  
+                  </p>
+                  <!-- <p class="info-element-text">
+                    Our impressive portfolio comprises <strong>22 million square feet</strong> of developed space within the city and an additional 
+                    <strong>35 million square feet</strong> currently under development, demonstrating our unwavering commitment to elevating living and working experiences to unparalleled heights. 
+                    <a href="https://ganeshhousing.com/" target="_blank" rel="noopener" tabindex="-1">Visit our website to learn more.</a>
+                  </p> -->
+                  <!-- <div class="flex-item text-center ganesh-logo-flex">
+                    <p>A project by</p>
+                      <img src="./static/img/ganesh-housing-logo.png" alt="Ganesh Logo" class="nav-link active" id="ghcl-con-anchor">
+                  </div> -->
+                  <!-- <div class="info-element-btns">
+                    <div class="btn-more arrow-right">
+                      <a
+                        href="hotel/CanFerreretaHotel/deluxe-room/index.htm"
+                        class="btn-more-text"
+                        >SEE ROOM</a
+                      >
+                    </div>
+                    <div class="btn-corp">
+                      <a
+                        href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                        target="_blank"
+                        class="btn-corp-text"
+                        >Book now</a
+                      >
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+
+              <div class="info-slider-element">
+                <div class="wrap-info-element">
+                  <p class="info-element-title">EV Charging Stations</p>
+                  <!-- <p class="info-element-subtitle">We are building a better tomorrow</p> -->
+                  <p class="info-element-text" style="margin-bottom:10px ;">
+                    Power up your electric vehicles conveniently at our efficient charging stations.
+                    <!-- <strong>Tishman Speyer has built over 180 assets worldwide</strong>
+                    on a landscape of <strong>84 Mn Sq feet</strong>. At Tishman Speyer, we create vibrant destinations and dynamic environments that inspire innovation and connect communities.
+                     -->
+                  </p>
+                  <!-- <p class="info-element-text">
+                    For us, real estate is more than buildings. We focus on the intersections that matter most. –
+                    <strong> The intersection of real estate and people, real estate and innovation, real estate and your local neighbourhood.</strong>
+                  </p>
+                  <div class="flex-item text-center ganesh-logo-flex">
+                    <p>DM Partner</p>
+                      <img src="./static/img/tsi-logo.png" alt="TSI" class="nav-link active" id="ghcl-con-anchor">
+                  </div> -->
+                </div>
+              </div>
+
+
+
+
+              <div class="info-slider-element">
+                <div class="wrap-info-element">
+                  <p class="info-element-title">Smart Meter Monitoring</p>
+                  <!-- <p class="info-element-subtitle">We are transforming spaces in India</p> -->
+                  <p class="info-element-text" style="margin-bottom:10px ;">
+                    Stay in control with real-time data through our advanced smart meter monitoring systems.
+                    <!-- RSP is strategically positioned to leverage our multi-disciplinary work to create immense value for our clients. Design is not just another function anymore, it is the only differentiator that can dramatically alter how spaces function. Design will raise the bar. -->
+                  </p>
+                  <!-- <p class="info-element-text">Over 175 million sft offices. Over <strong>100,000 homes</strong>
+                    . Over <strong>40 million sft</strong> of landscape. Over <strong>300</strong>
+                    professionals in India. We are RSP, a global design consultancy with <strong>12 offices in Asia.</strong></p>
+                    <div class="flex-item text-center ganesh-logo-flex">
+                      <p>Architectural <br> Design Consultant</p>
+                        <img src="./static/img/rsp-logo.png" alt="RSP" class="nav-link active" id="ghcl-con-anchor">
+                    </div> -->
+              
+                </div>
+              </div>
+
+
+              
+              <div class="info-slider-element">
+                <div class="wrap-info-element">
+                  <p class="info-element-title">Bicycle Sharing Pods</p>
+                  <!-- <p class="info-element-subtitle">We are building a better tomorrow</p> -->
+                  <p class="info-element-text" style="margin-bottom:10px ;">
+                    Embrace eco-friendly commuting with our convenient and accessible bicycle sharing pods.
+                    <!-- <strong>Tishman Speyer has built over 180 assets worldwide</strong>
+                    on a landscape of <strong>84 Mn Sq feet</strong>. At Tishman Speyer, we create vibrant destinations and dynamic environments that inspire innovation and connect communities.
+                     -->
+                  </p>
+                  <!-- <p class="info-element-text">
+                    For us, real estate is more than buildings. We focus on the intersections that matter most. –
+                    <strong> The intersection of real estate and people, real estate and innovation, real estate and your local neighbourhood.</strong>
+                  </p>
+                  <div class="flex-item text-center ganesh-logo-flex">
+                    <p>DM Partner</p>
+                      <img src="./static/img/tsi-logo.png" alt="TSI" class="nav-link active" id="ghcl-con-anchor">
+                  </div> -->
+                 
+                </div>
+
+                
+              </div>
+
+
+              
+              <div class="info-slider-element">
+                <div class="wrap-info-element">
+                  <p class="info-element-title">EV Bikes</p>
+                  <!-- <p class="info-element-subtitle">We are building a better tomorrow</p> -->
+                  <p class="info-element-text" style="margin-bottom:10px ;">
+                    Designed for eco-conscious commuters and adventure enthusiasts alike, our electric bikes offer zero-emission transportation without compromising on style or performance.
+                    <!-- <strong>Tishman Speyer has built over 180 assets worldwide</strong>
+                    on a landscape of <strong>84 Mn Sq feet</strong>. At Tishman Speyer, we create vibrant destinations and dynamic environments that inspire innovation and connect communities.
+                     -->
+                  </p>
+                  <!-- <p class="info-element-text">
+                    For us, real estate is more than buildings. We focus on the intersections that matter most. –
+                    <strong> The intersection of real estate and people, real estate and innovation, real estate and your local neighbourhood.</strong>
+                  </p>
+                  <div class="flex-item text-center ganesh-logo-flex">
+                    <p>DM Partner</p>
+                      <img src="./static/img/tsi-logo.png" alt="TSI" class="nav-link active" id="ghcl-con-anchor">
+                  </div> -->
+                 
+                </div>
+
+                
+              </div>
+
+
+              <div class="info-slider-element">
+                <div class="wrap-info-element">
+                  <p class="info-element-title">EV Buses</p>
+                  <!-- <p class="info-element-subtitle">We are building a better tomorrow</p> -->
+                  <p class="info-element-text" style="margin-bottom:10px ;">
+                    Join us in shaping a greener and cleaner urban landscape with our innovative electric bus fleet.
+                    <!-- <strong>Tishman Speyer has built over 180 assets worldwide</strong>
+                    on a landscape of <strong>84 Mn Sq feet</strong>. At Tishman Speyer, we create vibrant destinations and dynamic environments that inspire innovation and connect communities.
+                     -->
+                  </p>
+                  <!-- <p class="info-element-text">
+                    For us, real estate is more than buildings. We focus on the intersections that matter most. –
+                    <strong> The intersection of real estate and people, real estate and innovation, real estate and your local neighbourhood.</strong>
+                  </p>
+                  <div class="flex-item text-center ganesh-logo-flex">
+                    <p>DM Partner</p>
+                      <img src="./static/img/tsi-logo.png" alt="TSI" class="nav-link active" id="ghcl-con-anchor">
+                  </div> -->
+                 
+                </div>
+
+                
+              </div>
+
+              <div class="info-slider-element">
+                <div class="wrap-info-element">
+                  <p class="info-element-title">Solar Panels</p>
+                  <!-- <p class="info-element-subtitle">We are building a better tomorrow</p> -->
+                  <p class="info-element-text" style="margin-bottom:10px ;">
+                    Harnessing the power of the sun, our solar panels provide clean and sustainable electricity for homes, businesses, and communities.
+                    <!-- <strong>Tishman Speyer has built over 180 assets worldwide</strong>
+                    on a landscape of <strong>84 Mn Sq feet</strong>. At Tishman Speyer, we create vibrant destinations and dynamic environments that inspire innovation and connect communities.
+                     -->
+                  </p>
+                  <!-- <p class="info-element-text">
+                    For us, real estate is more than buildings. We focus on the intersections that matter most. –
+                    <strong> The intersection of real estate and people, real estate and innovation, real estate and your local neighbourhood.</strong>
+                  </p>
+                  <div class="flex-item text-center ganesh-logo-flex">
+                    <p>DM Partner</p>
+                      <img src="./static/img/tsi-logo.png" alt="TSI" class="nav-link active" id="ghcl-con-anchor">
+                  </div> -->
+                 
+                </div>
+
+                
+              </div>
+
+
+
+
+              <div class="info-slider-element">
+                <div class="wrap-info-element">
+                  <p class="info-element-title">Green Building</p>
+                  <!-- <p class="info-element-subtitle">We are building a better tomorrow</p> -->
+                  <p class="info-element-text" style="margin-bottom:10px ;">
+                    Committed to sustainability, our green buildings are designed to minimize environmental impact while maximizing energy efficiency and occupant comfort.
+                    <!-- <strong>Tishman Speyer has built over 180 assets worldwide</strong>
+                    on a landscape of <strong>84 Mn Sq feet</strong>. At Tishman Speyer, we create vibrant destinations and dynamic environments that inspire innovation and connect communities.
+                     -->
+                  </p>
+                  <!-- <p class="info-element-text">
+                    For us, real estate is more than buildings. We focus on the intersections that matter most. –
+                    <strong> The intersection of real estate and people, real estate and innovation, real estate and your local neighbourhood.</strong>
+                  </p>
+                  <div class="flex-item text-center ganesh-logo-flex">
+                    <p>DM Partner</p>
+                      <img src="./static/img/tsi-logo.png" alt="TSI" class="nav-link active" id="ghcl-con-anchor">
+                  </div> -->
+                 
+                </div>
+
+                
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="galleries-nav">
+        <div class="galleries-nav-pointer"></div>
+        <div class="wrap-galleries-nav">
+          <div
+            class="galleries-nav-element js-slider active"
+            data-slide="0"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">Solar Street Light</p>
+            </div>
+          </div>
+          <div
+            class="galleries-nav-element js-slider active"
+            data-slide="1"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">EV Charging</p>
+            </div>
+          </div>
+
+          <div
+            class="galleries-nav-element js-slider active"
+            data-slide="2"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">Smart Meter Monitoring</p>
+            </div>
+          </div>
+          <div
+            class="galleries-nav-element js-slider active"
+            data-slide="3"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">Bicycle Sharing Pods</p>
+            </div>
+          </div>
+          <div
+            class="galleries-nav-element js-slider active"
+            data-slide="4"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">
+                EV Bikes</p>
+            </div>
+          </div>
+          <div
+            class="galleries-nav-element js-slider active"
+            data-slide="5"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">EV Buses</p>
+            </div>
+          </div>
+          <div
+            class="galleries-nav-element js-slider active"
+            data-slide="6"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">Solar Panels</p>
+            </div>
+          </div>
+          <div
+            class="galleries-nav-element js-slider active"
+            data-slide="7"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">Green Building</p>
+            </div>
+          </div>
+
+          <!-- <div
+            class="galleries-nav-element js-slider active"
+            data-slide="8"
+          >
+            <div class="wrap-nav-element">
+              <p class="nav-element-text">NEST</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
@@ -1461,5 +1879,8 @@
 
     <!-- custom script end_footer   -->
     <!-- /custom script end_footer   -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
