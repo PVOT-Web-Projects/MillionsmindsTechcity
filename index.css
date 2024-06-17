@@ -554,7 +554,7 @@ body {
 }
 @media (max-width: 991px) {
   .big-wrapper {
-      max-width: 100%;
+      max-width: 90%;
       padding: 0 20px;
   }
 }
