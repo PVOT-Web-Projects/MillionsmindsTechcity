@@ -316,6 +316,12 @@
       /* padding-left: 1rem !important; */
     
     }
+    .footer-static .wrap-footer-static {
+      padding: 45px 0px 0px !important;
+    }
+    .footer-end .wrap-footer-end{
+      padding-bottom: 0rem !important;
+    }
     .galleries-module .wrap-galleries-module {
         position: relative;
         padding: 0px 0 !important;
