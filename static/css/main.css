@@ -1915,6 +1915,9 @@ html .ui-button.ui-state-disabled:active {
 .menu-logo {
   display: none;
 }
+.menu-logo img{
+  width: 100px;
+}
 @media (min-width: 1024px) {
   .menu-logo {
     display: block;
