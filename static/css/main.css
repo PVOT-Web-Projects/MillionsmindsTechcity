@@ -3583,16 +3583,16 @@ html .ui-button.ui-state-disabled:active {
     background-color: #d0ccca;
 
     background-color: #fff;
-  }
+  } 
   .partners-content-element .wrap-partnerns-element {
     border-bottom: none;
   }
 }
 @media (min-width: 1280px) {
-  .partners-content-element .wrap-partnerns-element .partnerns-element-text {
+  /* .partners-content-element .wrap-partnerns-element .partnerns-element-text {
     opacity: 0;
     transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
-  }
+  } */
   .partners-content-element:hover
     .wrap-partnerns-element
     .partnerns-element-text,
