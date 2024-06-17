@@ -84,6 +84,7 @@ img {
 svg:not(:root) {
   transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
   overflow: hidden;
+  cursor: pointer;
 }
 fieldset {
   border: 1px solid silver;

@@ -7,10 +7,10 @@
 }
 
 .accordian_text {
-  font-size: 18px;
+  font-size: 17px;
   color: gray;
   line-height: 120%;
-  width: 75%;
+  width: 85%;
 }
 
 .footer_partner_flex {
@@ -33,7 +33,7 @@
   /* margin: 20px 30px; */
   /* background: rgba(0, 0, 0, 0.09); */
   /* padding: 25px 80px; */
-}
+
 
 .btn-4 .span {
   color: #1c75b7; /* Ensure the text color is visible */
@@ -95,75 +95,17 @@
   transition-duration: 0.4s;
 } */
 
-
-
-
-
-/* button{
-  display: inline-block;
-  position: relative;
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 18px;
-  cursor: pointer;
-  margin: 20px 30px;
-  background: rgba(0,0,0,0.09);
-}
-.span{
-  display: block;
-  padding: 25px 80px;
-}
-button::before, button::after{
-  content:"";
-  width: 0;
-  height: 2px;
-  position: absolute;
-  transition: all 0.2s linear;
-  background: #000000;
+.accordion-header.active{
+  color:red !important;
 }
 
-.span::before, .span::after{
-  content:"";
-  width:2px;
-  height:0;
-  position: absolute;
-  transition: all 0.2s linear;
-  background: #000000;
-}
-button:hover::before, button:hover::after{
-  width: 100%;
-}
-button:hover .span::before, button:hover .span::after{
-  height: 100%;
+.accordion-header .redwine {
+  transition: transform 0.3s ease;
 }
 
-
-.btn-4::after{
-  right:0;
-  bottom: 0;
-  transition-duration: 0.4s;
-}
-.btn-4 .span::after{
-  right:0;
-  bottom: 0;
-  transition-duration: 0.4s;
-}
-.btn-4::before{
-  left: 0;
-  top: 0;
-  transition-duration: 0.4s;
-}
-.btn-4 .span::before{
-  left: 0;
-  top: 0;
-  transition-duration: 0.4s;
-} */
-
-
-
-.accordion-header .active {
-  color: #1c75b6;
+/* Rotate the SVG icon when the accordion is active */
+.accordion-header.active ~ .redwine {
+  transform: rotate(45deg);
 }
 
 .accordian_flex {
@@ -214,8 +156,17 @@ button:hover .span::before, button:hover .span::after{
 }
 
 .accordion-content p {
-  color: gary;
-  margin: 10px 0;
+  color: gray;
+  margin: 20px 0;
+}
+
+@media(min-width:1600px) and (max-width:1920px){
+  .accordian_text {
+    font-size: 18px;
+    color: gray;
+    line-height: 120%;
+    width: 75%;
+  }
 }
 
 @media (min-width: 540px) {
