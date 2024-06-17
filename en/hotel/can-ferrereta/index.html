@@ -82,7 +82,9 @@
       href="../../../static/fonts/c2t/style.css"
     />
     <!-- /Webfonts -->
-
+ <!-- AOS  -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- CSSTheme -->
     <link
       rel="stylesheet"
@@ -463,81 +465,64 @@
     <!-- video -->
     <section class="top-module video-active advantages-active">
       <div class="wrap-top-module">
-        <div class="top-module-video">
-          <div class="wrap-top-video">
-            <img src="../../../static/img/Phase1Banner.png" alt="none" />
-            <!-- <video
-              class="top-video-element video-active"
-              poster="../../../static/img/Phase1Banner.png"
-              muted=""
-              autoplay=""
-              loop=""
-              style="display: none"
-            >
-              <source
-                src="../../../static/video/2022_video_cf_hotel.mp4"
-                type="video/mp4"
-              />
-            </video> -->
-            <div
-              class="wrap-top-video responsive-resize"
-              style="
-                background-image: url(../../../static/img/Phase1Banner.png);
-              "
-              data-filename="Phase1Banner.png"
-              data-zone="home"
-            >
-              <div id="YouTubeVideoPlayer" class="top-video-element"></div>
-            </div>
+        <div class="top-module-logo">
+          <div class="wrap-top-logo">
+            <img class="top-logo-img" src="./static/img/mainLogo.png" alt="" />
           </div>
         </div>
-
+        <div class="top-module-logoicon">
+          <a href="index.htm">
+            <div class="wrap-top-logoicon">
+              <img
+                class="top-logoicon-img"
+                src="./static/svg/logos/logo_simbolo_1.svg"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+        <div class="top-module-video">
+          <div
+            class="wrap-top-video responsive-resize"
+            style="
+              opacity: 1;
+              background-image: url(./static/img/poster-video-home.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+            "
+            data-filename="593-13cfport1800x935.jpg"
+          >
+            <div id="YouTubeVideoPlayer" class="top-video-element"></div>
+          </div>
+        </div>
         <div class="top-module-gallery">
           <div class="wrap-top-gallery">
             <div class="top-gallery-slider js-top-slider">
               <figure
                 class="top-slider-img lazyload"
+                title=""
                 aria-label=""
                 role="img"
-                data-filename="464-6cfport1800x935.jpg"
+                data-filename="593-13cfport1800x935.jpg"
+                data-section="home"
               ></figure>
             </div>
           </div>
         </div>
-        <!-- <div class="top-module-breadcrumbs">
-          <div class="wrap-top-breadcrumbs">
-            <ul class="breadcrumbs-list">
-              <li class="breadcrumbs-element">
-                <a href="../../index.htm">
-                  <div class="wrap-breadcrumbs-element">
-                    <p class="breadcrumbs-element-text">Home</p>
-                  </div>
-                </a>
-              </li>
-              <li class="breadcrumbs-element active">
-                <a href="#">
-                  <div class="wrap-breadcrumbs-element">
-                    <p class="breadcrumbs-element-text">Can Ferrereta</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div> -->
+
         <div class="top-module-scroll">
           <div class="wrap-top-scroll js-scroll-down">
-            <p class="top-scroll-title">Phase 1</p>
-            <p class="top-scroll-text">
-              Discover the beginning of a new era with Phase 1, where every
-              corner is designed for excellence and innovation.
-            </p>
-            <p class="top-scroll-hover">
-              Discover the beginning of a new era with Phase 1, where every
-              corner is designed for excellence and innovation.
-            </p>
-            <!-- <i class="top-scroll-icon"></i> -->
+            <p class="top-scroll-text">PHASE 1</p>
+            <p class="top-scroll-hover">Discover the beginning of a new era with Phase 1, where every corner is designed for excellence and innovation.</p>
+            <i class="top-scroll-icon"></i>
           </div>
-          
+          <i
+            class="top-module-newsletter top-module-btn js-open-popup full-page-popup icon-sobre btn-circle btn-white"
+            data-selection="newsletter"
+          >
+            <p class="btn-circle-text right">Newsletter</p>
+          </i>
           <i
             class="top-module-login top-module-btn js-open-popup icon-persona btn-circle btn-white"
             data-selection="login"
@@ -592,16 +577,16 @@
             />
           </a>
         </div>
-        <div class="devices-header-info">
+        <!-- <div class="devices-header-info">
           <div class="big-wrapper">
             <p class="devices-header-title">CAN FERRERETA</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- overview -->
     <section id="section1" class="advantages-module">
-      <div class="footer-links-partners">
+      <div class="footer-links-partners aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
         <div class="wrap-footer-partners">
           <div class="footer-partners-header" style="padding: 0 50px">
             <p class="partners-header-title" style="font-size: 20px">
@@ -857,7 +842,7 @@
 
     <!-- AMENITIES section -->
     <section id="section1" class="advantages-module">
-      <div class="footer-links-partners">
+      <div class="footer-links-partners aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
         <div class="wrap-footer-partners">
           <div class="footer-partners-header" style="padding: 0 50px">
             <p class="partners-header-title" style="font-size: 20px">
@@ -2788,5 +2773,8 @@
         }
       }
     </script>
+      <script>
+        AOS.init();
+      </script>
   </body>
 </html>

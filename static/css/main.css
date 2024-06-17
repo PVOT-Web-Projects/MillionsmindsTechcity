@@ -3510,7 +3510,7 @@ html .ui-button.ui-state-disabled:active {
 @media (min-width: 540px) {
   .footer-links-partners .wrap-footer-partners {
     padding: 60px 0 15px;
-    border-bottom: 1px solid #d0ccca;
+    /* border-bottom: 1px solid #d0ccca; */
 
     padding: 100px 0 90px;
     /* border-bottom: 1px solid #d0ccca; */
