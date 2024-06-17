@@ -6865,7 +6865,7 @@ body.motor .motor-page {
   bottom: 0;
   left: 0;
   width: 15px;
-  height: 2px;
+  height: 0px;
   background-color: #d0ccca;
 }
 @media (min-width: 768px) {
@@ -12407,4 +12407,15 @@ color: #8c8782;
 .wrap-menu-dropdown svg:hover{
   fill: #8c8782;
   border-color: #8c8782;
+}
+@media (max-width:575px){
+  .footer-partners-header .partners-header-title{
+    width: 100% !important;
+  }
+  .footer-partners-header{
+    padding: 0 20px !important;
+  }
+  .big-wrapper{
+    padding-top: 3rem !important;
+  }
 }
