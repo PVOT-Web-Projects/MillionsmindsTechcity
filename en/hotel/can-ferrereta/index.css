@@ -2,11 +2,84 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins" !important;
   }
   :after,
   :before {
     box-sizing: border-box;
   }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../../static/font/Poppins-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+  }
+  
   html,
   body {
     width: 100%;
@@ -14,7 +87,7 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: "Brandon", sans-serif;
+    font-family: "Poppins" !important;
     font-size: 14px;
     line-height: 1;
     color: #494542;
@@ -162,7 +235,7 @@
     border-color: #8c8782 !important;
   }
   .ui-datepicker-title {
-    font-family: "Brandon", sans-serif !important;
+    /* font-family: "Brandon", sans-serif !important; */
     color: #fff !important;
     font-size: 16px !important;
     text-transform: uppercase !important;
@@ -177,7 +250,7 @@
   }
   
   .ui-datepicker-calendar th {
-    font-family: "Brandon", sans-serif !important;
+    /* font-family: "Brandon", sans-serif !important; */
     color: #8c8782 !important;
     font-size: 16px !important;
     text-transform: uppercase !important;
@@ -188,7 +261,7 @@
   .ui-button,
   html .ui-button.ui-state-disabled:hover,
   html .ui-button.ui-state-disabled:active {
-    font-family: "Brandon", sans-serif !important;
+    /* font-family: "Brandon", sans-serif !important; */
     font-size: 16px !important;
     border: 1px solid #8c8782 !important;
     background: #fff !important;
@@ -223,7 +296,7 @@
     padding: 40px 0px 0;
     color: #8c8782;
     /* text-align: center; */
-    font-family: "CFType", sans-serif"
+    /* font-family: "CFType", sans-serif" */
   }
   @media(max-width:1280px){
     .visionaries_heading{
@@ -334,7 +407,7 @@
     bottom: 90px !important;
     left: 50% !important;
     transform: translateX(-50%);
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 20px !important;
     color: #494542 !important;
     letter-spacing: 0.3em;
@@ -347,7 +420,7 @@
     max-height: 768px !important;
   }
   .lb-data .lb-caption {
-    font-family: "Brown", sans-serif;
+    /* font-family: "Brown", sans-serif; */
     font-size: 16px !important;
     color: #8c8782;
     letter-spacing: 0.15em;
@@ -512,7 +585,7 @@
     position: relative;
     z-index: 1;
     display: block;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 17px;
     font-weight: 700;
     color: #8c8782;
@@ -648,7 +721,7 @@
       vertical-align: middle;
       position: absolute;
       top: 50%;
-      font-family: "Brown", sans-serif;
+      /* font-family: "Brown", sans-serif; */
       font-size: 12px;
       font-weight: 400;
       color: #fff;
@@ -805,7 +878,7 @@
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 16px;
     font-weight: 700;
     color: #8c8782;
@@ -901,7 +974,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    font-family: "Brown", sans-serif;
+    /* font-family: "Brown", sans-serif; */
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -911,7 +984,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    font-family: "Brown", sans-serif;
+    /* font-family: "Brown", sans-serif; */
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -967,7 +1040,7 @@
     position: absolute;
     top: 50%;
     right: 0;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 12px;
     font-weight: 700;
     color: #fff;
@@ -977,7 +1050,7 @@
   }
   .breadcrumbs-element .wrap-breadcrumbs-element .breadcrumbs-element-text {
     position: relative;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 14px;
     font-weight: 500;
     color: #fff;
@@ -1077,7 +1150,7 @@
     top: 0;
     left: 12px;
     transform: translateY(-50%);
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 12px;
     font-weight: 700;
     color: #494542;
@@ -1096,49 +1169,49 @@
     width: 100%;
     height: 100%;
     padding: 0 55px 0 23px;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: #494542;
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .input.placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .input:-moz-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .input::-moz-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .input:-ms-input-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .input::-webkit-input-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .input:-o-input-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
@@ -1151,7 +1224,7 @@
     width: 100%;
     height: 100%;
     padding: 0 55px 0 23px;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
@@ -1159,7 +1232,7 @@
     cursor: pointer;
   }
   .input-field .wrap-input-field .select option {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: #494542;
@@ -1172,49 +1245,49 @@
     width: 100%;
     height: 100%;
     padding: 15px 23px;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: #494542;
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .textarea.placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .textarea:-moz-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .textarea::-moz-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .textarea:-ms-input-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .textarea::-webkit-input-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
     letter-spacing: 0.03em;
   }
   .input-field .wrap-input-field .textarea:-o-input-placeholder {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 500;
     color: rgba(73, 69, 66, 0.5);
@@ -1263,7 +1336,7 @@
     display: inline-block;
     vertical-align: top;
     width: calc(100% - 15px);
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 400;
     color: #494542;
@@ -1303,7 +1376,7 @@
     display: inline-block;
     vertical-align: middle;
     padding-left: 10px;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 15px;
     font-weight: 400;
     color: #494542;
@@ -1477,7 +1550,7 @@
       left: 0;
       width: 100%;
       bottom: 8px;
-      font-family: "Brandon", sans-serif;
+      /* font-family: "Brandon", sans-serif; */
       font-size: 14px;
       font-weight: 500;
       color: #8c8782;
@@ -1600,7 +1673,7 @@
       left: 0;
       width: 100%;
       bottom: 8px;
-      font-family: "Brandon", sans-serif;
+      /* font-family: "Brandon", sans-serif; */
       font-size: 14px;
       font-weight: 500;
       color: #8c8782;
@@ -1687,7 +1760,7 @@
       transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
     }
     .menu-languages .wrap-menu-languages .menu-languages-text {
-      font-family: "Brown", sans-serif;
+      /* font-family: "Brown", sans-serif; */
       font-size: 12px;
       font-weight: 400;
       color: #8c8782;
@@ -1887,7 +1960,7 @@
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     text-transform: uppercase;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-weight: 700;
     font-size: 12px;
     color: #fff;
@@ -2248,7 +2321,7 @@
     border-bottom: 1px solid #d0ccca;
   }
   .dropdown-links-element .wrap-links-element .dropdown-element-text {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 16px;
     font-weight: 400;
     color: #494542;
@@ -2360,7 +2433,7 @@
     border-bottom: 1px solid #d0ccca;
   }
   .dropdown-sublinks-element .wrap-sublinks-element .dropdown-element-text {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 12px;
     font-weight: 400;
     color: #494542;
@@ -2476,7 +2549,7 @@
     .subnav-title .subnav-title-text {
       display: inline-block;
       vertical-align: middle;
-      font-family: "Brandon", sans-serif;
+      /* font-family: "Brandon", sans-serif; */
       font-size: 16px;
       font-weight: 700;
       color: #8c8782;
@@ -2530,7 +2603,7 @@
     .page-subnav-back .wrap-subnav-back .subnav-back-text {
       display: inline-block;
       vertical-align: middle;
-      font-family: "Brandon", sans-serif;
+      /* font-family: "Brandon", sans-serif; */
       font-size: 13px;
       font-weight: 700;
       color: rgba(140, 135, 130, 0.6);
@@ -2603,7 +2676,7 @@
     }
     .page-subnav-element .wrap-subnav-element .subnav-element-text {
       padding: 19px 22px;
-      font-family: "Brandon", sans-serif;
+      /* font-family: "Brandon", sans-serif; */
       font-size: 12px;
       font-weight: 700;
       color: rgba(140, 135, 130, 0.6);
@@ -2688,7 +2761,7 @@
     display: inline-block;
     vertical-align: middle;
     padding-right: 10px;
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 12px;
     font-weight: 700;
     color: #8c8782;
@@ -2902,7 +2975,7 @@
     padding-bottom: 25px;
   }
   .gallery-subnav-head .wrap-subnav-head .subnav-head-intro {
-    font-family: "Brown", sans-serif;
+    /* font-family: "Brown", sans-serif; */
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -2955,7 +3028,7 @@
     border-top: 1px solid #d0ccca;
   }
   .gallery-subnav-element .wrap-subnav-element .subnav-element-text {
-    font-family: "Brandon", sans-serif;
+    /* font-family: "Brandon", sans-serif; */
     font-size: 16px;
     font-weight: 400;
     color: #494542;
@@ -3546,9 +3619,7 @@
       padding: 100px 0 90px;
       /* border-bottom: 1px solid #d0ccca; */
     }
-    .partners-content-element .wrap-partnerns-element .partnerns-element-text{
-      font-size: 12px !important;
-    }
+   
   }
   @media (max-width: 768px) {
     .footer-links-partners .wrap-footer-partners {
@@ -3557,6 +3628,9 @@
   
       padding: 20px 0 90px;
       /* border-bottom: 1px solid #d0ccca; */
+    }
+    .partners-content-element .wrap-partnerns-element .partnerns-element-text{
+      font-size: 14px !important;
     }
   }
   .footer-partners-header {
