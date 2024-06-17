@@ -229,6 +229,7 @@
       font-size: 40px !important;
       display: flex !important;
       justify-content: center !important;
+      padding: 40px 0px;
     }
     .advantages-element-icon{
       display: flex;
@@ -297,11 +298,11 @@
   width: 75%;
 }
 
-/* .footer_partner_flex {
+.footer_partner_flex {
   display: flex !important;
   flex-direction: column !important;
   gap: 4rem !important;
-} */
+}
 
 .accordion-header.active {
   color: #1c75b6;
@@ -366,8 +367,71 @@
 .galleries-content-info {
         float: left !important;
     }
+    .galleries-content{
+      overflow: hidden !important;
+    }
 
 
+    @media (max-width: 540px) {
+      .accordion-header {
+  padding: 10px;
+  font-size: 20px;
+}
+.accordion-content p {
+        font-size: 13px;
+        margin: 10px 0px;
+
+}
+.accordian_icon {
+    width: 30px;
+    padding: 5px;
+}
+.accordion-content {
+  padding: 0 0px 0px 18px;
+}
+.accordian_text{
+  width: 90%;
+}
+.partners-header-title{
+   font-size: 17px !important;
+}
+.discoverkeyfeatures {
+  font-size: 13px !important;
+  padding: 15px !important;
+}
+.footer-partners-header{
+  padding: 0 20px !important;
+}
+.visionaries_heading {
+    font-size: 22px !important;
+    padding: 25px 17px;
+}
+.wrap-galleries-module{
+  padding: 40px 0px;
+}
+
+
+
+
+
+
+}
+
+
+@media (min-width:541px) and (max-width:768px) {
+      .accordion-header {
+  padding: 25px;
+  font-size: 38px;
+}
+.accordion-content p {
+    color: gray;
+    margin: 20px 0px;
+}
+.accordian_icon {
+    width: 30px;
+    padding: 5px;
+}
+}
 
 
 
@@ -1038,7 +1102,7 @@
       <div class="wrap-devices-header">
         <div class="devices-header-logo">
           <a href="../index.htm">
-            <img src="../../static/svg/logos/logo_simbolo_1.svg" class="logo" />
+            <img src="../../static/img/mainLogo.png" class="logo" />
           </a>
         </div>
       </div>
@@ -1256,11 +1320,11 @@
                   </div>
               </div> -->
           
-          <div class="galleries-info header-spacer">
+          <!-- <div class="galleries-info header-spacer">
                                       <p class="galleries-info-title">DESIGN, ART AND COMFORT DURING YOUR STAY</p>
                                   <div class="galleries-info-counter">
                           </div>
-          </div>
+          </div> -->
 
           <div class="galleries-content">
               <div class="wrap-galleries-content">
@@ -1945,7 +2009,7 @@
                   <p class="info-element-title">Street Light</p>
                   <p class="info-element-subtitle">Solar Street Light</p>
                   <p class="info-element-text" style="margin-bottom:10px ;">
-                    Illuminate pathways sustainably with our energy-efficient solar street lights.
+                    Illuminate pathways sustainably with our<br> energy-efficient solar street lights.
                   
                   </p>
                   <!-- <p class="info-element-text">
@@ -2310,7 +2374,7 @@
                                   <div class="wrap-info-element">
                                       <div class="info-element-header">
                                           <div class="wrap-info-header">
-                                              <p class="info-header-title">HOTEL CONTACT</p>
+                                              <p class="info-header-title">CONTACT</p>
                                           </div>
                                       </div>
                                       <div class="info-element-content">

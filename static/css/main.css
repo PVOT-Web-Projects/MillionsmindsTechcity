@@ -4269,9 +4269,9 @@ body.motor .motor-page {
     display: none;
   }
 }
-.top-module-video {
+/* .top-module-video {
   display: none;
-}
+} */
 @media (min-width: 1280px) {
   .top-module-video {
     position: absolute;
