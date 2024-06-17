@@ -218,6 +218,25 @@
     padding: 0 100px;
     margin: 0 auto;
   }
+  .visionaries_heading{
+    font-size: 50px;
+    padding: 40px 0px 0;
+    color: #8c8782;
+    /* text-align: center; */
+    font-family: "CFType", sans-serif"
+  }
+  @media(max-width:1280px){
+    .visionaries_heading{
+      font-size: 40px;
+    
+    }
+  }
+  @media(max-width:767px){
+    .visionaries_heading{
+      font-size: 30px;
+    
+    }
+  }
   @media (max-width: 1679px) {
     .big-wrapper {
       padding: 0 85px;
@@ -1423,6 +1442,7 @@
   .device-links-element .wrap-link .link-text {
     display: none;
   }
+  
   @media (min-width: 540px) {
     .device-links-element .wrap-link .link-icon {
       top: auto;
