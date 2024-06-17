@@ -87,7 +87,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../../../en/hotel/can-ferrereta/main.css"
+      href="../../../static/css/main.css"
     />
     <!-- /CSSTheme -->
 
@@ -201,9 +201,21 @@
     <!-- custom script start_body   -->
     <!-- /custom script start_body   -->
 
-   <!-- custom script start_body   -->
+    <input type="hidden" id="name_file" value="/hotel.php" />
+    <input type="hidden" id="idPagina" value="24" />
+    <input type="hidden" id="nombrePagina" value="hotel-CanFerreretaHotel" />
+    <input type="hidden" id="lang-input" value="en" />
+    <input
+      type="hidden"
+      id="domain"
+      value="https://www.hotelcanferrereta.com"
+    /><!-- custom script start_body   -->
     <!-- /custom script start_body   -->
 
+    <input type="hidden" id="name_file" value="/hotel.php" />
+    <input type="hidden" id="idPagina" value="24" />
+    <input type="hidden" id="nombrePagina" value="hotel-CanFerreretaHotel" />
+    <input type="hidden" id="lang-input" value="en" />
     <div class="modal-loading">
       <!-- Place at bottom of page -->
       <div class="modal-text">
@@ -249,7 +261,7 @@
       <div class="wrap-page-nav">
         <!--		TODO: programar menu iconos respnsive-->
         <!-- DEVICES MEDIA LINKS -->
-        <!-- <div class="device-links">
+        <div class="device-links">
           <div class="wrap-device-links">
             <div class="device-links-element">
               <a href="hotel/can-ferrereta/index.htm">
@@ -292,9 +304,9 @@
               </a>
             </div>
           </div>
-        </div> -->
+        </div>
         <!--   BUTTON DROPDOWN -->
-        <!-- <div class="menu-button js-open-menu">
+        <div class="menu-button js-open-menu">
           <div class="wrap-menu-button">
             <div class="menu-button-icon">
               <span></span>
@@ -303,7 +315,7 @@
             </div>
             <p class="menu-button-text">Menu</p>
           </div>
-        </div> -->
+        </div>
         <!-- MENU BUTTON LANGUAGES -->
         <!-- <div class="menu-languages js-open-popup" data-selection="languages">
           <div class="wrap-menu-languages js-open-languages">
@@ -525,6 +537,14 @@
             </p>
             <!-- <i class="top-scroll-icon"></i> -->
           </div>
+          
+          <i
+            class="top-module-login top-module-btn js-open-popup icon-persona btn-circle btn-white"
+            data-selection="login"
+            style="display: none"
+          >
+            <p class="btn-circle-text left">Customer access</p>
+          </i>
         </div>
       </div>
     </section>
@@ -565,18 +585,18 @@
     <div class="devices-header">
       <div class="wrap-devices-header">
         <div class="devices-header-logo">
-          <a href="#--">
+          <a href="/index.php">
             <img
               src="../../../static/svg/logos/logo_simbolo_1.svg"
               class="logo"
             />
           </a>
         </div>
-        <!-- <div class="devices-header-info">
+        <div class="devices-header-info">
           <div class="big-wrapper">
             <p class="devices-header-title">CAN FERRERETA</p>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
     <!-- overview -->
@@ -941,13 +961,12 @@
                 <div class="wrap-agenda-element">
                   <div class="agenda-element-img">
                     <div class="wrap-agenda-img">
-                      <img src="../../../static/img/about-us-lhs.png" class="img" alt="" srcset="">
-                      <!-- <figure
+                      <figure
                         class="img lazyload"
                         data-filename="140-a1cf1300x870.jpg"
                         aria-label="SANTANYÍ MARKET"
                         role="img"
-                      ></figure> -->
+                      ></figure>
                     </div>
                   </div>
                   <div class="agenda-element-info">
@@ -979,13 +998,12 @@
                   <div class="wrap-agenda-element">
                     <div class="agenda-element-img">
                       <div class="wrap-agenda-img">
-                        <img src="../../../static/img/about-us-lhs.png" class="img" alt="" srcset="">
-                        <!-- <figure
+                        <figure
                           class="img lazyload"
                           data-filename="140-a1cf1300x870.jpg"
                           aria-label="SANTANYÍ MARKET"
                           role="img"
-                        ></figure> -->
+                        ></figure>
                       </div>
                     </div>
                     <div class="agenda-element-info">
@@ -1017,8 +1035,12 @@
                   <div class="wrap-agenda-element">
                     <div class="agenda-element-img">
                       <div class="wrap-agenda-img">
-                        <img src="../../../static/img/about-us-lhs.png" class="img" alt="" srcset="">
-                     
+                        <figure
+                          class="img lazyload"
+                          data-filename="140-a1cf1300x870.jpg"
+                          aria-label="SANTANYÍ MARKET"
+                          role="img"
+                        ></figure>
                       </div>
                     </div>
                     <div class="agenda-element-info">
@@ -2286,6 +2308,126 @@
         </div>
       </div>
     </div> -->
+    <div class="popup-module" data-popup="login">
+      <div class="popup-backmask js-close-popup"></div>
+      <div class="popup-box bigger">
+        <div class="wrap-popup-box">
+          <i class="close-popup btn-circle js-close-popup icon-cerrar"></i>
+          <div class="popup-box-content">
+            <div class="popup-login">
+              <div class="wrap-popup-login">
+                <!-- LOGIN -->
+                <div id="login" class="login-box active">
+                  <div class="login-header">
+                    <div class="wrap-login-header">
+                      <p class="login-header-title">INITIAR SESSION</p>
+                      <p class="login-header-subtitle">Can Ferrereta</p>
+                    </div>
+                  </div>
+                  <div class="login-inputs">
+                    <form>
+                      <div class="popup-login-input">
+                        <div class="wrap-login-input">
+                          <div class="input-field user">
+                            <div class="wrap-input-field">
+                              <span class="input-text">Username</span>
+                              <input
+                                class="input"
+                                type="text"
+                                placeholder="..."
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="popup-login-input">
+                        <div class="wrap-login-input">
+                          <div class="input-field lock">
+                            <div class="wrap-input-field">
+                              <span class="input-text">PASSWORD</span>
+                              <input
+                                class="input"
+                                type="password"
+                                placeholder="..."
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="popup-login-btn">
+                        <button type="submit" class="btn-corp">
+                          <p class="btn-corp-text">Enter</p>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- RECOVERY -->
+                <div id="recovery" class="login-box">
+                  <div class="login-header">
+                    <div class="wrap-login-header">
+                      <p class="login-header-title">Recover password</p>
+                      <p class="login-header-subtitle">Can Ferrereta</p>
+                    </div>
+                  </div>
+                  <div class="login-inputs">
+                    <form>
+                      <div class="popup-login-input">
+                        <div class="wrap-login-input">
+                          <div class="input-field email">
+                            <div class="wrap-input-field">
+                              <span class="input-text">E-mail</span>
+                              <input
+                                class="input"
+                                type="email"
+                                placeholder="..."
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="popup-login-btn">
+                        <button type="submit" class="btn-corp">
+                          <p class="btn-corp-text">SUBMIT</p>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- LOGN NAV -->
+                <div class="login-nav">
+                  <div class="wrap-login-nav">
+                    <div
+                      class="login-nav-element active js-login-section"
+                      data-section="login"
+                    >
+                      <div class="wrap-nav-element">
+                        <p class="login-nav-text">Login</p>
+                      </div>
+                    </div>
+                    <div
+                      class="login-nav-element js-login-section"
+                      data-section="recovery"
+                    >
+                      <div class="wrap-nav-element">
+                        <p class="login-nav-text">Recover</p>
+                      </div>
+                    </div>
+                    <div class="login-nav-element">
+                      <a href="/registry.php">
+                        <div class="wrap-nav-element">
+                          <p class="login-nav-text">Register</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- First INIT -->
     <script src="../../../static/js/vendor/jquery-2.1.4.min.js"></script>
     <!-- /First INIT -->
