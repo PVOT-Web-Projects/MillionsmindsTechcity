@@ -301,4 +301,28 @@ $(document).on("ready", function () {
       );
     }
   );
+// Initially add the class to the first accordion item heading
+$(".accordion_item:first-child .accordion_item_heading").addClass("accordion_open");
+
+$('.accordion_item_heading').click(function() {
+    // Remove the class from all accordion headings
+    $('.accordion_item_heading').removeClass("accordion_open");
+    
+    var $text = $(this).next('.accordion_item_text');
+    
+    // Slide up all other accordion texts except the one being clicked
+    $('.accordion_item_text').not($text).slideUp(300);
+    
+    // Check if the clicked item is already open
+    if ($text.is(':visible')) {
+        // If it is already open, slide it up and remove the class
+        $text.slideUp(300);
+    } else {
+        // If it is not open, slide it down and add the class
+        $text.slideDown(300);
+        $(this).addClass("accordion_open");
+    }
+});
+
+
 });
