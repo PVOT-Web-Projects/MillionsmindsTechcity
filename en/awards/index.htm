@@ -2,7 +2,9 @@
 <html lang="es">
   <head>
     <!-- Metas Esenciales -->
-    <title></title>
+    <title>Masterplan</title>
+    <!-- <script src="../events/script.js"></script> -->
+     
     <meta name="description" content="" />
 
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
@@ -228,6 +230,346 @@
       display: flex !important;
       justify-content: center !important;
     }
+    .advantages-element-icon{
+      display: flex;
+    justify-content: end;
+    align-items: center;
+
+    }
+
+    .sezfeatureiconsdiv{
+      height: 100%;
+      text-align: center;
+
+    }
+    .sezfeatureicons{
+      width: 60px;
+      height: 100%;
+    }
+    .discoverkeyfeatures{
+    width: 100%;
+    font-size: 17px;
+    padding: 1rem 17rem;
+    }
+
+    
+.partners-content-element::before{
+    content: none !important;
+
+}
+/* .partners-content-element{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+} */
+.partners-header-title{
+    font-size: 35px !important;
+    color: #1c75b7 !important;
+    text-align: center;
+}
+.wrap-partnerns-element svg{
+  width: 150px;
+  fill: #8c8782;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.wrap-partnerns-element svg:hover{
+  fill: #494542;
+}
+.partnerns-element-text{
+  opacity: 1 !important;
+}
+
+
+/* .building_image {
+  background-size: contain !important;
+} */
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordian_text {
+  font-size: 18px;
+  color: gray;
+  line-height: 120%;
+  width: 75%;
+}
+
+/* .footer_partner_flex {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 4rem !important;
+} */
+
+.accordion-header.active {
+  color: #1c75b6;
+
+}
+
+.accordian_flex {
+  border-bottom: 1px solid #a8a8a894;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0px;
+}
+
+.accordian_number {
+  font-size: 18px;
+  color: gray;
+  /* font-weight: bold; */
+}
+
+.accordian_icon {
+  fill: white;
+  width: 90px;
+  padding: 15px;
+  background-color: #86bce3;
+  border-radius: 50%
+}
+.accordion-header:hover {
+  color: #1c75b6;
+}
+
+.accordion-header {
+  /* background-color: #007bff; */
+  color: #86bce3;
+  cursor: pointer;
+  padding: 30px;
+  text-align: left;
+  border: none;
+  width: 100%;
+  font-size: 70px;
+  font-weight: 600;
+  /* border-radius: 4px; */
+  outline: none;
+  transition: background-color 0.3s ease;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: white;
+  padding: 0 0px 0px 40px;
+}
+
+.accordion-content p {
+  color: gary;
+    margin: 30px 20px;
+}
+
+.galleries-content-info {
+        float: left !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 540px) {
+  .galleries-module .wrap_gallery_one {
+    padding: 170px 0px 40px 0px !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer_partner_flex {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 4rem !important;
+  }
+
+  .galleries-module.info-left .galleries-content-images {
+    float: right;
+  }
+  .galleries-module.info-left .galleries-content-info {
+    float: left;
+  }
+
+  .gallery_info1 {
+    float: left !important;
+  }
+  .galleries-module.info-left .galleries-content-info .gallery_slider3 {
+    padding-right: 60px;
+  }
+  .galleries-module.info-left .galleries-info {
+    left: calc(100% + 15px);
+    padding-left: 20px;
+    padding-bottom: 0;
+  }
+  .galleries-module.info-left.banner-mod
+    .info-slider-element
+    .wrap-info-element {
+    padding: 120px 0 70px 70px;
+  }
+}
+@media (min-width: 1280px) and (min-width: 1680px) {
+  .galleries-module.info-left .galleries-content-info .gallery_slider3 {
+    padding-right: 100px;
+  }
+  .galleries-module.info-left .galleries-info {
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .galleries-module.info-right .galleries-content-images {
+    float: left;
+  }
+  .galleries-module.info-right .galleries-content-info {
+    float: right;
+  }
+  .gallery_info1 {
+    float: left !important;
+  }
+  .galleries-module.info-right .galleries-content-info .gallery_slider3 {
+    padding-left: 60px;
+  }
+  .galleries-module.info-right .galleries-info {
+    right: calc(100% + 15px);
+    padding-right: 20px;
+    padding-bottom: 0;
+  }
+  .galleries-module.info-right.banner-mod
+    .info-slider-element
+    .wrap-info-element {
+    padding: 120px 70px 70px 0;
+  }
+
+  .galleries-module.info-right .galleries-content-info .gallery_slider1 {
+    padding-right: 60px !important;
+    padding-left: 0 !important;
+  }
+}
+
+@media (min-width: 1280px) and (min-width: 1680px) {
+  .galleries-module.info-right .galleries-content-info .gallery_slider3 {
+    padding-left: 100px;
+  }
+  .galleries-module.info-right .galleries-info {
+    padding-right: 30px;
+  }
+  .galleries-module.info-left .galleries-content-info .gallery_slider1 {
+    padding-right: 100px !important;
+    padding-left: 0 !important;
+  }
+} */
+
+/* @media (min-width: 1280px) {
+  .galleries-module.banner-mod .galleries-content .wrap-galleries-content {
+    position: relative;
+  }
+  .galleries-module.banner-mod .galleries-content-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .galleries-module.banner-mod .galleries-content-info .gallery_slider1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .galleries-module.banner-mod
+    .galleries-content-images
+    .galleries-images-slider {
+    height: 100%;
+    width: 100%;
+  }
+  .galleries-module.banner-mod .images-slider-element {
+    height: 100%;
+  }
+  .galleries-module.banner-mod .images-slider-element .wrap-images-element {
+    padding-top: 0;
+    height: 100%;
+  }
+  .galleries-module.banner-mod .gallery_info1 {
+    position: relative;
+    z-index: 1;
+    min-height: 540px;
+  }
+
+  .galleries-module.info-left .galleries-content-info .gallery_slider1 {
+    padding-right: 60px !important;
+    padding-left: 0 !important;
+  }
+
+  .galleries-module.banner-mod .galleries-content-info {
+    position: relative;
+    z-index: 1;
+    min-height: 540px;
+  }
+  .galleries-module.banner-mod .galleries-content-info .gallery_slider3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .galleries-module.banner-mod
+    .info-slider-element
+    .wrap-info-element
+    .info-element-pretitle {
+    display: none;
+  }
+  .galleries-module.banner-mod
+    .info-slider-element
+    .wrap-info-element
+    .info-element-btns {
+    text-align: left;
+  }
+  .galleries-module.banner-mod.banner-photo
+    .info-slider-element
+    .wrap-info-element
+    .info-element-title,
+  .galleries-module.banner-mod.banner-photo
+    .info-slider-element
+    .wrap-info-element
+    .info-element-subtitle,
+  .galleries-module.banner-mod.banner-photo
+    .info-slider-element
+    .wrap-info-element
+    .info-element-text {
+    color: #fff;
+  }
+  .galleries-module.banner-mod.banner-photo
+    .info-slider-element
+    .wrap-info-element
+    .info-element-btns
+    .btn-more
+    .btn-more-text {
+    color: #fff;
+  }
+  .galleries-module.banner-mod.banner-photo
+    .info-slider-element
+    .wrap-info-element
+    .info-element-btns
+    .btn-more
+    .btn-more-text:after {
+    color: #fff;
+  }
+} */
+
+
+
+
+
+
+
+
 
 
     </style>
@@ -356,150 +698,209 @@
           </div>
         </div>
         <!-- MENU BUTTON LANGUAGES -->
-        <div class="menu-languages js-open-popup" data-selection="languages">
+        <!-- <div class="menu-languages js-open-popup" data-selection="languages">
           <div class="wrap-menu-languages js-open-languages">
             <p class="menu-languages-text">Languages</p>
           </div>
-        </div>
+        </div> -->
         <!-- MENU LOGO -->
-        <div class="menu-logo">
-          <a href="../index.htm">
-            <i class="menu-logo-icon icon-logo_simbolo_sf_1"></i>
-          </a>
-        </div>
-        <!-- MENU DROPDOWN LINKS -->
-        <div class="menu-dropdown">
-          <div class="wrap-menu-dropdown">
-            <i
-              class="menu-dropdown-close btn-circle icon-cerrar js-close-menu"
-            ></i>
-            <div class="menu-dropdown-gallery">
-              <div class="wrap-dropdown-gallery">
-                <figure class="dropdown-gallery-img" role="img"></figure>
+        <div class="page-nav">
+          <div class="wrap-page-nav">
+            <!--		TODO: programar menu iconos respnsive-->
+            <!-- DEVICES MEDIA LINKS -->
+            <!-- <div class="device-links">
+              <div class="wrap-device-links">
+                <div class="device-links-element">
+                  <a href="hotel/can-ferrereta/index.htm">
+                    <div class="wrap-link">
+                      <i class="link-icon icon-logo_simbolo_sf_1"></i>
+                      <p class="link-text">Hotel</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="device-links-element">
+                  <a href="rooms/index.htm">
+                    <div class="wrap-link">
+                      <i class="link-icon icon-bed"></i>
+                      <p class="link-text">Bedrooms</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="device-links-element">
+                  <a href="restaurants/index.htm">
+                    <div class="wrap-link">
+                      <i class="link-icon icon-restaurante"></i>
+                      <p class="link-text">Restaurant</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="device-links-element">
+                  <a href="gallery/index.htm">
+                    <div class="wrap-link">
+                      <i class="link-icon icon-gallery"></i>
+                      <p class="link-text">Gallery</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="device-links-element">
+                  <a href="contact/index.htm">
+                    <div class="wrap-link">
+                      <i class="link-icon icon-sobre"></i>
+                      <p class="link-text">Contact</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+            <!--   BUTTON DROPDOWN -->
+            <div class="menu-button js-open-menu">
+              <div class="wrap-menu-button">
+                <div class="menu-button-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <p class="menu-button-text">Menu</p>
               </div>
             </div>
-            <div class="menu-dropdown-content">
-              <div class="wrap-dropdown-content">
-                <div class="dropdown-content-links">
-                  <div class="wrap-dropdown-links">
-                    <div
-                      class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/645-152cf1300x870.jpg"
-                    >
-                      <a href="../hotel/can-ferrereta/index.htm">
-                        <div class="wrap-links-element">
-                          <p class="dropdown-element-text">The hotel</p>
-                        </div>
-                      </a>
-                    </div>
-                    <div
-                      class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/556-0cfhabterracesuite1300x870.jpg"
-                    >
-                      <a href="../rooms/index.htm">
-                        <div class="wrap-links-element">
-                          <p class="dropdown-element-text">The rooms</p>
-                        </div>
-                      </a>
-                    </div>
-                    <div
-                      class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/340-58cf1300x870.jpg"
-                    >
-                      <a href="../restaurants/index.htm">
-                        <div class="wrap-links-element">
-                          <p class="dropdown-element-text">
-                            Restaurants & bars
-                          </p>
-                        </div>
-                      </a>
-                    </div>
-                    <div
-                      class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/445-41cf1300x870.jpg"
-                    >
-                      <a href="../spa/index.htm">
-                        <div class="wrap-links-element">
-                          <p class="dropdown-element-text">Sa Calma Spa</p>
-                        </div>
-                      </a>
-                    </div>
-                    <div
-                      class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/462-4cfport1800x935.jpg"
-                    >
-                      <a href="../gallery/index.htm">
-                        <div class="wrap-links-element">
-                          <p class="dropdown-element-text">Gallery</p>
-                        </div>
-                      </a>
-                    </div>
-                    <div
-                      class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/608-129cf1300x870.jpg"
-                    >
-                      <a href="index.htm">
-                        <div class="wrap-links-element">
-                          <p class="dropdown-element-text">Awards</p>
-                        </div>
-                      </a>
-                    </div>
-                    <div
-                      class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/289-41300x870.jpg"
-                    >
-                      <a href="../mallorca/index.htm">
-                        <div class="wrap-links-element">
-                          <p class="dropdown-element-text">Experiences</p>
-                        </div>
-                      </a>
-                    </div>
-                    <div
-                      class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/40-00sf1300x870.jpg"
-                    >
-                      <a href="https://hotelsantfrancesc.com" target="_blank">
-                        <div class="wrap-links-element">
-                          <p class="dropdown-element-text">
-                            Sant Francesc
-                            <span class="subtext">/ Hotel Palma</span>
-                          </p>
-                        </div>
-                      </a>
-                    </div>
+            <!-- MENU BUTTON LANGUAGES -->
+            <!-- <div class="menu-languages js-open-popup" data-selection="languages">
+              <div class="wrap-menu-languages js-open-languages">
+                <p class="menu-languages-text">Languages</p>
+              </div>
+            </div> -->
+            <!-- MENU LOGO -->
+            <div class="menu-logo">
+              <a href="index.htm">
+                <!-- <i class="menu-logo-icon icon-logo_simbolo_sf_1"></i> -->
+                <img src="../../static/img/mainLogo.png" alt="logo" />
+              </a>
+            </div>
+            <!-- MENU DROPDOWN LINKS -->
+            <div class="menu-dropdown">
+              <div class="wrap-menu-dropdown">
+                <!-- <i
+                  class="menu-dropdown-close btn-circle icon-cerrar js-close-menu"
+                ></i> -->
+                <svg
+                  class="menu-dropdown-close btn-circle icon-cerrar js-close-menu"
+                  fill="#8c8782"
+                  clip-rule="evenodd"
+                  fill-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"
+                  />
+                </svg>
+                <div class="menu-dropdown-gallery">
+                  <div class="wrap-dropdown-gallery">
+                    <figure class="dropdown-gallery-img" role="img"></figure>
                   </div>
                 </div>
-
-                <div class="dropdown-content-sublinks">
-                  <div class="wrap-dropdown-sublinks">
-                    <div class="dropdown-sublinks-element">
-                      <a href="../events/index.htm" target="_blank">
-                        <div class="wrap-sublinks-element">
-                          <p class="dropdown-element-text">Events</p>
+                <div class="menu-dropdown-content">
+                  <div class="wrap-dropdown-content">
+                    <div class="dropdown-content-links">
+                      <div class="wrap-dropdown-links">
+                        <div
+                          class="dropdown-links-element js-swap-placehoder"
+                          data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/645-152cf1300x870.jpg"
+                        >
+                          <a href="../../index.html">
+                            <div class="wrap-links-element">
+                              <p class="dropdown-element-text">Home</p>
+                            </div>
+                          </a>
                         </div>
-                      </a>
-                    </div>
-                    <div class="dropdown-sublinks-element">
-                      <a href="../promotions/index.htm" target="_blank">
-                        <div class="wrap-sublinks-element">
-                          <p class="dropdown-element-text">Promotions</p>
+                        <div
+                          class="dropdown-links-element js-swap-placehoder"
+                          data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/556-0cfhabterracesuite1300x870.jpg"
+                        >
+                          <a href="../events/index.htm">
+                            <div class="wrap-links-element">
+                              <p class="dropdown-element-text">About Us</p>
+                            </div>
+                          </a>
                         </div>
-                      </a>
-                    </div>
-                    <div class="dropdown-sublinks-element">
-                      <a href="../hotel/press/index.htm" target="_blank">
-                        <div class="wrap-sublinks-element">
-                          <p class="dropdown-element-text">Press</p>
+    
+                        <div
+                          class="dropdown-links-element js-swap-placehoder"
+                          data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/445-41cf1300x870.jpg"
+                        >
+                          <a href="../awards/index.htm">
+                            <div class="wrap-links-element">
+                              <p class="dropdown-element-text">Master Plan</p>
+                            </div>
+                          </a>
                         </div>
-                      </a>
-                    </div>
-                    <div class="dropdown-sublinks-element">
-                      <a href="../contact/index.htm" target="_blank">
-                        <div class="wrap-sublinks-element">
-                          <p class="dropdown-element-text">Contact</p>
+                        <div
+                          class="dropdown-links-element js-swap-placehoder"
+                          data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/462-4cfport1800x935.jpg"
+                        >
+                          <a href="../gallery/index.htm">
+                            <div class="wrap-links-element">
+                              <p class="dropdown-element-text">AMENITIES</p>
+                            </div>
+                          </a>
                         </div>
-                      </a>
+                        <div
+                          class="dropdown-links-element js-swap-placehoder"
+                          data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/608-129cf1300x870.jpg"
+                        >
+                          <a href="../hotel/can-ferrereta/index.html">
+                            <div class="wrap-links-element">
+                              <p class="dropdown-element-text">Phase 1</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div
+                          class="dropdown-links-element js-swap-placehoder"
+                          data-placeholder="https://www.hotelcanferrereta.com/backoffice/images/289-41300x870.jpg"
+                        >
+                          <a href="../contact/index.htm">
+                            <div class="wrap-links-element">
+                              <p class="dropdown-element-text">Contact Us</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
                     </div>
+    
+                    <!-- <div class="dropdown-content-sublinks">
+                      <div class="wrap-dropdown-sublinks">
+                        <div class="dropdown-sublinks-element">
+                          <a href="events/index.htm" target="_blank">
+                            <div class="wrap-sublinks-element">
+                              <p class="dropdown-element-text">Events</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="dropdown-sublinks-element">
+                          <a href="promotions/index.htm" target="_blank">
+                            <div class="wrap-sublinks-element">
+                              <p class="dropdown-element-text">Promotions</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="dropdown-sublinks-element">
+                          <a href="hotel/press/index.htm" target="_blank">
+                            <div class="wrap-sublinks-element">
+                              <p class="dropdown-element-text">Press</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="dropdown-sublinks-element">
+                          <a href="contact/index.htm" target="_blank">
+                            <div class="wrap-sublinks-element">
+                              <p class="dropdown-element-text">Contact</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -509,7 +910,7 @@
       </div>
     </div>
     <!-- MENU COMPLEMENT-->
-    <div class="page-plusnav">
+    <!-- <div class="page-plusnav">
       <div class="wrap-page-plusnav">
         <a
           href="tel:+34 971 905 905"
@@ -517,12 +918,11 @@
         ></a>
         <div class="plusnav-btn">
           <div class="btn-corp btn-white">
-            <!--				--><!--				<a href="--><!--" class="btn-corp-text">--><!--</a>-->
-            <!--				-->
+           
             <a href="../reserve-rooms/index.htm" class="btn-corp-text"
               >Book now</a
             >
-            <!--				-->
+           
           </div>
         </div>
         <span
@@ -532,9 +932,9 @@
           <span class="languages-code">en</span>
         </span>
       </div>
-    </div>
+    </div> -->
     <!-- MENU LANGUAGES PANEL -->
-    <div class="popup-module" data-popup="languages">
+    <!-- <div class="popup-module" data-popup="languages">
       <div class="popup-backmask js-close-popup"></div>
       <div class="popup-box">
         <div class="wrap-popup-box">
@@ -570,9 +970,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- PAGE SUBMENU -->
-    <div class="page-subnav">
+    <!-- <div class="page-subnav">
       <div class="wrap-page-subnav">
         <ul class="page-subnav-list">
           <li class="page-subnav-element">
@@ -633,7 +1033,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <div class="devices-header">
       <div class="wrap-devices-header">
         <div class="devices-header-logo">
@@ -980,6 +1380,421 @@
                         </ul>
           </div>
       </div>
+  </div>
+</section>
+
+
+
+
+<section id="section1" class="advantages-module" style="overflow: hidden">
+
+  <div class="footer-links-partners">
+    <div class="wrap-footer-partners">
+      <div class="footer-partners-header" style="padding: 0 50px">
+        <p
+          class="partners-header-title"
+          data-aos="slide-up"
+          data-aos-duration="800"
+          data-aos-delay="10"
+          data-aos-once="true"
+          data-aos-easing="ease-in-out"
+        >
+        Key Features of our Tech Hub
+        </p>
+        <p
+        class="discoverkeyfeatures"
+          data-aos="slide-up"
+          data-aos-duration="800"
+          data-aos-delay="10"
+          data-aos-once="true"
+          data-aos-easing="ease-in-out"
+        >
+        Discover the fusion of urban brilliance and strategic foresight at Million Minds Tech City, Ahmedabad's revolutionary development. In collaboration with Tishman Speyer, we're reshaping cityscapes with New York sophistication and Singaporean design, envisioning the Silicon Valley of Western India. Welcome to the future of modern living.
+        </p>
+
+      </div>
+      <div class="footer-partners-content">
+        <div
+          class="partners-content-element"
+          data-aos="slide-up"
+          data-aos-duration="600"
+          data-aos-delay="10"
+          data-aos-once="true"
+          data-aos-easing="ease-in-out"
+          style="width: 20%"
+        >
+          <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
+          <div class="wrap-partnerns-element">
+            <!-- <img
+                src="./static/img/home_chargin-station.png"
+                class="partnerns-element-img lazyload-static"
+                alt="Hotel Villa Soro"
+              /> -->
+              <?xml version="1.0" encoding="utf-8"?>
+             <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 121.47 122.88" style="enable-background:new 0 0 121.47 122.88" xml:space="preserve"><g><path d="M16.85,13.78h6.3V2.33c0-1.24,1.01-2.25,2.25-2.25c1.24,0,2.25,1.01,2.25,2.25v11.45h6.3c1.44,0,2.75,0.59,3.69,1.53 l0.11,0.12c0.88,0.94,1.42,2.19,1.42,3.57v17.03h8.33c0.55,0,1,0.45,1,1v14.43h24.45V37.03c0-0.55,0.45-1,1-1h9.14V19.01 c0-1.44,0.59-2.74,1.53-3.69l0.01-0.01c0.95-0.95,2.25-1.53,3.69-1.53h6.3V2.25c0-1.24,1.01-2.25,2.25-2.25 c1.24,0,2.25,1.01,2.25,2.25v11.53h6.3c1.44,0,2.74,0.59,3.69,1.53l0.01,0.01c0.95,0.95,1.53,2.25,1.53,3.69v17.03h9.81 c0.55,0,1,0.45,1,1v82.33v3.26v0.25h-14.14v-0.03H86.61v0.03H72.96v-0.03H48.51v0.03H34.85v-0.03H14.14v0.03H0v-1.16v-1.46V37.03 c0-0.55,0.45-1,1-1h10.62V19.01c0-1.44,0.59-2.74,1.53-3.69l0.01-0.01C14.1,14.37,15.41,13.78,16.85,13.78L16.85,13.78z M86.79,36.04h20.18v-6.69H86.79V36.04L86.79,36.04z M86.79,25.67h20.18v-6.66c0-0.42-0.17-0.81-0.45-1.09 c-0.28-0.28-0.66-0.45-1.09-0.45H88.32c-0.42,0-0.81,0.17-1.09,0.45c-0.28,0.28-0.45,0.66-0.45,1.09V25.67L86.79,25.67z M35.49,29.35H15.31v6.69h20.18V29.35L35.49,29.35z M15.31,25.67h20.18v-6.66c0-0.39-0.15-0.75-0.39-1.02l-0.06-0.06 c-0.28-0.28-0.66-0.45-1.08-0.45H16.85c-0.42,0-0.81,0.17-1.09,0.45c-0.28,0.28-0.45,0.66-0.45,1.09V25.67L15.31,25.67z M34.85,119.14v-18.57c0-5.7-4.66-10.36-10.36-10.36l0,0c-5.7,0-10.36,4.66-10.36,10.36v18.57H34.85L34.85,119.14z M37.8,64.86 c0.05,0,0.11,0,0.16,0.01v-8.52c0-0.95-0.78-1.73-1.73-1.73h-8.68v10.24H37.8L37.8,64.86z M37.96,68.54 c-0.05,0-0.11,0.01-0.16,0.01H27.55v10.24h8.68c0.95,0,1.73-0.78,1.73-1.73V68.54L37.96,68.54z M23.87,78.79V68.55H13.62 c-0.05,0-0.11,0-0.16-0.01v8.52c0,0.95,0.78,1.73,1.73,1.73H23.87L23.87,78.79z M13.46,64.87c0.05,0,0.11-0.01,0.16-0.01h10.24 V54.61h-8.68c-0.95,0-1.73,0.78-1.73,1.73V64.87L13.46,64.87z M107.32,119.14v-18.57c0-5.7-4.66-10.36-10.36-10.36h0 c-5.7,0-10.36,4.66-10.36,10.36v18.57H107.32L107.32,119.14z M72.44,102.08H49.02v17.07h23.42V102.08L72.44,102.08z M49.02,72.4 h23.42V55.17H49.02V72.4L49.02,72.4z M99.53,54.61v10.24h10.24c0.05,0,0.11,0,0.16,0.01v-8.53c0-0.95-0.77-1.72-1.72-1.72H99.53 L99.53,54.61z M109.94,68.54c-0.05,0-0.11,0.01-0.16,0.01H99.53v10.24h8.69c0.95,0,1.72-0.77,1.72-1.72V68.54L109.94,68.54z M95.85,78.79V68.55H85.6c-0.05,0-0.11,0-0.16-0.01v8.53c0,0.95,0.77,1.72,1.72,1.72H95.85L95.85,78.79z M85.44,64.87 c0.05,0,0.11-0.01,0.16-0.01h10.24V54.61h-8.69c-0.95,0-1.72,0.77-1.72,1.72V64.87L85.44,64.87z"/></g>
+            </svg>
+
+            <p class="partnerns-element-text">
+              Luxury Residences 
+            </p>
+            <p class="partnerns-element-text">
+             3&4 BHK High Rise Apartments designed for comfort and sophistication
+            </p>
+          </div>
+          <div class="vr_border"></div>
+          <!-- </a> -->
+        </div>
+        
+        
+        <div
+          class="partners-content-element"
+          data-aos="slide-up"
+          data-aos-duration="800"
+          data-aos-delay="10"
+          data-aos-once="true"
+          data-aos-easing="ease-in-out"
+          style="width: 20%"
+        >
+          <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
+          <div class="wrap-partnerns-element">
+            <!-- <img
+                src="./static/img/home_air-con.png"
+                class="partnerns-element-img lazyload-static"
+                alt="Hotel Villa Soro"
+              /> -->
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 109.37" style="enable-background:new 0 0 122.88 109.37" xml:space="preserve"><style type="text/css"><![CDATA[
+              .st0{fill-rule:evenodd;clip-rule:evenodd;}
+            ]]></style><g><path class="st0" d="M112.28,107.53c0,1.01-0.82,1.84-1.84,1.84H11.93c-1.01,0-1.84-0.82-1.84-1.84V51.67 c-2.06,0.79-3.97,0.8-5.57,0.27c-1.25-0.42-2.3-1.17-3.07-2.15c-0.77-0.97-1.26-2.16-1.41-3.46C-0.18,44.3,0.43,42,2.15,39.85l0,0 c0.09-0.11,0.19-0.21,0.3-0.3l57.6-39.07c0.65-0.6,1.65-0.66,2.37-0.1l57.7,38.99l0,0c0.08,0.06,0.15,0.13,0.22,0.2 c2.32,2.5,2.9,5.27,2.34,7.62c-0.28,1.15-0.83,2.2-1.59,3.05c-0.76,0.86-1.73,1.52-2.84,1.92c-1.76,0.64-3.84,0.61-5.96-0.39 C112.28,67.37,112.28,91.94,112.28,107.53L112.28,107.53L112.28,107.53z M45.33,36.35h32.21v21.69H45.33V36.35L45.33,36.35 L45.33,36.35z M56.28,42.24c0.93,0,1.69,0.76,1.69,1.69s-0.76,1.69-1.69,1.69c-0.93,0-1.69-0.76-1.69-1.69 C54.59,42.99,55.34,42.24,56.28,42.24L56.28,42.24L56.28,42.24z M63.39,49.49l3.8-5.84l3.59,9.08h-17.6V51.6l1.41-0.07L56,48.08 l1.12,2.47h2.11l1.83-4.72L63.39,49.49L63.39,49.49L63.39,49.49z M47.27,38.58h28.35v17.23H47.27V38.58L47.27,38.58z M60.93,74.68 c0.04,0.01,0.09,0,0.13-0.04c2.16-1.69,5.33-0.98,6.78,2.56h-0.03c-2.86,2.43-4.91,5.07-5.65,8.02h-4.14L60.93,74.68L60.93,74.68 L60.93,74.68z M75.35,81.43c0.35,3-2.73,5.59-5.44,4.77c-0.38,0.66-0.67,1.49-0.9,2.49c-0.51,2.33-0.36,1.62-0.14,3.88 c0.3,3.01-0.02,5.06-1.96,5.94v1.16H27.73v-1.16c-1.51-0.54-2.16-2.02-1.93-4.45c0.5-4.58,0.19-6.01-0.96-7.74 c-2.02,0.07-3.48-0.41-4.39-1.43c-1.86-2.07-1.29-5.1,1.03-6.55c0.48-0.3,1.04-0.53,1.69-0.67c4.98-1.05,7.73,4.05,9.05,8.07 l13.07,0.35c0.89,0.12,1.46,0.52,1.84,1.06c0.35-0.53,0.86-0.93,1.64-1.11c4.07-0.18,6.98,0.36,9.95,0.36h3.46 c0.71,0,1.08-0.31,1.2-0.88c0.88-2.68,4-8.06,7.27-7.96C72.66,77.63,74.85,79.01,75.35,81.43L75.35,81.43L75.35,81.43z M27.14,76.88L27.14,76.88c1.32-2.94,3.38-3.67,6.19-2.69l3.01,10.35h-3.25C31.58,81.46,30.58,78.33,27.14,76.88L27.14,76.88 L27.14,76.88z M34.6,74.27c0.04-0.02,0.07-0.05,0.09-0.1c1.11-2.56,4.17-3.28,6.67-2.18c0-0.01,0.01-0.01,0.01-0.01l0.68,13.18 h-4.33L34.6,74.27L34.6,74.27L34.6,74.27z M42.7,71.71c0.81-3.37,8.49-2.68,9.2-0.36c0.1-0.01-0.8,12.44-0.86,13.82H49.9 c-1.8,0-3.39,0-5.17,0h-1.44l-0.56-13.46L42.7,71.71L42.7,71.71L42.7,71.71z M52.9,72.28c0.02,0,0.05-0.01,0.08-0.02 c2.78-1.48,6.65-0.4,7.02,1.53l-0.19,0.07l-3.05,11.3h-4.51L52.9,72.28L52.9,72.28L52.9,72.28z M92.83,77.9v18.35h3.7 c0.57,0,1.03,0.67,1.03,1.24c0,0.57-0.46,1.24-1.03,1.24H86.28c-0.57,0-1.03-0.67-1.03-1.24c0-0.57,0.46-1.24,1.03-1.24h3.7V77.9 H92.83L92.83,77.9z M86.09,64h10.6l3.11,12.27h-16.8L86.09,64L86.09,64L86.09,64z M107.66,104.74V49.62c0-0.12,0.01-0.24,0.03-0.35 L61.62,18.58l-46.96,30.7c0.04,0.15,0.06,0.31,0.06,0.47v54.99C45.7,104.74,76.68,104.74,107.66,104.74L107.66,104.74 L107.66,104.74z"/></g>
+          </svg>
+            <p class="partnerns-element-text">
+              Co-living Spaces
+            </p>
+            <p class="partnerns-element-text">
+              Fostering connections and collaboration among like-minded individuals
+            </p>
+          </div>
+          <div class="vr_border"></div>
+          <!-- </a> -->
+        </div>
+        <div
+          class="partners-content-element"
+          data-aos="slide-up"
+          data-aos-duration="1000"
+          data-aos-delay="10"
+          data-aos-once="true"
+          data-aos-easing="ease-in-out"
+          style="width: 20%"
+        >
+          <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
+          <div class="wrap-partnerns-element">
+            <!-- <img
+                src="./static/img/home_solar-panels.png"
+                class="partnerns-element-img lazyload-static"
+                alt="Hotel Villa Soro"
+              /> -->
+            <?xml version="1.0" encoding="utf-8"?>
+           <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 114.26" style="enable-background:new 0 0 122.88 114.26" xml:space="preserve"><style type="text/css">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style><g><path class="st0" d="M0,104.77h14.74V19.01c0-0.81,0.67-1.48,1.49-1.48h2.98l1.41-5.75l-5.46-4.62l7.13-0.53L25,0l2.71,6.62 l7.13,0.53l-5.46,4.62l1.41,5.76c4.28,0,8.51,0.01,12.7,0.01l1.41-5.77l-5.46-4.62l7.13-0.53L49.3,0L52,6.62l7.13,0.53l-5.46,4.62 l1.42,5.78l12.69,0.02l1.42-5.8l-5.46-4.62l7.13-0.53L73.59,0l2.71,6.62l7.13,0.53l-5.46,4.62l1.42,5.81 c4.19,0,8.41,0.01,12.68,0.01l1.42-5.82l-5.46-4.62l7.13-0.53L97.88,0l2.71,6.62l7.13,0.53l-5.46,4.62l1.43,5.83l2.96,0 c0.82,0,1.48,0.67,1.48,1.48v85.68h14.74v9.49H0V104.77L0,104.77z M20.85,17.53c2.8,0,5.57,0,8.31,0L25,14.96L20.85,17.53 L20.85,17.53z M45.11,17.55l8.38,0.01l-4.2-2.6L45.11,17.55L45.11,17.55z M69.36,17.58l8.48,0.01l-4.25-2.63L69.36,17.58 L69.36,17.58z M93.61,17.6c2.83,0,5.67,0,8.54,0l-4.27-2.64L93.61,17.6L93.61,17.6z M27.99,84.32h8.42c0.27,0,0.5,0.22,0.5,0.5 v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42c-0.27,0-0.5-0.22-0.5-0.5v-8.49C27.5,84.54,27.72,84.32,27.99,84.32L27.99,84.32z M85.87,84.32h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42c-0.27,0-0.5-0.22-0.5-0.5v-8.49 C85.37,84.54,85.59,84.32,85.87,84.32L85.87,84.32z M71.15,53.74h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42 c-0.27,0-0.5-0.22-0.5-0.5v-8.49C70.65,53.97,70.87,53.74,71.15,53.74L71.15,53.74z M85.87,53.74h8.42c0.27,0,0.5,0.22,0.5,0.5 v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42c-0.27,0-0.5-0.22-0.5-0.5v-8.49C85.37,53.97,85.59,53.74,85.87,53.74L85.87,53.74z M85.87,69.03h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42c-0.27,0-0.5-0.22-0.5-0.5v-8.49 C85.37,69.26,85.59,69.03,85.87,69.03L85.87,69.03z M71.15,69.03h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42 c-0.27,0-0.5-0.22-0.5-0.5v-8.49C70.65,69.26,70.87,69.03,71.15,69.03L71.15,69.03z M71.15,84.32h8.42c0.27,0,0.5,0.22,0.5,0.5 v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42c-0.27,0-0.5-0.22-0.5-0.5v-8.49C70.65,84.54,70.87,84.32,71.15,84.32L71.15,84.32z M42.71,53.74h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42c-0.27,0-0.5-0.22-0.5-0.5v-8.49 C42.21,53.97,42.44,53.74,42.71,53.74L42.71,53.74z M27.99,53.74h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42 c-0.27,0-0.5-0.22-0.5-0.5v-8.49C27.5,53.97,27.72,53.74,27.99,53.74L27.99,53.74z M27.99,69.03h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49 c0,0.27-0.22,0.5-0.5,0.5h-8.42c-0.27,0-0.5-0.22-0.5-0.5v-8.49C27.5,69.26,27.72,69.03,27.99,69.03L27.99,69.03z M42.71,69.03 h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42c-0.27,0-0.5-0.22-0.5-0.5v-8.49 C42.21,69.26,42.44,69.03,42.71,69.03L42.71,69.03z M42.71,84.32h8.42c0.27,0,0.5,0.22,0.5,0.5v8.49c0,0.27-0.22,0.5-0.5,0.5h-8.42 c-0.27,0-0.5-0.22-0.5-0.5v-8.49C42.21,84.54,42.44,84.32,42.71,84.32L42.71,84.32z M23.95,26.36h4.71v5.49h5.16v-5.49h4.74v15.72 h-4.74v-6.37h-5.16v6.37h-4.71V26.36L23.95,26.36z M41.09,34.23c0-2.57,0.69-4.56,2.08-5.99c1.39-1.43,3.32-2.14,5.81-2.14 c2.54,0,4.5,0.7,5.88,2.11c1.38,1.41,2.06,3.37,2.06,5.9c0,1.84-0.3,3.34-0.9,4.52c-0.6,1.17-1.47,2.09-2.61,2.75 c-1.14,0.66-2.55,0.98-4.25,0.98c-1.72,0-3.15-0.28-4.28-0.85c-1.13-0.57-2.04-1.46-2.74-2.68C41.45,37.6,41.09,36.07,41.09,34.23 L41.09,34.23z M45.81,34.25c0,1.58,0.29,2.73,0.86,3.42c0.58,0.69,1.36,1.04,2.35,1.04c1.01,0,1.8-0.34,2.36-1.02 c0.56-0.68,0.84-1.9,0.84-3.66c0-1.48-0.29-2.56-0.87-3.24c-0.58-0.68-1.37-1.03-2.36-1.03c-0.95,0-1.72,0.35-2.3,1.04 C46.1,31.5,45.81,32.65,45.81,34.25L45.81,34.25z M57.84,26.36H72.2v3.89h-4.82v11.84h-4.71V30.25h-4.82V26.36L57.84,26.36z M74.31,26.36h12.63v3.36h-7.89v2.5h7.32v3.21h-7.32v3.1h8.13v3.56H74.31V26.36L74.31,26.36z M89.72,26.36h4.71v11.86h7.38v3.87 H89.72V26.36L89.72,26.36z M65.21,47.2h35.53c0.59,0,1.07,0.57,1.07,1.27V99.7c0,0.7-0.48,1.27-1.07,1.27H65.21 c-0.59,0-1.07-0.57-1.07-1.27V48.48C64.14,47.77,64.62,47.2,65.21,47.2L65.21,47.2z M21.98,47.13h35.53c0.59,0,1.07,0.57,1.07,1.27 v51.3c0,0.7-0.48,1.27-1.07,1.27H21.98c-0.59,0-1.07-0.57-1.07-1.27V48.4C20.91,47.7,21.39,47.13,21.98,47.13L21.98,47.13z"/></g></svg>
+            <p class="partnerns-element-text">
+              Hotels and Malls
+            </p>
+            <p class="partnerns-element-text">
+              Premium hospitality and retail developments within reach
+            </p>
+          </div>
+          <div class="vr_border"></div>
+          <!-- </a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="section" class="galleries-module info-right background-white">
+  <div class="big-wrapper">
+      <div class="wrap-galleries-module">
+          <div class="galleries-content">
+              <div class="wrap-galleries-content">
+                <div class="accordion">
+                  <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500">
+                      <div class="accordian_flex" >
+                          <div class="accordian_number">01.</div>
+                          <button class="accordion-header active" data-always-open="true">1,69,0000 Sq.ft.</button>
+                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                         
+                         
+                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                      </div>
+                      <div class="accordion-content" style="max-height: 100px !important;">
+                          <p class="accordian_text">Unleash innovation at our tech park, designed to cultivate groundbreaking technological advancements and foster a culture of creativity and collaboration.</p>
+                      </div>
+                  </div>
+                  <div class="accordion-item" data-aos="fade-up" data-aos-duration="1600">
+                      <div class="accordian_flex">
+                          <div class="accordian_number">02.</div>
+                          <button class="accordion-header">300,000 Lakhs Sq.ft.</button>
+                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                      </div>
+                      <div class="accordion-content">
+                          <p  class="accordian_text">Hotel space, to elevate your stay with premium hospitality and luxurious accommodations.</p>
+                      </div>
+                  </div>
+                  <div class="accordion-item" data-aos="fade-up" data-aos-duration="1700">
+                      <div class="accordian_flex">
+                          <div class="accordian_number">03.</div>
+                          <button class="accordion-header">3,00,000 Sq.ft.</button>
+                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                      </div>
+                      <div class="accordion-content">
+                          <p  class="accordian_text">A Vibrant neighborhood mall enriching your lifestyle experience with every visit.</p>
+                      </div>
+                  </div>
+                  <div class="accordion-item" data-aos="fade-up" data-aos-duration="1800">
+                      <div class="accordian_flex">
+                          <div class="accordian_number">04.</div>
+                          <button class="accordion-header">52,000,00 Sq.ft.</button>
+                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                      </div>
+                      <div class="accordion-content">
+                          <p  class="accordian_text">Explore Residences apartments redefine opulence with stunning views, exquisite interiors, and unparalleled amenities.</p>
+                      </div>
+                  </div>
+                  <div class="accordion-item" data-aos="fade-up" data-aos-duration="1900">
+                      <div class="accordian_flex">
+                          <div class="accordian_number">05.</div>
+                          <button class="accordion-header">Current Development- Phase 1</button>
+                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                      </div>
+                      <div class="accordion-content">
+                          <p  class="accordian_text">Spanning an impressive 1.3 MILLION SQUARE FEET,<br>
+
+                            Offers AMPLE PARKING facilities for convenience.<br>
+                            
+                            Tower 1 boasts a generous Floor area of 890,476 SQUARE FEET,<br>
+                            
+                            Maximizing space utilization with efficient Floor plates.<br>
+                            
+                            Our tower prioritizes sustainability with essential utilities such as 100% POWER BACKUP,<br>
+                            
+                            EV charging stations, and Energy-efficient systems.<br>
+                            
+                            25 ELEVATORS dedicated to passenger convenience,<br>
+                            Tower 1 ensures seamless vertical mobility. Enjoy essential amenities including a Gym, Food Court, Coffee Shop, and Creche, enhancing the overall experience.</p>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="advantages-module">
+  <div class="big-wrapper">
+    <div class="wrap-advantages-module">
+      <div class="advantages-header">
+        <div class="wrap-advantages-header">
+          <p class="advantages-header-title">Exploring </p>
+          <p class="advantages-header-subtitle">
+            Sez's Advanced Features
+          </p>
+        </div>
+      </div>
+      <div class="advantages-content">
+        <div class="wrap-advantages-content">
+          <div class="advantages-element">
+            <div class="wrap-advantages-element">
+              <div class="advantages-element-info">
+                <div class="wrap-advantages-info">
+                  <p class="advantages-info-text">Tax Benefits</p>
+                  <p class="advantages-info-subtext">
+                    Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                  </p>
+                </div>
+              </div>
+              <div class="advantages-element-icon">
+                <div class="wrap-advantages-icon">
+                  <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                   <div class="sezfeatureiconsdiv">
+                    <img class="sezfeatureicons" src="../../static/img/tax-calculator-icon.svg" alt="">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages-element">
+            <div class="wrap-advantages-element">
+              <div class="advantages-element-info">
+                <div class="wrap-advantages-info">
+                  <p class="advantages-info-text">
+                    Business-Friendly Policies
+                  </p>
+                  <p class="advantages-info-subtext">
+                    Navigate hassle-free with favourable regulations for seamless operations.
+                  </p>
+                </div>
+              </div>
+              <div class="advantages-element-icon">
+                <div class="wrap-advantages-icon">
+                  <!-- <i class="advantages-icon icon-c2t-check_in"></i> -->
+                  <div class="sezfeatureiconsdiv">
+                    <img class="sezfeatureicons" src="../../static/img/trust-icon.svg" alt="">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages-element">
+            <div class="wrap-advantages-element">
+              <div class="advantages-element-info">
+                <div class="wrap-advantages-info">
+                  <p class="advantages-info-text">Accessibility</p>
+                  <p class="advantages-info-subtext">Conveniently located near major transportation hubs and key business areas.</p>
+                </div>
+              </div>
+              <div class="advantages-element-icon">
+                <div class="wrap-advantages-icon">
+                  <!-- <i class="advantages-icon icon-c2t-sin_coste"></i> -->
+                  <div class="sezfeatureiconsdiv">
+                    <img class="sezfeatureicons" src="../../static/img/accessibility-icon.svg" alt="">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages-element">
+            <div class="wrap-advantages-element">
+              <div class="advantages-element-info">
+                <div class="wrap-advantages-info">
+                  <p class="advantages-info-text">
+                    Infrastructure
+                  </p>
+                  <p class="advantages-info-subtext">
+                    Experience top-notch amenities and well-developed infrastructure.
+                  </p>
+                </div>
+              </div>
+              <div class="advantages-element-icon">
+                <div class="wrap-advantages-icon">
+                  <!-- <i class="advantages-icon icon-c2t-disponibilidad"></i> -->
+                  <div class="sezfeatureiconsdiv">
+                    <img class="sezfeatureicons" src="../../static/img/building-icon.svg" alt="">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages-element">
+            <div class="wrap-advantages-element">
+              <div class="advantages-element-info">
+                <div class="wrap-advantages-info">
+                  <p class="advantages-info-text">
+                    Utilities
+                  </p>
+                  <p class="advantages-info-subtext">
+                    Enjoy uninterrupted power, water, and essential services.
+                  </p>
+                </div>
+              </div>
+              <div class="advantages-element-icon">
+                <div class="wrap-advantages-icon">
+                  <!-- <i class="advantages-icon icon-c2t-promociones"></i> -->
+                  <div class="sezfeatureiconsdiv">
+                    <img class="sezfeatureicons" src="../../static/img/utilities   -icon.svg" alt="">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages-element">
+            <div class="wrap-advantages-element">
+              <div class="advantages-element-info">
+                <div class="wrap-advantages-info">
+                  <p class="advantages-info-text">
+                    Employee Well-being
+                  </p>
+                  <p class="advantages-info-subtext">
+                    Provide recreational spaces and sports facilities for a balanced work-life.
+                  </p>
+                </div>
+              </div>
+              <div class="advantages-element-icon">
+                <div class="wrap-advantages-icon">
+                  <!-- <i class="advantages-icon icon-c2t-promociones"></i> -->
+                  <div class="sezfeatureiconsdiv">
+                    <img class="sezfeatureicons" src="../../static/img/wellbeing-icon.svg" alt="">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages-element">
+            <div class="wrap-advantages-element">
+              <div class="advantages-element-info">
+                <div class="wrap-advantages-info">
+                  <p class="advantages-info-text">
+                    Green Initiatives
+                  </p>
+                  <p class="advantages-info-subtext">
+                    Contribute to the environment with eco-friendly practices.
+                  </p>
+                </div>
+              </div>
+              <div class="advantages-element-icon">
+                <div class="wrap-advantages-icon">
+                  <!-- <i class="advantages-icon icon-c2t-promociones"></i> -->
+                  <div class="sezfeatureiconsdiv">
+                    <img class="sezfeatureicons" src="../../static/img/green-icon.svg" alt="">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages-element">
+            <div class="wrap-advantages-element">
+              <div class="advantages-element-info">
+                <div class="wrap-advantages-info">
+                  <p class="advantages-info-text">
+                    Safety Measures
+                  </p>
+                  <p class="advantages-info-subtext">
+                    Ensure a secure workplace with advanced security systems.
+                  </p>
+                </div>
+              </div>
+              <div class="advantages-element-icon">
+                <div class="wrap-advantages-icon">
+                  <!-- <i class="advantages-icon icon-c2t-promociones"></i> -->
+                  <div class="sezfeatureiconsdiv">
+                    <img class="sezfeatureicons" src="../../static/img/safety-icon.svg" alt="">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advantages-btns">
+        <div class="btn-more btn-show arrow-down js-open-advantages">
+          <p class="btn-more-text">SHOW MORE</p>
+        </div>
+        <div class="btn-more btn-hide arrow-up js-close-advantages">
+          <p class="btn-more-text">SHOW LESS</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -1438,10 +2253,300 @@
 
 
 
+<section class="footer-container">
+  <div class="wrap-footer-container">
+      <div class="footer-multimedia">
+          <div class="wrap-footer-multimedia">
+              <div class="footer-multimedia-gallery">
+                  <div class="wrap-footer-gallery">
+                      <div class="footer-gallery-info">
+                          <p class="footer-gallery-text">"We open our doors to visitors from all over the world"</p>
+                          <p class="footer-gallery-subtext">Million Minds Tech City </p>
+                      </div>
+                      <!-- <figure
+                          class="footer-gallery-img lazyload"
+                          data-filename="109-11cf1300x870.jpg"
+                          aria-label=""
+                          role="img"
+                      ></figure> -->
+                      <div class="footer-gallery-img" style="background-image: url('../../static/img/footer_image.jpg');">
+
+                      </div>
+                  </div>
+              </div>
+              <i class="btn-top btn-circle icon-arrow_top js-scroll-top">
+                  <span class="btn-top-text">Top</span>
+              </i>
+          </div>
+      </div>
+      <div class="footer-content">
+          <div class="wrapper">
+              <footer class="footer-links">
+                  <div class="wrap-footer-links">
+                      <div class="footer-links-info">
+                          <div class="wrap-footer-info">
+                              <div class="footer-info-element">
+                                  <div class="wrap-info-element">
+                                      <div class="info-element-header">
+                                          <div class="wrap-info-header">
+                                              <p class="info-header-title">Address</p>
+                                          </div>
+                                      </div>
+                                      <div class="info-element-content">
+                                          <div class="wrap-info-content">
+                                              <p class="info-content-text"> 
+                                                  MILLION MINDS TECH CITY</p>
+                                              <p class="info-content-text">OPPOSITE NIRMA UNIVERSITY
+
+                                                  – OFF. SG HIGHWAY,</p>
+                                              <p class="info-content-text"> AHMEDABAD,
+
+                                                  GUJARAT 382470</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="footer-info-element">
+                                  <div class="wrap-info-element">
+                                      <div class="info-element-header">
+                                          <div class="wrap-info-header">
+                                              <p class="info-header-title">HOTEL CONTACT</p>
+                                          </div>
+                                      </div>
+                                      <div class="info-element-content">
+                                          <div class="wrap-info-content">
+                                              <a href="tel:T. +34 971 905 905" class="info-content-text link">
+                                                  <span class="maintext">T.079 - 67776251</span>
+                                                  <!-- <span class="subtext">- Hotel</span> -->
+                                              </a>
+                                              <a href="tel:T. +34 971 905 905" class="info-content-text link" style="display: none">
+                                                  <span class="maintext">T.079 - 67776251</span>
+                                                  <!-- <span class="subtext">- Reservations</span> -->
+                                              </a>
+                                              <a href="mailto:enquiries@millionmindstechcity.com" class="info-content-text link">
+                                                  <span class="subtext first">Info -</span>
+                                                  <span class="maintext">enquiries@millionmindstechcity.com</span>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="footer-info-element" style="display: none">
+                                  <div class="wrap-info-element">
+                                      <div class="info-element-header">
+                                          <div class="wrap-info-header">
+                                              <p class="info-header-title">CONTACT RESTAURANT</p>
+                                          </div>
+                                      </div>
+                                      <div class="info-element-content">
+                                          <div class="wrap-info-content">
+                                              <a href="tel:079 - 67776251" class="info-content-text link">T. 079 - 67776251</a>
+                                              <a href="mailto:enquiries@millionmindstechcity.com" class="info-content-text link">enquiries@millionmindstechcity.com</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="footer-links-section">
+                          <a href="../contact/index.htm">
+                              <div class="wrap-footer-section">
+                                  <div class="footer-section-graphic">
+                                      <i class="section-graphic-icon icon-info"></i>
+                                  </div>
+                                  <div class="footer-section-info">
+                                      <div class="wrap-section-info">
+                                          <p class="section-info-text">Your journey begins here! Reach out to us now, and let’s transform your ideas into reality.</p>
+                                          <div class="section-info-btn btn-more arrow-right">
+                                              <p class="btn-more-text">Contact</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </a>
+                      </div>
+                      <!-- <div class="footer-links-socials">
+                          <div class="wrap-footer-socials">
+                              <div class="footer-socials-header">
+                                  <p class="socials-header-title">FIND US</p>
+                              </div>
+                              <div class="footer-socials-content">
+                                  <div class="wrap-socials-content">
+                                      <a href="" target="_blank" class="socials-content-element icon-instagram"></a>
+                                      <a href="" target="_blank" class="socials-content-element icon-facebook"></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> -->
+                      <!-- <div class="footer-links-partners">
+                          <div class="wrap-footer-partners">
+                              <div class="footer-partners-header">
+                                  <p class="partners-header-title">OUR COLLECTION</p>
+                              </div>
+                              <div class="footer-partners-content">
+                                  <div class="partners-content-element">
+                                      <a href="https://hotelsantfrancesc.com/" target="_blank">
+                                          <div class="wrap-partnerns-element">
+                                              <img
+                                                  src=""
+                                                  class="partnerns-element-img lazyload-static"
+                                                  alt="Hotel Sant Francesc"
+                                                  data-filename="/static/svg/logos/logo-tipo-icon.svg"
+                                              >
+                                              <p class="partnerns-element-text">Palma</p>
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="partners-content-element">
+                                      <a href="https://hotelvillasoro.com/" target="_blank">
+                                          <div class="wrap-partnerns-element">
+                                              <img
+                                                  src=""
+                                                  class="partnerns-element-img lazyload-static"
+                                                  alt="Hotel Villa Soro"
+                                                  data-filename="/static/svg/logos/villa_soro_logo.svg"
+                                              >
+                                              <p class="partnerns-element-text">San Sebastián</p>
+                                          </div>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> -->
+                      <div class="footer-links-partners">
+                          <div class="wrap-footer-partners">
+                              <div class="footer-partners-header">
+                                  <p class="partners-header-title">Partners</p>
+                              </div>
+                              <div class="footer-partners-content">
+                                  <div class="partners-content-element">
+                                      <div class="wrap-partnerns-element footer_partner_flex">
+                                          <img
+                                              src="https://millionmindstechcity.com/wp-content/uploads/2023/12/rsp-logo.png"
+                                              class="partnerns-element-img lazyload-static"
+                                              alt="Small Luxury Hotels"
+                                              
+                                          >
+                                          <img
+                                              src="https://millionmindstechcity.com/wp-content/uploads/2023/12/tsi-logo.png"
+                                              class="partnerns-element-img lazyload-static"
+                                              alt="Small Luxury Hotels"
+                                              
+                                          >
+                                          <img
+                                              src="https://millionmindstechcity.com/wp-content/uploads/2023/12/ganesh-housing-logo.png"
+                                              class="partnerns-element-img lazyload-static"
+                                              alt="Small Luxury Hotels"
+                                              
+                                          >
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- <div class="footer-links-partners">
+                          <div class="wrap-footer-partners">
+                              <div class="footer-partners-header">
+                                  <p class="partners-header-title">Awards</p>
+                              </div>
+                              <div class="footer-partners-content">
+                                  <div class="partners-content-element">
+                                      <div class="wrap-partnerns-element">
+                                          <img
+                                              src=""
+                                              class="partnerns-element-img lazyload-static"
+                                              alt="Michelin"
+                                              data-filename="/static/svg/logos/cf_premio_1.svg"
+                                          >
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div> -->
+                  </div>
+              </footer>
+              <footer class="footer-static ">
+                  <div class="wrap-footer-static">
+                      
+                      <div class="footer-static-content">
+                          <ul class="static-content-links">
+                             
+                              <li class="content-links-element">
+                                  <div class="wrap-links-element js-open-popup" data-selection="employment">
+                                      <p class="links-element-text">Privacy Policy</p>
+                                  </div>
+                              </li>
+                              <li class="content-links-element js-open-popup" data-selection="newsletter">
+                                  <div class="wrap-links-element">
+                                      <p class="links-element-text">Cookie Policy</p>
+                                  </div>
+                              </li>
+                              <li class="content-links-element">
+                                  <a href="">
+                                      <div class="wrap-links-element">
+                                          <p class="links-element-text">Terms Of Use</p>
+                                      </div>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="footer-static-header">
+                          <div class="wrap-static-header">
+                              <p class="static-header-title">© 2024 Ganesh Housing Corporation, All rights Reserved.</p>
+                          </div>
+                      </div>
+                  </div>
+              </footer>
 
 
 
-    <div class="big-wrapper tablet-space">
+              <!-- <div class="popup-module" data-popup="employment">
+                  <div class="popup-backmask js-close-popup"></div>
+                  <div class="popup-box bigger">
+                      <div class="wrap-popup-box">
+                          <i class="close-popup btn-circle js-close-popup icon-cerrar"></i>
+                          <div class="popup-box-content">
+                              <div class="popup-schedules">
+                                  <div class="wrap-schedules">
+                                      <div class="schedules-header">
+                                          <div class="wrap-schedules-header">
+                                              <p class="schedules-header-title">Work with us</p>
+                                              <p class="schedules-header-subtitle">Can Ferrereta</p>
+                                          </div>
+                                      </div>
+                                      <ul class="schedules-list">
+                                          <li class="schedules-element">
+                                              <div class="wrap-schedules-element">
+                                                  <p class="schedules-element-title longer text">If you would like to share your talent and immerse yourself in this wonderful project, please send your CV and a cover letter to</p>
+                                              </div>
+                                          </li>
+                                          <li class="schedules-element">
+                                              <div class="wrap-schedules-element">
+                                                  <a href="mailto:HM@HOTELCANFERRERETA.COM" class="schedules-element-title longer bold" target="_blank">HM@HOTELCANFERRERETA.COM</a>
+                                              </div>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div> -->
+
+
+
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+    <!-- <div class="big-wrapper tablet-space">
       <footer class="footer-static full-size">
         <div class="wrap-footer-static">
           <div class="footer-static-header">
@@ -1508,7 +2613,7 @@
         </div>
       </footer>
 
-      <!-- EMPLOYMENT POPUP -->
+     
       <div class="popup-module" data-popup="employment">
         <div class="popup-backmask js-close-popup"></div>
         <div class="popup-box bigger">
@@ -1550,8 +2655,8 @@
           </div>
         </div>
       </div>
-      <!-- // EMPLOYMENT POPUP // -->
-    </div>
+     
+    </div> -->
     <div class="footer-end background-white">
       <div class="big-wrapper">
         <div class="wrap-footer-end">
@@ -1585,7 +2690,7 @@
         </div>
       </div>
     </div>
-    <aside class="cookies-module">
+    <!-- <aside class="cookies-module">
       <div class="wrap-cookies">
         <i class="cookies-icon icon-info"></i>
         <p class="cookies-text">Cookie notice</p>
@@ -1601,7 +2706,7 @@
           >
         </div>
       </div>
-    </aside>
+    </aside> -->
     <!-- NEWSLETTER POPUP -->
     <div class="popup-module full-page" data-popup="newsletter">
       <div class="popup-backmask js-close-popup"></div>
@@ -1879,6 +2984,7 @@
 
     <!-- custom script end_footer   -->
     <!-- /custom script end_footer   -->
+     <script src="../events/script.js"></script>
     <script>
       AOS.init();
     </script>
