@@ -270,7 +270,7 @@
     text-align: center;
 }
 .wrap-partnerns-element svg{
-  width: 150px;
+  width: 100px;
   fill: #8c8782;
   transition: all 0.5s;
   cursor: pointer;
@@ -351,6 +351,11 @@
   text-align: left;
 }
 
+
+.master_accordian{
+  padding: 0px 60px 0px 60px;
+}
+
 .accordion-content {
   max-height: 0;
   overflow: hidden;
@@ -371,8 +376,30 @@
       overflow: hidden !important;
     }
 
+    .accordion-header .redwine {
+  transition: transform 0.3s ease;
+}
+/* Rotate the SVG icon when the accordion is active */
+.accordion-header.active ~ .redwine {
+  transform: rotate(45deg);
+}
+
+#section2{
+  overflow-x: hidden !important;
+}
+
+
+
+
+
+
 
     @media (max-width: 540px) {
+
+      .master_accordian{
+  padding: 0px 40px 0px 40px;
+}
+
       .accordion-header {
   padding: 10px;
   font-size: 20px;
@@ -431,7 +458,59 @@
     width: 30px;
     padding: 5px;
 }
+.discoverkeyfeatures {
+    padding: 10px;
 }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+  .accordion-header {
+  /* background-color: #007bff; */
+  color: #86bce3;
+  cursor: pointer;
+  padding: 30px;
+  text-align: left;
+  border: none;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 600;
+  /* border-radius: 4px; */
+  outline: none;
+  transition: background-color 0.3s ease;
+  flex-grow: 1;
+  text-align: left;
+}
+.discoverkeyfeatures {
+    padding: 15px;
+}
+}
+
+
+@media (min-width:1025px) and (max-width:1440px) {
+  .accordion-header {
+  /* background-color: #007bff; */
+  color: #86bce3;
+  cursor: pointer;
+  padding: 30px;
+  text-align: left;
+  border: none;
+  width: 100%;
+  font-size: 38px;
+  font-weight: 600;
+  /* border-radius: 4px; */
+  outline: none;
+  transition: background-color 0.3s ease;
+  flex-grow: 1;
+  text-align: left;
+}
+.discoverkeyfeatures {
+    padding: 20px;
+}
+.visionaries_heading {
+    padding: 40px 135px;
+}
+}
+
 
 
 
@@ -1577,7 +1656,7 @@
 
 
 <section id="section" class="galleries-module info-right background-white">
-  <div class="big-wrapper">
+  <div class="master_accordian">
       <div class="wrap-galleries-module">
           <div class="galleries-content">
               <div class="wrap-galleries-content">
@@ -1586,7 +1665,7 @@
                       <div class="accordian_flex" >
                           <div class="accordian_number">01.</div>
                           <button class="accordion-header active" data-always-open="true">1,69,0000 Sq.ft.</button>
-                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <svg class="accordian_icon redwine"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
                          
                          
                           <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
@@ -1599,7 +1678,7 @@
                       <div class="accordian_flex">
                           <div class="accordian_number">02.</div>
                           <button class="accordion-header">300,000 Lakhs Sq.ft.</button>
-                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <svg class="accordian_icon redwine"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
                           <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content">
@@ -1610,7 +1689,7 @@
                       <div class="accordian_flex">
                           <div class="accordian_number">03.</div>
                           <button class="accordion-header">3,00,000 Sq.ft.</button>
-                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <svg class="accordian_icon redwine"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
                           <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content">
@@ -1621,7 +1700,7 @@
                       <div class="accordian_flex">
                           <div class="accordian_number">04.</div>
                           <button class="accordion-header">52,000,00 Sq.ft.</button>
-                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <svg class="accordian_icon redwine"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
                           <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content">
@@ -1632,7 +1711,7 @@
                       <div class="accordian_flex">
                           <div class="accordian_number">05.</div>
                           <button class="accordion-header">Current Development- Phase 1</button>
-                          <svg class="accordian_icon"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
+                          <svg class="accordian_icon redwine"   clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z"/></svg>
                           <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content">
