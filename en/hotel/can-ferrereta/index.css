@@ -237,6 +237,17 @@
     
     }
   }
+  @media(max-width:375px){
+    .visionaries_heading{
+      font-size: 22px;
+      padding-left: 1rem !important;
+    
+    }
+    .galleries-module .wrap-galleries-module {
+        position: relative;
+        padding: 0px 0 !important;
+      }
+  }
   @media (max-width: 1679px) {
     .big-wrapper {
       padding: 0 85px;
