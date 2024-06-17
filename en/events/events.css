@@ -19,7 +19,150 @@
   gap: 4rem !important;
 }
 
-.accordion-header.active {
+
+
+/* 
+.btn-4 {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #1c75b7!important;
+  font-size: 18px;
+  cursor: pointer;
+  /* margin: 20px 30px; */
+  /* background: rgba(0, 0, 0, 0.09); */
+  /* padding: 25px 80px; */
+}
+
+.btn-4 .span {
+  color: #1c75b7; /* Ensure the text color is visible */
+  text-decoration: none; /* Remove underline */
+}
+
+.span {
+  display: block;
+  padding: 15px 30px;
+}
+
+.btn-4::before, .btn-4::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #1c75b7;
+}
+
+.span::before, .span::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #1c75b7;
+}
+
+.btn-4:hover::before, .btn-4:hover::after {
+  width: 100%;
+}
+
+.btn-4:hover .span::before, .btn-4:hover .span::after {
+  height: 100%;
+}
+
+.btn-4::after {
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-4 .span::after {
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-4::before {
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-4 .span::before {
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+} */
+
+
+
+
+
+/* button{
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px 30px;
+  background: rgba(0,0,0,0.09);
+}
+.span{
+  display: block;
+  padding: 25px 80px;
+}
+button::before, button::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #000000;
+}
+
+.span::before, .span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #000000;
+}
+button:hover::before, button:hover::after{
+  width: 100%;
+}
+button:hover .span::before, button:hover .span::after{
+  height: 100%;
+}
+
+
+.btn-4::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.btn-4 .span::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.btn-4::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.btn-4 .span::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+} */
+
+
+
+.accordion-header .active {
   color: #1c75b6;
 }
 
