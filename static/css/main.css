@@ -84,6 +84,7 @@ img {
 svg:not(:root) {
   transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
   overflow: hidden;
+  cursor: pointer;
 }
 fieldset {
   border: 1px solid silver;
@@ -393,6 +394,10 @@ html .ui-button.ui-state-disabled:active {
   .wrapper {
     padding: 0 15px;
   }
+}
+
+.full-intern{
+  overflow-x: hidden !important;
 }
 .lightboxOverlay {
   background-color: #fff !important;
@@ -4269,9 +4274,9 @@ body.motor .motor-page {
     display: none;
   }
 }
-.top-module-video {
+/* .top-module-video {
   display: none;
-}
+} */
 @media (min-width: 1280px) {
   .top-module-video {
     position: absolute;
