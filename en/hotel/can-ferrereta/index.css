@@ -240,7 +240,7 @@
   @media(max-width:375px){
     .visionaries_heading{
       font-size: 22px;
-      padding-left: 1rem !important;
+      /* padding-left: 1rem !important; */
     
     }
     .galleries-module .wrap-galleries-module {
