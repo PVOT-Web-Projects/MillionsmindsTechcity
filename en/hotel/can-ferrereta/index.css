@@ -4021,7 +4021,7 @@
     }
   }
   .top-module-logoicon {
-    display: none;
+    display: block;
     position: absolute;
     z-index: 2;
     top: 25px;
@@ -4032,7 +4032,7 @@
     display: inline-block;
     width: 50px;
     height: auto;
-    filter: brightness(5);
+    /* filter: brightness(5); */
   }
   @media (min-width: 540px) {
     .top-module-logoicon {
