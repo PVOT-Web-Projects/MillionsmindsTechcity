@@ -395,6 +395,10 @@ html .ui-button.ui-state-disabled:active {
     padding: 0 15px;
   }
 }
+
+.full-intern{
+  overflow-x: hidden !important;
+}
 .lightboxOverlay {
   background-color: #fff !important;
   opacity: 1 !important;

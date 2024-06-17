@@ -95,6 +95,10 @@
   transition-duration: 0.4s;
 } */
 
+
+.full-intern{
+  overflow-x: hidden !important;
+}
 .accordion-header.active{
   color:red !important;
 }
