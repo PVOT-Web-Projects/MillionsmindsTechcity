@@ -82,12 +82,14 @@
       href="../../../static/fonts/c2t/style.css"
     />
     <!-- /Webfonts -->
-
+ <!-- AOS  -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- CSSTheme -->
     <link
       rel="stylesheet"
       type="text/css"
-      href="../../../static/css/main.css"
+      href="../../../en/hotel/can-ferrereta/index.css"
     />
     <!-- /CSSTheme -->
 
@@ -395,7 +397,7 @@
                     >
                       <a href="../../gallery/index.htm">
                         <div class="wrap-links-element">
-                          <p class="dropdown-element-text">AMENITIES</p>
+                          <h2 class="dropdown-element-text">AMENITIES</h2>
                         </div>
                       </a>
                     </div>
@@ -463,86 +465,65 @@
     <!-- video -->
     <section class="top-module video-active advantages-active">
       <div class="wrap-top-module">
-        <div class="top-module-video">
-          <div class="wrap-top-video">
-            <img src="../../../static/img/Phase1Banner.png" alt="none" />
-            <!-- <video
-              class="top-video-element video-active"
-              poster="../../../static/img/Phase1Banner.png"
-              muted=""
-              autoplay=""
-              loop=""
-              style="display: none"
-            >
-              <source
-                src="../../../static/video/2022_video_cf_hotel.mp4"
-                type="video/mp4"
+        <div class="top-module-logo">
+          <div class="wrap-top-logo">
+            <img class="top-logo-img" src="./static/img/mainLogo.png" alt="" />
+          </div>
+        </div>
+        <div class="top-module-logoicon">
+          <a href="index.htm">
+            <div class="wrap-top-logoicon">
+              <img
+                class="top-logoicon-img"
+                src="../../../static/img/mainLogo.png"
+                alt=""
               />
-            </video> -->
-            <div
-              class="wrap-top-video responsive-resize"
-              style="
-                background-image: url(../../../static/img/Phase1Banner.png);
-              "
-              data-filename="Phase1Banner.png"
-              data-zone="home"
-            >
-              <div id="YouTubeVideoPlayer" class="top-video-element"></div>
+            </div>
+          </a>
+        </div>
+        <div class="top-module-video">
+          <div
+            class="wrap-top-video responsive-resize"
+            style="
+              opacity: 1;
+              background-image: url(../../../static/img/Phase1Banner.png);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+            "
+            data-filename="593-13cfport1800x935.jpg"
+          >
+            <!-- <div id="YouTubeVideoPlayer" class="top-video-element"></div> -->
+          </div>
+        </div>
+        <div class="top-module-gallery">
+          <div class="wrap-top-gallery">
+            <div class="top-gallery-slider js-top-slider">
+              <img src="../../../static/img/Phase1Banner.png" alt="" srcset="" class="top-slider-img">
+              <!-- <figure
+                class="top-slider-img lazyload"
+                title=""
+                aria-label=""
+                role="img"
+                data-filename="593-13cfport1800x935.jpg"
+                data-section="home"
+              ></figure> -->
             </div>
           </div>
         </div>
 
-        <div class="top-module-gallery">
-          <div class="wrap-top-gallery">
-            <div class="top-gallery-slider js-top-slider">
-              <figure
-                class="top-slider-img lazyload"
-                aria-label=""
-                role="img"
-                data-filename="464-6cfport1800x935.jpg"
-              ></figure>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="top-module-breadcrumbs">
-          <div class="wrap-top-breadcrumbs">
-            <ul class="breadcrumbs-list">
-              <li class="breadcrumbs-element">
-                <a href="../../index.htm">
-                  <div class="wrap-breadcrumbs-element">
-                    <p class="breadcrumbs-element-text">Home</p>
-                  </div>
-                </a>
-              </li>
-              <li class="breadcrumbs-element active">
-                <a href="#">
-                  <div class="wrap-breadcrumbs-element">
-                    <p class="breadcrumbs-element-text">Can Ferrereta</p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div> -->
         <div class="top-module-scroll">
           <div class="wrap-top-scroll js-scroll-down">
-            <p class="top-scroll-title">Phase 1</p>
-            <p class="top-scroll-text">
-              Discover the beginning of a new era with Phase 1, where every
-              corner is designed for excellence and innovation.
-            </p>
-            <p class="top-scroll-hover">
-              Discover the beginning of a new era with Phase 1, where every
-              corner is designed for excellence and innovation.
-            </p>
-            <!-- <i class="top-scroll-icon"></i> -->
+            <p class="top-scroll-text">PHASE 1</p>
+            <p class="top-scroll-hover">Discover the beginning of a new era with Phase 1, where every corner is designed for excellence and innovation.</p>
+            <i class="top-scroll-icon"></i>
           </div>
-          <i
-            class="top-module-newsletter top-module-btn js-open-popup icon-sobre btn-circle btn-white"
+          <!-- <i
+            class="top-module-newsletter top-module-btn js-open-popup full-page-popup icon-sobre btn-circle btn-white"
             data-selection="newsletter"
-          >
-            <p class="btn-circle-text right">Newsletter</p>
-          </i>
+          > -->
+            <!-- <p class="btn-circle-text right">Newsletter</p> -->
+          <!-- </i> -->
           <i
             class="top-module-login top-module-btn js-open-popup icon-persona btn-circle btn-white"
             data-selection="login"
@@ -590,28 +571,28 @@
     <div class="devices-header">
       <div class="wrap-devices-header">
         <div class="devices-header-logo">
-          <a href="/index.php">
+          <a href="#">
             <img
-              src="../../../static/svg/logos/logo_simbolo_1.svg"
+              src="../../../static/img/mainLogo.png"
               class="logo"
             />
           </a>
         </div>
-        <div class="devices-header-info">
+        <!-- <div class="devices-header-info">
           <div class="big-wrapper">
             <p class="devices-header-title">CAN FERRERETA</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- overview -->
     <section id="section1" class="advantages-module">
-      <div class="footer-links-partners">
+      <div class="footer-links-partners aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
         <div class="wrap-footer-partners">
           <div class="footer-partners-header" style="padding: 0 50px">
-            <p class="partners-header-title" style="font-size: 20px">
+            <h2 class="visionaries_heading" >
               OVERVIEW
-            </p>
+            </h2>
             <p
               class="partners-header-title"
               style="width: 70%; padding-top: 1rem"
@@ -625,11 +606,11 @@
             </p>
           </div>
           <div class="footer-partners-content">
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/overview1.png"
+                    src="../../../static/img/building.png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -639,11 +620,11 @@
                 </div>
               <!-- </a> -->
             </div>
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/overview2.png"
+                    src="../../../static/img/up-and-down-arrows.png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -653,11 +634,11 @@
                 </div>
               <!-- </a> -->
             </div>
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/overview3.png"
+                    src="../../../static/img/height.png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -667,11 +648,11 @@
                 </div>
               <!-- </a> -->
             </div>
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate"  data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/overview4.png"
+                    src="../../../static/img/charger-back.png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -679,11 +660,11 @@
                 </div>
               <!-- </a> -->
             </div>
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/overview5.png"
+                    src="../../../static/img/circle.png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -702,8 +683,8 @@
       <div class="big-wrapper">
         <div class="wrap-promotions-module">
           <div class="promotions-header">
-            <div class="wrap-promotions-header">
-              <p class="promotions-header-title">
+            <div class="wrap-promotions-header aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+              <p class="visionaries_heading" style="text-transform: uppercase;">
                 Lifestyle at Million Minds Tech City
               </p>
               <!-- <p class="promotions-header-subtitle">Can Ferrereta NEWS</p> -->
@@ -715,7 +696,7 @@
           </div>
           <div class="promotions-content">
             <div class="promotions-slider js-promotions-slider">
-              <div class="promotions-element">
+              <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
                 <div class="wrap-promotions-element">
                   <div class="promotion-img">
                     <!-- <a href="#"> -->
@@ -738,7 +719,7 @@
                 </div>
               </div>
 
-              <div class="promotions-element">
+              <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
                 <div class="wrap-promotions-element">
                   <div class="promotion-img">
                     <!-- <a href="#"> -->
@@ -761,7 +742,7 @@
                 </div>
               </div>
 
-              <div class="promotions-element">
+              <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
                 <div class="wrap-promotions-element">
                   <div class="promotion-img">
                     <!-- <a href="#"> -->
@@ -783,7 +764,7 @@
                   </div>
                 </div>
               </div>
-              <div class="promotions-element">
+              <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
                 <div class="wrap-promotions-element">
                   <div class="promotion-img">
                     <!-- <a href="#"> -->
@@ -805,7 +786,7 @@
                   </div>
                 </div>
               </div>
-              <div class="promotions-element">
+              <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
                 <div class="wrap-promotions-element">
                   <div class="promotion-img">
                     <!-- <a href="#"> -->
@@ -827,7 +808,7 @@
                   </div>
                 </div>
               </div>
-              <div class="promotions-element">
+              <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
                 <div class="wrap-promotions-element">
                   <div class="promotion-img">
                     <!-- <a href="#"> -->
@@ -862,12 +843,12 @@
 
     <!-- AMENITIES section -->
     <section id="section1" class="advantages-module">
-      <div class="footer-links-partners">
+      <div class="footer-links-partners aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
         <div class="wrap-footer-partners">
           <div class="footer-partners-header" style="padding: 0 50px">
-            <p class="partners-header-title" style="font-size: 20px">
+            <h2 class="visionaries_heading" style="text-transform: uppercase;">
               Amenities
-            </p>
+            </h2>
             <p
               class="partners-header-title"
               style="width: 70%; padding-top: 1rem"
@@ -883,23 +864,26 @@
             </p>
           </div>
           <div class="footer-partners-content">
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
-                  <img
-                    src="../../../static/img/amenities1.png"
-                    class="partnerns-element-img lazyload-static"
+                  
+
+  
+                  <img    
+                    src="../../../static/img/visitor.svg"
+                    class="partnerns-element-img lazyload-static hoverimg"
                     alt="Hotel Villa Soro"
                   />
                   <p class="partnerns-element-text">Visitor Center</p>
                 </div>
               <!-- </a> -->
             </div>
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/amenities2.png"
+                    src="../../../static/img/solar-panel.png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -907,11 +891,11 @@
                 </div>
               <!-- </a> -->
             </div>
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/amenities3.png"
+                    src="../../../static/img/gym.png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -919,11 +903,11 @@
                 </div>
               <!-- </a> -->
             </div>
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/amenities4.png"
+                    src="../../../static/img/atm.png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -931,11 +915,11 @@
                 </div>
               <!-- </a> -->
             </div>
-            <div class="partners-content-element" style="width: 20%">
+            <div class="partners-content-element aos-init aos-animate" data-aos="fade-up" data-aos-duration="900"  style="width: 20%">
               <!-- <a href="https://hotelvillasoro.com/" target="_blank"> -->
                 <div class="wrap-partnerns-element">
                   <img
-                    src="../../../static/img/amenities5.png"
+                    src="../../../static/img/open-book (1).png"
                     class="partnerns-element-img lazyload-static"
                     alt="Hotel Villa Soro"
                   />
@@ -949,136 +933,560 @@
     </section>
 
      <!-- utilities -->
-  <section class="agenda-module">
-    <div class="big-wrapper">
-      <div class="wrap-agenda-module">
-        <p class="agenda-pretitle">utilities</p>
-        <div class="agenda-header">
-          <div class="wrap-agenda-header">
-            <p class="agenda-header-title">UTILITIES</p>
-            <!-- <p class="agenda-header-subtitle">MAJORCA SINGULAR</p> -->
+     <section class="galleries-module info-right active-nav background-white">
+      <h2 class="visionaries_heading" style="padding-left: 3rem;">UTILITIES</h2>
+      <div class="big-wrapper" data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="10"
+      data-aos-once="true"
+      data-aos-easing="ease-in-out">
+
+        <div class="wrap-galleries-module">
+          <div class="galleries-info">
+            <!-- <p class="galleries-info-title">OUR ROOMS</p> -->
+            <div class="galleries-info-counter">
+              <div class="slider-counter">
+                <span class="counter-num">0</span>
+                <span class="counter-total">0</span>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="agenda-content">
-          <ul class="agenda-list">
-            <li class="agenda-element">
-              <!-- <a href="agenda/2/mercado-santanyi/index.htm"> -->
-                <div class="wrap-agenda-element">
-                  <div class="agenda-element-img">
-                    <div class="wrap-agenda-img">
-                      <figure
-                        class="img lazyload"
-                        data-filename="140-a1cf1300x870.jpg"
-                        aria-label="SANTANYÍ MARKET"
+          <div class="galleries-content">
+            <div class="wrap-galleries-content">
+              <div class="galleries-content-images">
+                <div class="galleries-images-slider js-images-slider">
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <!-- <figure
+                        class="images-element-photo lazyload"
+                        aria-label="DELUXE"
                         role="img"
+                        data-filename="597-01cfhabdeluxe1300x870.jpg"
+                      ></figure> -->
+                      <div
+                        class="images-element-photo"
+                        style="
+                          background-image: url('../../../static/img/about-us-lhs.png');
+                        "
+                        aria-label="DELUXE"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <div
+                        class="images-element-photo"
+                        style="
+                          background-image: url('../../../static/img/Phase1Banner.png');
+                        "
+                        aria-label="DELUXE"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <div
+                        class="images-element-photo"
+                        style="
+                          background-image: url('../../../static/img/about-us-lhs.png');
+                        "
+                        aria-label="DELUXE"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <div
+                        class="images-element-photo"
+                        style="
+                          background-image: url('../../../static/img/Phase1Banner.png');
+                        "
+                        aria-label="DELUXE"
+                      ></div>
+                    </div>
+                  </div>
+                  <!-- <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <figure
+                        class="images-element-photo lazyload"
+                        aria-label="Duplex Suite"
+                        role="img"
+                        data-filename="512-01cfhabduplexsuite1300x870.jpg"
                       ></figure>
                     </div>
                   </div>
-                  <div class="agenda-element-info">
-                    <div class="wrap-agenda-info">
-                      <p class="agenda-info-title">Utility Services Available at Million Minds Tech City Phase 1</p>
-                      <p class="agenda-info-subtitle">
-                        Reliable Power and Backup Systems
-                      </p>
-                      <!-- <p class="agenda-info-date">15-07-2020</p> -->
-                      <p class="agenda-info-text">
-                        100% Power Backup: N+1 redundancy with underground diesel storage for 48 hours.
-                      </p>
-                      <p class="agenda-info-text">
-                         Electric Vehicle Charging: Dedicated charging stations for electric vehicles.  </p>
-                      <div class="agenda-info-btns">
-                        <!-- <div class="wrap-btns"> -->
-                          <!-- <div class="btn-more arrow-right">
-                            <p class="btn-more-text">SEE ALL</p>
-                          </div> -->
-                        <!-- </div> -->
-                      </div>
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <figure
+                        class="images-element-photo lazyload"
+                        aria-label="SANTANYÍ SUITE"
+                        role="img"
+                        data-filename="511-01cfhabsantanyisuite1300x870.jpg"
+                      ></figure>
                     </div>
                   </div>
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <figure
+                        class="images-element-photo lazyload"
+                        aria-label="Can Ferrereta Suite"
+                        role="img"
+                        data-filename="513-16cfhabcanferreretasuite1300x870.jpg"
+                      ></figure>
+                    </div>
+                  </div>
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <figure
+                        class="images-element-photo lazyload"
+                        aria-label="Terrace Suite"
+                        role="img"
+                        data-filename="652-156cf1300x870.jpg"
+                      ></figure>
+                    </div>
+                  </div>
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <figure
+                        class="images-element-photo lazyload"
+                        aria-label="Pool Suite"
+                        role="img"
+                        data-filename="515-12cfhabpoolsuite1300x870.jpg"
+                      ></figure>
+                    </div>
+                  </div>
+                  <div class="images-slider-element">
+                    <div class="wrap-images-element">
+                      <figure
+                        class="images-element-photo lazyload"
+                        aria-label="NEST "
+                        role="img"
+                        data-filename="509-01cfhabnest1300x870.jpg"
+                      ></figure>
+                    </div>
+                  </div> -->
                 </div>
-              <!-- </a> -->
-            </li>
-            <li class="agenda-element">
-                <!-- <a href="agenda/2/mercado-santanyi/index.htm"> -->
-                  <div class="wrap-agenda-element">
-                    <div class="agenda-element-img">
-                      <div class="wrap-agenda-img">
-                        <figure
-                          class="img lazyload"
-                          data-filename="140-a1cf1300x870.jpg"
-                          aria-label="SANTANYÍ MARKET"
-                          role="img"
-                        ></figure>
-                      </div>
+              </div>
+
+              <div class="galleries-content-info">
+                <div class="galleries-info-slider js-info-slider">
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <!-- <p class="info-element-title">Reliable Power and Backup Systems</p> -->
+                      <p class="info-element-subtitle">Reliable Power and Backup Systems</p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong>100% Power Backup:</strong> N+1 redundancy with underground diesel storage for 48 hours.
+                      </p>
+                      <p class="info-element-text">
+                        <strong>Electric Vehicle Charging:</strong> Dedicated charging stations for electric vehicles.
+                        <!-- <a
+                          href="https://ganeshhousing.com/"
+                          target="_blank"
+                          rel="noopener"
+                          tabindex="-1"
+                          >Visit our website to learn more.</a
+                        > -->
+                      </p>
+                      <!-- <div class="flex-item text-center ganesh-logo-flex">
+                        <p>A project by</p>
+                        <img
+                          src="./static/img/ganesh-housing-logo.png"
+                          alt="Ganesh Logo"
+                          class="nav-link active"
+                          id="ghcl-con-anchor"
+                        />
+                      </div> -->
+                      <!-- <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/deluxe-room/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
+                        </div>
+                      </div> -->
                     </div>
-                    <div class="agenda-element-info">
-                      <div class="wrap-agenda-info">
-                        <p class="agenda-info-title">Utility Services Available at Million Minds Tech City Phase 1</p>
-                        <p class="agenda-info-subtitle">
-                          Reliable Power and Backup Systems
+                  </div>
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <!-- <p class="info-element-title">Tishman Speyer</p> -->
+                      <p class="info-element-subtitle">
+                        Energy Efficiency and Air Quality
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong>Energy Efficient Air Conditioning:</strong> Advanced systems for electrical, PHE, FPS, and control.
+    
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                       <strong> High COP Centrifugal Chillers:</strong> Water-cooled chillers with VFD and N+1 configuration.
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong> Demand Control Ventilation: </strong> CO2 sensors and MERV-8 & 14 filters for superior air quality.
+                       </p>
+                       <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong> Advanced Air Handling Units:</strong> Cooling towers and units with electronically commutated motors (EC Fans).
+                       </p>
+                      <!-- <div class="flex-item text-center ganesh-logo-flex">
+                        <p>DM Partner</p>
+                        <img
+                          src="./static/img/tsi-logo.png"
+                          alt="TSI"
+                          class="nav-link active"
+                          id="ghcl-con-anchor"
+                        />
+                      </div> -->
+                      <!-- <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/privilege-room/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <!-- <p class="info-element-title">RSP</p> -->
+                      <p class="info-element-subtitle">
+                        Eco-Friendly and Sustainable Systems
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong> Drain Recovery:</strong> Efficient recovery systems for condensate drainage.
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong>High-Efficiency Motors:</strong>IE-3 rated motors for air handling units, pumps, and other systems.
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                       <strong> Car Park Ventilation:</strong> Dry type, energy-efficient transformers to minimize energy loss.
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong> Solar Panels: </strong> Harnessing solar energy with grid-interactive PV systems on the terrace.
+                       </p>
+                       <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong>Occupancy Sensor Lighting:</strong>Automated lighting control for common areas based on occupancy.
+                       </p>
+                      <!-- <div class="flex-item text-center ganesh-logo-flex">
+                        <p>
+                          Architectural <br />
+                          Design Consultant
                         </p>
-                        <!-- <p class="agenda-info-date">15-07-2020</p> -->
-                        <p class="agenda-info-text">
-                          100% Power Backup: N+1 redundancy with underground diesel storage for 48 hours.
+                        <img
+                          src="./static/img/rsp-logo.png"
+                          alt="RSP"
+                          class="nav-link active"
+                          id="ghcl-con-anchor"
+                        />
+                      </div> -->
+                      <!-- <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/junior-suite/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <!-- <p class="info-element-title">RSP</p> -->
+                      <p class="info-element-subtitle">
+                        Comprehensive Building Management
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong> 24/7 Building Monitoring:</strong> Continuous monitoring through the Building Management System (BMS) for air conditioning, fire protection, water levels, power, and lifts.
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                        <strong>Sewage Treatment Plant:</strong>Compliant with pollution control norms and MoEF requirements, ensuring zero sewerage water discharge.
+                      </p>
+                      <p class="info-element-text" style="margin-bottom: 10px">
+                       <strong> Wastewater Treatment: </strong> Treated to tertiary standards and reused for cooling towers and irrigation.
+                      </p>
+                      <!-- <div class="flex-item text-center ganesh-logo-flex">
+                        <p>
+                          Architectural <br />
+                          Design Consultant
                         </p>
-                        <p class="agenda-info-text">
-                           Electric Vehicle Charging: Dedicated charging stations for electric vehicles.  </p>
-                        <div class="agenda-info-btns">
-                          <!-- <div class="wrap-btns"> -->
-                            <!-- <div class="btn-more arrow-right">
-                              <p class="btn-more-text">SEE ALL</p>
-                            </div> -->
-                          <!-- </div> -->
+                        <img
+                          src="./static/img/rsp-logo.png"
+                          alt="RSP"
+                          class="nav-link active"
+                          id="ghcl-con-anchor"
+                        />
+                      </div> -->
+                      <!-- <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/junior-suite/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                  <!-- <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <p class="info-element-pretitle">OUR ROOMS</p>
+                      <p class="info-element-title">Duplex Suite</p>
+                      <p class="info-element-subtitle">SPACIOUS AND SPLENDID</p>
+                      <p class="info-element-text">
+                        Our DUPLEX SUITE has two levels and benefits from
+                        impressive ceilings up to 6 m high. An extraordinary
+                        space with an original 17th-century stone arch that
+                        blends elegantly with the modern design and contemporary
+                        art.
+                      </p>
+                      <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/duplex-suite/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
                         </div>
                       </div>
                     </div>
                   </div>
-                <!-- </a> -->
-              </li>
-              <li class="agenda-element">
-                <!-- <a href="agenda/2/mercado-santanyi/index.htm"> -->
-                  <div class="wrap-agenda-element">
-                    <div class="agenda-element-img">
-                      <div class="wrap-agenda-img">
-                        <figure
-                          class="img lazyload"
-                          data-filename="140-a1cf1300x870.jpg"
-                          aria-label="SANTANYÍ MARKET"
-                          role="img"
-                        ></figure>
-                      </div>
-                    </div>
-                    <div class="agenda-element-info">
-                      <div class="wrap-agenda-info">
-                        <p class="agenda-info-title">Utility Services Available at Million Minds Tech City Phase 1</p>
-                        <p class="agenda-info-subtitle">
-                          Reliable Power and Backup Systems
-                        </p>
-                        <!-- <p class="agenda-info-date">15-07-2020</p> -->
-                        <p class="agenda-info-text">
-                          100% Power Backup: N+1 redundancy with underground diesel storage for 48 hours.
-                        </p>
-                        <p class="agenda-info-text">
-                           Electric Vehicle Charging: Dedicated charging stations for electric vehicles.  </p>
-                        <div class="agenda-info-btns">
-                          <!-- <div class="wrap-btns"> -->
-                            <!-- <div class="btn-more arrow-right">
-                              <p class="btn-more-text">SEE ALL</p>
-                            </div> -->
-                          <!-- </div> -->
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <p class="info-element-pretitle">OUR ROOMS</p>
+                      <p class="info-element-title">SANTANYÍ SUITE</p>
+                      <p class="info-element-subtitle">CONTEMPORARY ELEGANCE</p>
+                      <p class="info-element-text">
+                        Our SANTANYÍ SUITE offers guests a generously sized room
+                        with extremely high ceilings. Modern in style with fine
+                        materials, its insightful design includes
+                        state-of-the-art amenities, natural light and
+                        contemporary art.
+                      </p>
+                      <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/santanyi-suite/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
                         </div>
                       </div>
                     </div>
                   </div>
-                <!-- </a> -->
-              </li>
-               
-          </ul>
-        
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <p class="info-element-pretitle">OUR ROOMS</p>
+                      <p class="info-element-title">Can Ferrereta Suite</p>
+                      <p class="info-element-subtitle">ART AND EXCLUSIVITY</p>
+                      <p class="info-element-text">
+                        CAN FERRERETA SUITE, one of our most exclusive suites
+                        with stunning views through its French balcony,
+                        perfectly represents the heart and soul of this
+                        17th-century Mallorcan mansion. Solemnity and nobility
+                        in a large space combining art and elegance to
+                        perfection.
+                      </p>
+                      <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/can-ferrereta-suite/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <p class="info-element-pretitle">OUR ROOMS</p>
+                      <p class="info-element-title">Terrace Suite</p>
+                      <p class="info-element-subtitle">
+                        EXCELLENCE, SPACE AND NATURE
+                      </p>
+                      <p class="info-element-text">
+                        Magnificent rooms measuring 50 m2 offering a private
+                        garden with sun loungers and exclusive use of an outdoor
+                        shower.
+                      </p>
+                      <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/terrace-suite/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <p class="info-element-pretitle">OUR ROOMS</p>
+                      <p class="info-element-title">Pool Suite</p>
+                      <p class="info-element-subtitle">
+                        DISTINCTION, SPLENDOUR AND PRIVACY
+                      </p>
+                      <p class="info-element-text">
+                        Our POOL SUITE is the most exclusive room at Can
+                        Ferrereta. Bright, with high ceilings, generous spaces,
+                        independent lounge, bedroom, bathroom and guest toilet
+                        plus a magnificent design and high-quality amenities.
+                        Exclusive garden with a 4x2 m pool inspired by the
+                        island&rsquo;s former typical lavoirs known as
+                        safareigs. Private areas where you can sunbathe or enjoy
+                        relaxing under the garden&rsquo;s pergola surrounded by
+                        greenery.
+                      </p>
+                      <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/CanFerreretaHotel/pool-suite/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-slider-element">
+                    <div class="wrap-info-element">
+                      <p class="info-element-pretitle">OUR ROOMS</p>
+                      <p class="info-element-title">NEST</p>
+                      <p class="info-element-subtitle">INTIMATE AND CONFORT</p>
+                      <p class="info-element-text">
+                        Our NEST room combines elegance and design, which is
+                        ideal for guests seeking an intimate, cosy space.
+                      </p>
+                      <div class="info-element-btns">
+                        <div class="btn-more arrow-right">
+                          <a
+                            href="hotel/can-ferrereta/nest-room/index.htm"
+                            class="btn-more-text"
+                            >SEE ROOM</a
+                          >
+                        </div>
+                        <div class="btn-corp">
+                          <a
+                            href="//booking.hotelcanferrereta.com/hotelcanferrereta.com/en/availability?1=1"
+                            target="_blank"
+                            class="btn-corp-text"
+                            >Book now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="galleries-nav">
+            <div class="galleries-nav-pointer"></div>
+            <div class="wrap-galleries-nav">
+              <div
+                class="galleries-nav-element js-slider active"
+                data-slide="0"
+              >
+                <div class="wrap-nav-element">
+                  <p class="nav-element-text">GHCL</p>
+                </div>
+              </div>
+              <div
+                class="galleries-nav-element js-slider active"
+                data-slide="1"
+              >
+                <div class="wrap-nav-element">
+                  <p class="nav-element-text">Tishman Speyer</p>
+                </div>
+              </div>
+              <div
+                class="galleries-nav-element js-slider active"
+                data-slide="2"
+              >
+                <div class="wrap-nav-element">
+                  <p class="nav-element-text">RSP</p>
+                </div>
+              </div>
+             
+            </div>
+          </div> -->
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
 <!-- life 3d slider -->
@@ -1086,8 +1494,8 @@
     <div class="big-wrapper">
       <div class="wrap-promotions-module">
         <div class="promotions-header">
-          <div class="wrap-promotions-header">
-            <p class="promotions-header-title">
+          <div class="wrap-promotions-header aos-init aos-animate" data-aos="fade-up" data-aos-duration="900">
+            <p class="visionaries_heading" style="text-transform: uppercase;">
                 Explore Our 3D Floorplates
             </p>
             <!-- <p class="promotions-header-subtitle">Can Ferrereta NEWS</p> -->
@@ -1099,7 +1507,7 @@
         </div>
         <div class="promotions-content">
           <div class="promotions-slider js-promotions-slider">
-            <div class="promotions-element">
+            <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
               <div class="wrap-promotions-element">
                 <div class="promotion-img">
                   <!-- <a href="#"> -->
@@ -1121,7 +1529,7 @@
                 </div>
               </div>
             </div>
-            <div class="promotions-element">
+            <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
                 <div class="wrap-promotions-element">
                   <div class="promotion-img">
                     <!-- <a href="#"> -->
@@ -1143,7 +1551,7 @@
                   </div>
                 </div>
               </div>
-              <div class="promotions-element">
+              <div class="promotions-element aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
                 <div class="wrap-promotions-element">
                   <div class="promotion-img">
                     <!-- <a href="#"> -->
@@ -1177,10 +1585,10 @@
   </section>
 
 <!-- masterplan -->
-  <section class="banner-module" style="padding-top: 0">
+  <section class="banner-module aos-init aos-animate" data-aos="fade-up" data-aos-duration="900" style="padding-top: 0">
     <div class="big-wrapper">
       <div class="wrap-banner-module" style="padding-top: 0">
-        <p class="partners-header-title" style="font-size: 20px; text-align: center; padding: 20px 0;">
+        <p class="visionaries_heading" style="text-align: center; padding-bottom: 1rem;">
             OVERVIEW
           </p>
         <!-- <p style="text-align: center; padding: 10px 0;" class="btn-more-text">Masterplan</p> -->
@@ -1785,7 +2193,295 @@
         </div>
       </div>
     </section> -->
+    <section class="footer-container">
+      <div class="wrap-footer-container">
+          <div class="footer-multimedia">
+              <div class="wrap-footer-multimedia">
+                  <div class="footer-multimedia-gallery">
+                      <div class="wrap-footer-gallery">
+                          <div class="footer-gallery-info">
+                              <p class="footer-gallery-text">"We open our doors to visitors from all over the world"</p>
+                              <p class="footer-gallery-subtext">Million Minds Tech City </p>
+                          </div>
+                          <div class="footer-gallery-img" style="background-image: url('../../../static/img/footer_image.jpg');">
 
+                          </div>
+                      </div>
+                  </div>
+                  <i class="btn-top btn-circle icon-arrow_top js-scroll-top">
+                      <span class="btn-top-text">Top</span>
+                  </i>
+              </div>
+          </div>
+          <div class="footer-content">
+              <div class="wrapper">
+                  <footer class="footer-links">
+                      <div class="wrap-footer-links">
+                          <div class="footer-links-info">
+                              <div class="wrap-footer-info">
+                                  <div class="footer-info-element">
+                                      <div class="wrap-info-element">
+                                          <div class="info-element-header">
+                                              <div class="wrap-info-header">
+                                                  <p class="info-header-title">Address</p>
+                                              </div>
+                                          </div>
+                                          <div class="info-element-content">
+                                              <div class="wrap-info-content">
+                                                  <p class="info-content-text"> 
+                                                      MILLION MINDS TECH CITY</p>
+                                                  <p class="info-content-text">OPPOSITE NIRMA UNIVERSITY
+
+                                                      – OFF. SG HIGHWAY,</p>
+                                                  <p class="info-content-text"> AHMEDABAD,
+
+                                                      GUJARAT 382470</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="footer-info-element">
+                                      <div class="wrap-info-element">
+                                          <div class="info-element-header">
+                                              <div class="wrap-info-header">
+                                                  <p class="info-header-title"> CONTACT</p>
+                                              </div>
+                                          </div>
+                                          <div class="info-element-content">
+                                              <div class="wrap-info-content">
+                                                  <a href="tel:T. +34 971 905 905" class="info-content-text link">
+                                                      <span class="maintext">T.079 - 67776251</span>
+                                                  </a>
+                                                  <a href="tel:T. +34 971 905 905" class="info-content-text link" style="display: none">
+                                                      <span class="maintext">T.079 - 67776251</span>
+                                                  </a>
+                                                  <a href="mailto:enquiries@millionmindstechcity.com" class="info-content-text link">
+                                                      <span class="subtext first">Info -</span>
+                                                      <span class="maintext">enquiries@millionmindstechcity.com</span>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="footer-info-element" style="display: none">
+                                      <div class="wrap-info-element">
+                                          <div class="info-element-header">
+                                              <div class="wrap-info-header">
+                                                  <p class="info-header-title">CONTACT RESTAURANT</p>
+                                              </div>
+                                          </div>
+                                          <div class="info-element-content">
+                                              <div class="wrap-info-content">
+                                                  <a href="tel:079 - 67776251" class="info-content-text link">T. 079 - 67776251</a>
+                                                  <a href="mailto:enquiries@millionmindstechcity.com" class="info-content-text link">enquiries@millionmindstechcity.com</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="footer-links-section">
+                              <a href="../contact/index.htm">
+                                  <div class="wrap-footer-section">
+                                      <div class="footer-section-graphic">
+                                          <i class="section-graphic-icon icon-info"></i>
+                                      </div>
+                                      <div class="footer-section-info">
+                                          <div class="wrap-section-info">
+                                              <p class="section-info-text">Your journey begins here! Reach out to us now, and let’s transform your ideas into reality.</p>
+                                              <div class="section-info-btn btn-more arrow-right">
+                                                  <p class="btn-more-text">Contact</p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+                          </div>
+                          <!-- <div class="footer-links-socials">
+                              <div class="wrap-footer-socials">
+                                  <div class="footer-socials-header">
+                                      <p class="socials-header-title">FIND US</p>
+                                  </div>
+                                  <div class="footer-socials-content">
+                                      <div class="wrap-socials-content">
+                                          <a href="" target="_blank" class="socials-content-element icon-instagram"></a>
+                                          <a href="" target="_blank" class="socials-content-element icon-facebook"></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div> -->
+                          <!-- <div class="footer-links-partners">
+                              <div class="wrap-footer-partners">
+                                  <div class="footer-partners-header">
+                                      <p class="partners-header-title">OUR COLLECTION</p>
+                                  </div>
+                                  <div class="footer-partners-content">
+                                      <div class="partners-content-element">
+                                          <a href="https://hotelsantfrancesc.com/" target="_blank">
+                                              <div class="wrap-partnerns-element">
+                                                  <img
+                                                      src=""
+                                                      class="partnerns-element-img lazyload-static"
+                                                      alt="Hotel Sant Francesc"
+                                                      data-filename="/static/svg/logos/logo-tipo-icon.svg"
+                                                  >
+                                                  <p class="partnerns-element-text">Palma</p>
+                                              </div>
+                                          </a>
+                                      </div>
+                                      <div class="partners-content-element">
+                                          <a href="https://hotelvillasoro.com/" target="_blank">
+                                              <div class="wrap-partnerns-element">
+                                                  <img
+                                                      src=""
+                                                      class="partnerns-element-img lazyload-static"
+                                                      alt="Hotel Villa Soro"
+                                                      data-filename="/static/svg/logos/villa_soro_logo.svg"
+                                                  >
+                                                  <p class="partnerns-element-text">San Sebastián</p>
+                                              </div>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div> -->
+                          <div class="footer-links-partners">
+                              <div class="wrap-footer-partners">
+                                  <div class="footer-partners-header">
+                                      <p class="partners-header-title">Partners</p>
+                                  </div>
+                                  <div class="footer-partners-content">
+                                      <div class="partners-content-element">
+                                          <div class="wrap-partnerns-element footer_partner_flex">
+                                              <img
+                                                  src="https://millionmindstechcity.com/wp-content/uploads/2023/12/rsp-logo.png"
+                                                  class="partnerns-element-img lazyload-static"
+                                                  alt="Small Luxury Hotels"
+                                                  
+                                              >
+                                              <img
+                                                  src="https://millionmindstechcity.com/wp-content/uploads/2023/12/tsi-logo.png"
+                                                  class="partnerns-element-img lazyload-static"
+                                                  alt="Small Luxury Hotels"
+                                                  
+                                              >
+                                              <img
+                                                  src="https://millionmindstechcity.com/wp-content/uploads/2023/12/ganesh-housing-logo.png"
+                                                  class="partnerns-element-img lazyload-static"
+                                                  alt="Small Luxury Hotels"
+                                                  
+                                              >
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- <div class="footer-links-partners">
+                              <div class="wrap-footer-partners">
+                                  <div class="footer-partners-header">
+                                      <p class="partners-header-title">Awards</p>
+                                  </div>
+                                  <div class="footer-partners-content">
+                                      <div class="partners-content-element">
+                                          <div class="wrap-partnerns-element">
+                                              <img
+                                                  src=""
+                                                  class="partnerns-element-img lazyload-static"
+                                                  alt="Michelin"
+                                                  data-filename="/static/svg/logos/cf_premio_1.svg"
+                                              >
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div> -->
+                      </div>
+                  </footer>
+                  <footer class="footer-static ">
+                      <div class="wrap-footer-static">
+                          
+                          <div class="footer-static-content">
+                              <ul class="static-content-links">
+                                 
+                                  <li class="content-links-element">
+                                      <div class="wrap-links-element js-open-popup" data-selection="employment">
+                                          <p class="links-element-text">Privacy Policy</p>
+                                      </div>
+                                  </li>
+                                  <li class="content-links-element js-open-popup" data-selection="newsletter">
+                                      <div class="wrap-links-element">
+                                          <p class="links-element-text">Cookie Policy</p>
+                                      </div>
+                                  </li>
+                                  <li class="content-links-element">
+                                      <a href="">
+                                          <div class="wrap-links-element">
+                                              <p class="links-element-text">Terms Of Use</p>
+                                          </div>
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+                          <div class="footer-static-header">
+                              <div class="wrap-static-header">
+                                  <p class="static-header-title">© 2024 Ganesh Housing Corporation, All rights Reserved.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </footer>
+
+
+
+                  <!-- <div class="popup-module" data-popup="employment">
+                      <div class="popup-backmask js-close-popup"></div>
+                      <div class="popup-box bigger">
+                          <div class="wrap-popup-box">
+                              <i class="close-popup btn-circle js-close-popup icon-cerrar"></i>
+                              <div class="popup-box-content">
+                                  <div class="popup-schedules">
+                                      <div class="wrap-schedules">
+                                          <div class="schedules-header">
+                                              <div class="wrap-schedules-header">
+                                                  <p class="schedules-header-title">Work with us</p>
+                                                  <p class="schedules-header-subtitle">Can Ferrereta</p>
+                                              </div>
+                                          </div>
+                                          <ul class="schedules-list">
+                                              <li class="schedules-element">
+                                                  <div class="wrap-schedules-element">
+                                                      <p class="schedules-element-title longer text">If you would like to share your talent and immerse yourself in this wonderful project, please send your CV and a cover letter to</p>
+                                                  </div>
+                                              </li>
+                                              <li class="schedules-element">
+                                                  <div class="wrap-schedules-element">
+                                                      <a href="mailto:HM@HOTELCANFERRERETA.COM" class="schedules-element-title longer bold" target="_blank">HM@HOTELCANFERRERETA.COM</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div> -->
+
+
+
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
+<!-- important -->
+  <div class="footer-end background-white">
+      <div class="big-wrapper">
+          <div class="wrap-footer-end">
+          </div>
+      </div>
+  </div>
     <!--TODO: include de esta section? sale en bastantes fichas-->
     <!-- <section class="footer-container">
       <div class="wrap-footer-container">
@@ -2505,5 +3201,8 @@
         }
       }
     </script>
+      <script>
+        AOS.init();
+      </script>
   </body>
 </html>
