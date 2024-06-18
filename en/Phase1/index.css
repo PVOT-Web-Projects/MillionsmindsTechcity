@@ -2,84 +2,19 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "Poppins" !important;
   }
   :after,
   :before {
     box-sizing: border-box;
   }
+  
   @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-Thin.ttf');
-    font-weight: 100;
+    font-family: 'opulent regular';
+    src:  url('../../static/font/OPN.TTF');
+    font-weight: normal;
     font-style: normal;
     font-display: block;
   }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-ExtraLight.ttf');
-    font-weight: 200;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-Light.ttf');
-    font-weight: 300;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-Medium.ttf');
-    font-weight: 500;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-SemiBold.ttf');
-    font-weight: 600;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-Bold.ttf');
-    font-weight: 700;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-ExtraBold.ttf');
-    font-weight: 800;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../static/font/Poppins-Black.ttf');
-    font-weight: 900;
-    font-style: normal;
-    font-display: block;
-  }
-  
   html,
   body {
     width: 100%;
@@ -87,7 +22,7 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: "Poppins" !important;
+    font-family: "opulent regular" ,"sans-serif";
     font-size: 14px;
     line-height: 1;
     color: #494542;
@@ -426,7 +361,7 @@
     max-height: 768px !important;
   }
   .lb-data .lb-caption {
-    /* font-family: "Brown", sans-serif; */
+    font-family: "Brown", sans-serif;
     font-size: 16px !important;
     color: #8c8782;
     letter-spacing: 0.15em;
@@ -745,7 +680,7 @@
       vertical-align: middle;
       position: absolute;
       top: 50%;
-      /* font-family: "Brown", sans-serif; */
+      font-family: "Brown", sans-serif;
       font-size: 12px;
       font-weight: 400;
       color: #fff;
@@ -998,7 +933,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* font-family: "Brown", sans-serif; */
+    font-family: "Brown", sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -1008,7 +943,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    /* font-family: "Brown", sans-serif; */
+    font-family: "Brown", sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -1784,7 +1719,7 @@
       transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
     }
     .menu-languages .wrap-menu-languages .menu-languages-text {
-      /* font-family: "Brown", sans-serif; */
+      font-family: "Brown", sans-serif;
       font-size: 12px;
       font-weight: 400;
       color: #8c8782;
@@ -2265,6 +2200,7 @@
       left: 0;
       width: 100%;
       height: 100%;
+      background-image: url(../../static/img/defaultimgnav.jpg);
       background-position: 50% 50%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -2999,7 +2935,7 @@
     padding-bottom: 25px;
   }
   .gallery-subnav-head .wrap-subnav-head .subnav-head-intro {
-    /* font-family: "Brown", sans-serif; */
+    font-family: "Brown", sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -12687,5 +12623,5 @@
     transition-duration: 0.4s;
   }
   
-  
+
   
