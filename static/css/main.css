@@ -1777,7 +1777,7 @@ html .ui-button.ui-state-disabled:active {
     transform: translateY(-50%) translateX(0) scale(1);
     opacity: 1;
   }
-}
+
 @media (min-width: 540px) {
   .menu-button {
     height: 70px;
