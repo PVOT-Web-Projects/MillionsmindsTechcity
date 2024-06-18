@@ -2,14 +2,19 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "Poppins" !important;
   }
   :after,
   :before {
     box-sizing: border-box;
   }
   
-  
+  @font-face {
+    font-family: 'opulent regular';
+    src:  url('../../static/font/OPN.TTF');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
   html,
   body {
     width: 100%;
@@ -17,7 +22,7 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: "Opulence" ,"sans-serif";
+    font-family: "opulent regular" ,"sans-serif";
     font-size: 14px;
     line-height: 1;
     color: #494542;
@@ -356,7 +361,7 @@
     max-height: 768px !important;
   }
   .lb-data .lb-caption {
-    /* font-family: "Brown", sans-serif; */
+    font-family: "Brown", sans-serif;
     font-size: 16px !important;
     color: #8c8782;
     letter-spacing: 0.15em;
@@ -675,7 +680,7 @@
       vertical-align: middle;
       position: absolute;
       top: 50%;
-      /* font-family: "Brown", sans-serif; */
+      font-family: "Brown", sans-serif;
       font-size: 12px;
       font-weight: 400;
       color: #fff;
@@ -928,7 +933,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* font-family: "Brown", sans-serif; */
+    font-family: "Brown", sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -938,7 +943,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    /* font-family: "Brown", sans-serif; */
+    font-family: "Brown", sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -1714,7 +1719,7 @@
       transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
     }
     .menu-languages .wrap-menu-languages .menu-languages-text {
-      /* font-family: "Brown", sans-serif; */
+      font-family: "Brown", sans-serif;
       font-size: 12px;
       font-weight: 400;
       color: #8c8782;
@@ -2930,7 +2935,7 @@
     padding-bottom: 25px;
   }
   .gallery-subnav-head .wrap-subnav-head .subnav-head-intro {
-    /* font-family: "Brown", sans-serif; */
+    font-family: "Brown", sans-serif;
     font-size: 13px;
     font-weight: 400;
     color: #8c8782;
@@ -12618,5 +12623,5 @@
     transition-duration: 0.4s;
   }
   
-  
+
   
