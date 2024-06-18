@@ -389,7 +389,7 @@ body {
 .imgAnim {
   position: relative;
   transition: all 0.5s;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .imgAnim::before {
