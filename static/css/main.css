@@ -14,7 +14,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins';
+  /* font-family: 'Poppins'; */
   font-size: 14px;
   line-height: 1;
   color: #494542;
@@ -27,7 +27,6 @@ body.noscroll {
 figure {
   margin: 0;
 }
-p,
 a,
 h1,
 h2,
@@ -39,6 +38,18 @@ h6 {
   padding: 0;
   line-height: 1;
   font-weight: normal;
+  font-family: 'opulent regular' !important;
+}
+p,
+ul,
+li{
+  font-family: "Brown" !important;
+}
+div{
+  font-family: "Brown" !important;
+}
+button a{
+  font-family: "Brown" !important;
 }
 input[type="number"] {
   -moz-appearance: textfield;
@@ -956,6 +967,13 @@ html .ui-button.ui-state-disabled:active {
   font-style: normal;
   font-display: block;
 }
+@font-face {
+  font-family: 'Brown';
+  src:  url('../../static/font/BrownLight\ Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 /* 
 @font-face {
   font-family: 'poppins';
@@ -1164,6 +1182,7 @@ html .ui-button.ui-state-disabled:active {
   .breadcrumbs-element-text:after {
   background-color: #8c8782;
 }
+
 .breadcrumbs-element {
   display: inline-block;
   vertical-align: top;
