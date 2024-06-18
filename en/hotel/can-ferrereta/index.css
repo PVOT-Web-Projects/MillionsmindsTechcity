@@ -12579,3 +12579,78 @@
       padding-top: 3rem !important;
     }
   }
+  .btn-4 {
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: #8c8782 !important;
+    font-size: 18px;
+    cursor: pointer;
+    /* margin: 20px 30px; */
+    /* background: rgba(0, 0, 0, 0.09); */
+    /* padding: 25px 80px; */
+  }
+  
+  .btn-4 .span {
+    color: #8c8782; /* Ensure the text color is visible */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .span {
+    display: block;
+    padding: 15px 30px;
+  }
+  
+  .btn-4::before, .btn-4::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #8c8782;
+  }
+  
+  .span::before, .span::after {
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #8c8782;
+  }
+  
+  .btn-4:hover::before, .btn-4:hover::after {
+    width: 100%;
+  }
+  
+  .btn-4:hover .span::before, .btn-4:hover .span::after {
+    height: 100%;
+  }
+  
+  .btn-4::after {
+    right: 0;
+    bottom: 0;
+    transition-duration: 0.4s;
+  }
+  
+  .btn-4 .span::after {
+    right: 0;
+    bottom: 0;
+    transition-duration: 0.4s;
+  }
+  
+  .btn-4::before {
+    left: 0;
+    top: 0;
+    transition-duration: 0.4s;
+  }
+  
+  .btn-4 .span::before {
+    left: 0;
+    top: 0;
+    transition-duration: 0.4s;
+  }
+  
+  
+  
