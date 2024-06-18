@@ -5570,7 +5570,7 @@ body.motor .motor-page {
       content: "";
     }
     .btn-more.arrow-left .btn-more-text:after {
-      content: "";
+      content: "";
       left: auto;
       right: 100%;
       transform: translateY(-50%) rotate(180deg);
