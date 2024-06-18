@@ -668,17 +668,35 @@ html .ui-button.ui-state-disabled:active {
   background-color: #8c8782;
 }
 .btn-circle.slick-btn.slick-next:before {
-  content: "";
-  color: #fff;
-  font-size: 15px;
+  content: " ";
+    color: #fff;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../../../static/img/left_arrow.svg");
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+    top: 13%;
+    left: 15%;
 }
 .btn-circle.slick-btn.slick-prev {
   background-color: #8c8782;
 }
 .btn-circle.slick-btn.slick-prev:before {
-  content: "";
-  color: #fff;
-  font-size: 15px;
+  content: " ";
+    color: #fff;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../../../static/img/left_arrow.svg");
+    width: 30px;
+    height: 30px;
+    transform: rotate(360deg);
+    top: 13%;
+    left: 15%;
 }
 @media (min-width: 540px) {
   .btn-circle.slick-btn {
@@ -1673,7 +1691,7 @@ html .ui-button.ui-state-disabled:active {
     position: absolute;
     left: 0;
     width: 100%;
-    bottom: 8px;
+    bottom: 27px;
     font-family: 'Poppins';
     font-size: 14px;
     font-weight: 500;
