@@ -1609,7 +1609,7 @@ html .ui-button.ui-state-disabled:active {
 }
 .page-nav {
   position: fixed;
-  z-index: 99;
+  z-index: 9999;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -5570,7 +5570,7 @@ body.motor .motor-page {
       content: "";
     }
     .btn-more.arrow-left .btn-more-text:after {
-      content: "";
+      content: "";
       left: auto;
       right: 100%;
       transform: translateY(-50%) rotate(180deg);

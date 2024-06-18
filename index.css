@@ -58,6 +58,9 @@ body {
 .wrap-galleries-content {
   display: flex !important;
 }
+.full_w_slider{
+  display: block !important;
+}
 .galleries-images-slider {
   height: 100%;
 }
