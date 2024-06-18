@@ -2,6 +2,21 @@
 body {
   -webkit-text-size-adjust: auto !important;
 }
+.hero_banner_video{
+  position: relative;
+}
+.hero_banner_text_wrap{
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero_banner_text{
+  font-size: 35px !important;
+  color: #fff !important;
+  text-align: center;
+  padding: 0 20px;
+}
 .intro-info-header img {
   max-width: 100%;
   display: block;
