@@ -15,14 +15,23 @@
 
 .footer_partner_flex {
   display: flex !important;
-  flex-direction: column !important;
+  flex-direction: row !important;
   gap: 4rem !important;
 }
 
 .scroll_top{
   transform: rotate(90deg);
 }
-
+.mainlogoimg1{
+  max-width: 100px;
+}
+@media (max-width:575px){
+  .footer_partner_flex {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4rem !important;
+  }
+}
 /* 
 .btn-4 {
   display: inline-block;
