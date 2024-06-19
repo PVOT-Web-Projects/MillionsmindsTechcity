@@ -25396,3 +25396,21 @@ color: #8c8782;
   fill: #8c8782;
   border-color: #8c8782;
 }
+.wrap-top-scroll.js-scroll-down img{
+  width: 40px;
+  transform: rotate(-90deg);
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 20px 0 0;
+cursor: pointer;
+transition: all 0.5s;
+}
+.wrap-top-scroll.js-scroll-down{
+  display: flex;
+  justify-content: center;
+  
+}
+.wrap-top-scroll.js-scroll-down img:hover{
+  transform: scale(1.1) rotate(-90deg);
+}
