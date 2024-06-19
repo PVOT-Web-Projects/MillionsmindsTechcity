@@ -1275,8 +1275,14 @@ html .ui-button.ui-state-disabled:active {
   pointer-events: none;
 }
 .input-field.arrow-down .wrap-input-field:after {
-  content: "";
+  content: "";
+  background-image: url("../img/select_arrow.svg");
   font-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 17px;
 }
 .input-field.must {
   position: relative;
