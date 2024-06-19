@@ -15,25 +15,25 @@
     />
    
     <!-- Webfonts -->
-    <link
+    <!-- <link
       rel="stylesheet"
       type="text/css"
-      href="../../static/fonts/fontstyle.css"
+      href="../static/fonts/fontstyle.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="../../static/fonts/icomoon/style.css"
+      href="../static/fonts/icomoon/style.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="../../static/fonts/c2t/style.css"
-    />
+      href="../static/fonts/c2t/style.css"
+    /> -->
     <!-- /Webfonts -->
 
     <!-- CSSTheme -->
-    <link rel="stylesheet" type="text/css" href="../../static/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" />
     <!-- /CSSTheme -->
       <!-- AOS  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -43,7 +43,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="../../static/css/vendor/lightbox.min.css"
+      href="../static/css/vendor/lightbox.min.css"
       media="none"
       onload="if(media!='all')media='all'"
     />
@@ -51,19 +51,19 @@
       ><link
         rel="stylesheet"
         type="text/css"
-        href="../../static/css/vendor/lightbox.min.css"
+        href="../static/css/vendor/lightbox.min.css"
     /></noscript>
     <link
       rel="stylesheet"
       type="text/css"
-      href="../../static/css/vendor/slick.min.css"
+      href="../static/css/vendor/slick.min.css"
     />
     <!-- /CSSVendor -->
 
     <!-- Favicons -->
-    <link rel="icon" href="../../static/img/cropped-fav-icon-32x32.png" sizes="32x32" />
-    <link rel="icon" href="../../static/img/cropped-fav-icon-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="../../static/img/cropped-fav-icon-180x180.png" />
+    <link rel="icon" href="../static/img/cropped-fav-icon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../static/img/cropped-fav-icon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../static/img/cropped-fav-icon-180x180.png" />
    
     <!-- /Favicons -->
 
@@ -77,7 +77,10 @@
         font-size: 14px !important;
     }
     .images-element-photo {
-      object-fit: contain !important;
+      height: 100vh;
+      object-fit: cover ;
+      width: 100%;
+      object-position: bottom;
     }
     .top-scroll-title{
       color: #2f4d7f !important;
@@ -687,12 +690,11 @@
       <div class="wrap-page-nav">
         <!--		TODO: programar menu iconos respnsive-->
         <!-- DEVICES MEDIA LINKS -->
-        <div class="device-links">
+        <!-- <div class="device-links">
           <div class="wrap-device-links">
             <div class="device-links-element">
-              <a href="../../index.html">
+              <a href="../index.html">
                 <div class="wrap-link">
-                  <!-- <i class="link-icon icon-logo_simbolo_sf_1"></i> -->
                   <p class="link-text">Home</p>
                 </div>
               </a>
@@ -700,7 +702,6 @@
             <div class="device-links-element">
               <a href="../../en/events/index.html">
                 <div class="wrap-link">
-                  <!-- <i class="link-icon icon-bed"></i> -->
                   <p class="link-text">About Us</p>
                 </div>
               </a>
@@ -708,7 +709,6 @@
             <div class="device-links-element">
               <a href="../../en/awards/index.html">
                 <div class="wrap-link">
-                  <!-- <i class="link-icon icon-restaurante"></i> -->
                   <p class="link-text">Masterplan</p>
                 </div>
               </a>
@@ -716,7 +716,6 @@
             <div class="device-links-element">
               <a href="../../en/Phase1/index.html">
                 <div class="wrap-link">
-                  <!-- <i class="link-icon icon-gallery"></i> -->
                   <p class="link-text">Phase 1</p>
                 </div>
               </a>
@@ -724,13 +723,12 @@
             <div class="device-links-element">
               <a href="../../en/contact/index.html">
                 <div class="wrap-link">
-                  <!-- <i class="link-icon icon-sobre"></i> -->
                   <p class="link-text">Contact Us</p>
                 </div>
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
         <!--   BUTTON DROPDOWN -->
         <div class="menu-button js-open-menu">
           <div class="wrap-menu-button">
@@ -750,9 +748,9 @@
         </div> -->
         <!-- MENU LOGO -->
         <div class="menu-logo">
-          <a href="../../index.html">
+          <a href="../index.html">
             <!-- <i class="menu-logo-icon icon-logo_simbolo_sf_1"></i> -->
-            <img src="../../static/img/mainLogo.png" alt="logo" style="width: 100px;" />
+            <img src="../static/img/mainLogo.png" alt="logo" style="width: 100px;" />
           </a>
         </div>
         <!-- MENU DROPDOWN LINKS -->
@@ -786,9 +784,9 @@
                   <div class="wrap-dropdown-links">
                     <div
                       class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="../../static/img/homenav.jpg"
+                      data-placeholder="../static/img/homenav.jpg"
                     >
-                      <a href="../../index.html">
+                      <a href="../index.html">
                         <div class="wrap-links-element">
                           <p class="dropdown-element-text">Home</p>
                         </div>
@@ -796,9 +794,9 @@
                     </div>
                     <div
                       class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="../../static/img/aboutusnav.jpg"
+                      data-placeholder="../static/img/aboutusnav.jpg"
                     >
-                      <a href="../../en/events/index.html">
+                      <a href="../aboutUs/index.html">
                         <div class="wrap-links-element">
                           <p class="dropdown-element-text">About Us</p>
                         </div>
@@ -807,9 +805,9 @@
 
                     <div
                       class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="../../static/img/masterplannav.jpg"
+                      data-placeholder="../static/img/masterplannav.jpg"
                     >
-                      <a href="../../en/awards/index.html">
+                      <a href="../masterPlan/index.html">
                         <div class="wrap-links-element">
                           <p class="dropdown-element-text">Master Plan</p>
                         </div>
@@ -817,9 +815,9 @@
                     </div>
                     <div
                       class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="../../static/img/aminitiesnav.jpg"
+                      data-placeholder="../static/img/aminitiesnav.jpg"
                     >
-                      <a href="../../en/gallery/index.html">
+                      <a href="../amenities/index.html">
                         <div class="wrap-links-element">
                           <h2 class="dropdown-element-text">AMENITIES</h2>
                         </div>
@@ -827,10 +825,10 @@
                     </div>
                     <div
                       class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="../../static/img/phase1nav.jpg"
+                      data-placeholder="../static/img/phase1nav.jpg"
                     >
                     
-                      <a href="../../en/Phase1/index.html">
+                      <a href="../phase1/index.html">
                         <div class="wrap-links-element">
                           <p class="dropdown-element-text">Phase 1</p>
                         </div>
@@ -838,9 +836,9 @@
                     </div>
                     <div
                       class="dropdown-links-element js-swap-placehoder"
-                      data-placeholder="../../static/img/contactusnav.jpg"
+                      data-placeholder="../static/img/contactusnav.jpg"
                     >
-                      <a href="../../en/contact/index.html">
+                      <a href="../contact/index.html">
                         <div class="wrap-links-element">
                           <p class="dropdown-element-text">Contact Us</p>
                         </div>
@@ -1016,7 +1014,7 @@
       <div class="wrap-devices-header">
         <div class="devices-header-logo">
           <a href="../index.htm">
-            <img src="../../static/img/mainLogo.png" class="logo" />
+            <img src="../static/img/mainLogo.png" class="logo" />
           </a>
         </div>
       </div>
@@ -1151,7 +1149,7 @@
               <div 
              
               class="masterplanoneimg ">
-                <img  class="images-element-photo " src="../../static/img/masterplanimg1.png" alt="">
+                <img  class="images-element-photo " src="../static/img/masterplanimg1.png" alt="">
               </div>
             </div>
           </div>
@@ -1251,7 +1249,7 @@
                                   <div class="wrap-images-element">
                                       <!-- <figure class="images-element-photo lazyload" aria-label="DELUXE" role="img" data-filename="597-01cfhabdeluxe1300x870.jpg"></figure> -->
                                       <div>
-                                        <img  class="images-element-photo " src="../../static/img/masterplanimg2.jpg" alt="">
+                                        <img  class="images-element-photo " src="../static/img/masterplanimg2.jpg" alt="">
                                       </div>
                                     </div>
                               </div>
@@ -1311,11 +1309,11 @@
                                                       data-aos-duration="2000"
                                                       data-aos-delay="300"
                                                        class="gallery-list-element  gallery-list-elements " data-img="Hotel & Club">
-                                 <a href="../../backoffice/images/1.png" data-lightbox="all" title="Hotel & Club">
+                                 <a href="../backoffice/images/1.png" data-lightbox="all" title="Hotel & Club">
                                   <div class="wrap-gallery-element">
                                       <!-- <figure class="gallery-element-img lazyload" data-filename="643-150cf1300x870.jpg" role="img" aria-label="The Hotel"></figure> -->
                                        <div>
-                                          <img class="gallery-element-img"  src="../../backoffice/images/1.png" alt="">
+                                          <img class="gallery-element-img"  src="../backoffice/images/1.png" alt="">
                                        </div>
                                   </div>
                                   <!-- <div class="gallery-element-name">
@@ -1330,11 +1328,11 @@
                             data-aos-duration="2500"
                             data-aos-delay="500"
                                                           class="gallery-list-element gallery-list-elements" data-img="Neighborhood Mall">
-                                 <a href="../../backoffice/images/2.png" data-lightbox="all" title="Neighborhood Mall">
+                                 <a href="../backoffice/images/2.png" data-lightbox="all" title="Neighborhood Mall">
                                   <div class="wrap-gallery-element">
                                       <!-- <figure class="gallery-element-img lazyload" data-filename="595-00cf1300x870.jpg" role="img" aria-label="Neighborhood Mall"></figure> -->
                                       <div>
-                                          <img class="gallery-element-img"  src="../../backoffice/images/2.png" alt="">
+                                          <img class="gallery-element-img"  src="../backoffice/images/2.png" alt="">
                                        </div>
                                   </div>
                                   <!-- <div class="gallery-element-name">
@@ -1350,11 +1348,11 @@
                                                           data-aos-duration="3000"
                                                           data-aos-delay="1000"
                                                            class="gallery-list-element gallery-list-elements" data-img="Restaurants & Banquets">
-                                 <a href="../../backoffice/images/3..png" data-lightbox="all" title="Restaurants & Banquets">
+                                 <a href="../backoffice/images/3..png" data-lightbox="all" title="Restaurants & Banquets">
                                   <div class="wrap-gallery-element">
                                       <!-- <figure class="gallery-element-img lazyload" data-filename="410-06cf1300x870.jpg" role="img" aria-label="Restaurants & Banquets"></figure> -->
                                       <div>
-                                          <img class="gallery-element-img"  src="../../backoffice/images/3..png" alt="">
+                                          <img class="gallery-element-img"  src="../backoffice/images/3..png" alt="">
                                        </div>
                                   </div>
                                   <!-- <div class="gallery-element-name">
@@ -1369,11 +1367,11 @@
                   data-aos-duration="3500"
                             data-aos-delay="1500"
                                                           class="gallery-list-element gallery-list-elements" data-img="Landscape Gardens">
-                                 <a href="../../backoffice/images/4.png" data-lightbox="all" title="Landscape Gardens">
+                                 <a href="../backoffice/images/4.png" data-lightbox="all" title="Landscape Gardens">
                                   <div class="wrap-gallery-element">
-                                      <!-- <figure class="gallery-element-img lazyload" data-filename="../../backoffice/images/4.png" role="img" aria-label="Landscape Gardens"></figure> -->
+                                      <!-- <figure class="gallery-element-img lazyload" data-filename="../backoffice/images/4.png" role="img" aria-label="Landscape Gardens"></figure> -->
                                       <div>
-                                          <img class="gallery-element-img"  src="../../backoffice/images/4.png" alt="">
+                                          <img class="gallery-element-img"  src="../backoffice/images/4.png" alt="">
                                        </div>
                                   </div>
                                   <!-- <div class="gallery-element-name">
@@ -1391,98 +1389,98 @@
                                       <li class="gallery-list-element video" data-img="video">
             <div class="wrap-gallery-element">
               <video class="gallery-element-video" controls="">
-                <source src="../../static/video/01_CanFerrereta.mp4" type="video/mp4">
+                <source src="../static/video/01_CanFerrereta.mp4" type="video/mp4">
               </video>
             </div>
           </li>
           <li class="gallery-list-element video" data-img="video">
             <div class="wrap-gallery-element">
               <video class="gallery-element-video" controls="">
-                <source src="../../static/video/02_CanFerrereta.mp4" type="video/mp4">
+                <source src="../static/video/02_CanFerrereta.mp4" type="video/mp4">
               </video>
             </div>
           </li>
           <li class="gallery-list-element video" data-img="video">
             <div class="wrap-gallery-element">
               <video class="gallery-element-video" controls="">
-                <source src="../../static/video/03_CanFerrereta.mp4" type="video/mp4">
+                <source src="../static/video/03_CanFerrereta.mp4" type="video/mp4">
               </video>
             </div>
           </li>
           <li class="gallery-list-element video" data-img="video">
                           <div class="wrap-gallery-element">
                               <video class="gallery-element-video" controls="">
-                                  <source src="../../static/video/Cf-1080P006.m4v" type="video/mp4">
+                                  <source src="../static/video/Cf-1080P006.m4v" type="video/mp4">
                               </video>
                           </div>
                       </li>
           <li class="gallery-list-element video" data-img="video">
             <div class="wrap-gallery-element">
               <video class="gallery-element-video" controls="">
-                <source src="../../static/video/05_CanFerrereta.mp4" type="video/mp4">
+                <source src="../static/video/05_CanFerrereta.mp4" type="video/mp4">
               </video>
             </div>
           </li>
           <li class="gallery-list-element video" data-img="video">
             <div class="wrap-gallery-element">
               <video class="gallery-element-video" controls="">
-                <source src="../../static/video/Cf-1080P025.m4v" type="video/mp4">
+                <source src="../static/video/Cf-1080P025.m4v" type="video/mp4">
               </video>
             </div>
           </li>
           <li class="gallery-list-element video" data-img="video">
                           <div class="wrap-gallery-element">
                               <video class="gallery-element-video" controls="">
-                                  <source src="../../static/video/Cf-1080P016.m4v" type="video/mp4">
+                                  <source src="../static/video/Cf-1080P016.m4v" type="video/mp4">
                               </video>
                           </div>
                       </li>
           <li class="gallery-list-element video" data-img="video">
                           <div class="wrap-gallery-element">
                               <video class="gallery-element-video" controls="">
-                                  <source src="../../static/video/Cf-1080P068.m4v" type="video/mp4">
+                                  <source src="../static/video/Cf-1080P068.m4v" type="video/mp4">
                               </video>
                           </div>
                       </li>
           <li class="gallery-list-element video" data-img="video">
                           <div class="wrap-gallery-element">
                               <video class="gallery-element-video" controls="">
-                                  <source src="../../static/video/Cf-1080P075.m4v" type="video/mp4">
+                                  <source src="../static/video/Cf-1080P075.m4v" type="video/mp4">
                               </video>
                           </div>
                       </li>
           <li class="gallery-list-element video" data-img="video">
                           <div class="wrap-gallery-element">
                               <video class="gallery-element-video" controls="">
-                                  <source src="../../static/video/Cf-1080P098.m4v" type="video/mp4">
+                                  <source src="../static/video/Cf-1080P098.m4v" type="video/mp4">
                               </video>
                           </div>
                       </li>
           <li class="gallery-list-element video" data-img="video">
                           <div class="wrap-gallery-element">
                               <video class="gallery-element-video" controls="">
-                                  <source src="../../static/video/Cf-1080P100.m4v" type="video/mp4">
+                                  <source src="../static/video/Cf-1080P100.m4v" type="video/mp4">
                               </video>
                           </div>
                       </li>
           <li class="gallery-list-element video" data-img="video">
                           <div class="wrap-gallery-element">
                               <video class="gallery-element-video" controls="">
-                                  <source src="../../static/video/Cf-1080P114.m4v" type="video/mp4">
+                                  <source src="../static/video/Cf-1080P114.m4v" type="video/mp4">
                               </video>
                           </div>
                       </li>
           <li class="gallery-list-element video" data-img="video">
             <div class="wrap-gallery-element">
               <video class="gallery-element-video" controls="">
-                <source src="../../static/video/14_CanFerrereta.mp4" type="video/mp4">
+                <source src="../static/video/14_CanFerrereta.mp4" type="video/mp4">
               </video>
             </div>
           </li>
           <li class="gallery-list-element video" data-img="video">
                           <div class="wrap-gallery-element">
                               <video class="gallery-element-video" controls="">
-                                  <source src="../../static/video/Cf-1080P130.m4v" type="video/mp4">
+                                  <source src="../static/video/Cf-1080P130.m4v" type="video/mp4">
                               </video>
                           </div>
                       </li>
@@ -1636,7 +1634,7 @@
                           <svg clip-rule="evenodd" class="redwine accordian_icon " fill-rule="evenodd" height="30" width="30" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 11h-7.25c-.414 0-.75.336-.75.75s.336.75.75.75h7.25v7.25c0 .414.336.75.75.75s.75-.336.75-.75v-7.25h7.25c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-7.25v-7.25c0-.414-.336-.75-.75-.75s-.75.336-.75.75z" fill-rule="nonzero"/></svg>
                          
                          
-                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                          <!-- <img class="accordian_icon"  src="../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content" style="max-height: 100px !important;">
                           <p class="accordian_text">Unleash innovation at our tech park, designed to cultivate groundbreaking technological advancements and foster a culture of creativity and collaboration.</p>
@@ -1647,7 +1645,7 @@
                           <div class="accordian_number">02.</div>
                           <button class="accordion-header">300,000 Lakhs Sq.ft.Hotel space</button>
                           <svg clip-rule="evenodd" class="redwine accordian_icon " fill-rule="evenodd" height="30" width="30" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 11h-7.25c-.414 0-.75.336-.75.75s.336.75.75.75h7.25v7.25c0 .414.336.75.75.75s.75-.336.75-.75v-7.25h7.25c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-7.25v-7.25c0-.414-.336-.75-.75-.75s-.75.336-.75.75z" fill-rule="nonzero"/></svg>
-                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                          <!-- <img class="accordian_icon"  src="../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content">
                           <p  class="accordian_text">Hotel space, to elevate your stay with premium hospitality and luxurious accommodations.</p>
@@ -1658,7 +1656,7 @@
                           <div class="accordian_number">03.</div>
                           <button class="accordion-header">3,00,000 Sq.ft.neighborhood</button>
                           <svg clip-rule="evenodd" class="redwine accordian_icon " fill-rule="evenodd" height="30" width="30" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 11h-7.25c-.414 0-.75.336-.75.75s.336.75.75.75h7.25v7.25c0 .414.336.75.75.75s.75-.336.75-.75v-7.25h7.25c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-7.25v-7.25c0-.414-.336-.75-.75-.75s-.75.336-.75.75z" fill-rule="nonzero"/></svg>
-                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                          <!-- <img class="accordian_icon"  src="../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content">
                           <p  class="accordian_text">A Vibrant neighborhood mall enriching your lifestyle experience with every visit.</p>
@@ -1669,7 +1667,7 @@
                           <div class="accordian_number">04.</div>
                           <button class="accordion-header">52,000,00 Sq.ft. Residences</button>
                           <svg clip-rule="evenodd" class="redwine accordian_icon " fill-rule="evenodd" height="30" width="30" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 11h-7.25c-.414 0-.75.336-.75.75s.336.75.75.75h7.25v7.25c0 .414.336.75.75.75s.75-.336.75-.75v-7.25h7.25c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-7.25v-7.25c0-.414-.336-.75-.75-.75s-.75.336-.75.75z" fill-rule="nonzero"/></svg>
-                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                          <!-- <img class="accordian_icon"  src="../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content">
                           <p  class="accordian_text">Explore Residences apartments redefine opulence with stunning views, exquisite interiors, and unparalleled amenities.</p>
@@ -1680,7 +1678,7 @@
                           <div class="accordian_number">05.</div>
                           <button class="accordion-header">Current Development- Phase 1</button>
                           <svg clip-rule="evenodd" class="redwine accordian_icon " fill-rule="evenodd" height="30" width="30" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m11 11h-7.25c-.414 0-.75.336-.75.75s.336.75.75.75h7.25v7.25c0 .414.336.75.75.75s.75-.336.75-.75v-7.25h7.25c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-7.25v-7.25c0-.414-.336-.75-.75-.75s-.75.336-.75.75z" fill-rule="nonzero"/></svg>
-                          <!-- <img class="accordian_icon"  src="../../static/img/cross.svg" alt="acc-icon"> -->
+                          <!-- <img class="accordian_icon"  src="../static/img/cross.svg" alt="acc-icon"> -->
                       </div>
                       <div class="accordion-content">
                           <p  class="accordian_text">Spanning an impressive 1.3 MILLION SQUARE FEET,<br>
@@ -1739,7 +1737,7 @@
                 <div class="wrap-advantages-icon">
                   <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
                    <div class="sezfeatureiconsdiv">
-                    <img class="sezfeatureicons" src="../../static/img/tax-calculator-icon.svg" alt="">
+                    <img class="sezfeatureicons" src="../static/img/tax-calculator-icon.svg" alt="">
                    </div>
                 </div>
               </div>
@@ -1761,7 +1759,7 @@
                 <div class="wrap-advantages-icon">
                   <!-- <i class="advantages-icon icon-c2t-check_in"></i> -->
                   <div class="sezfeatureiconsdiv">
-                    <img class="sezfeatureicons" src="../../static/img/trust-icon.svg" alt="">
+                    <img class="sezfeatureicons" src="../static/img/trust-icon.svg" alt="">
                    </div>
                 </div>
               </div>
@@ -1779,7 +1777,7 @@
                 <div class="wrap-advantages-icon">
                   <!-- <i class="advantages-icon icon-c2t-sin_coste"></i> -->
                   <div class="sezfeatureiconsdiv">
-                    <img class="sezfeatureicons" src="../../static/img/accessibility-icon.svg" alt="">
+                    <img class="sezfeatureicons" src="../static/img/accessibility-icon.svg" alt="">
                    </div>
                 </div>
               </div>
@@ -1801,7 +1799,7 @@
                 <div class="wrap-advantages-icon">
                   <!-- <i class="advantages-icon icon-c2t-disponibilidad"></i> -->
                   <div class="sezfeatureiconsdiv">
-                    <img class="sezfeatureicons" src="../../static/img/building-icon.svg" alt="">
+                    <img class="sezfeatureicons" src="../static/img/building-icon.svg" alt="">
                    </div>
                 </div>
               </div>
@@ -1823,7 +1821,7 @@
                 <div class="wrap-advantages-icon">
                   <!-- <i class="advantages-icon icon-c2t-promociones"></i> -->
                   <div class="sezfeatureiconsdiv">
-                    <img class="sezfeatureicons" src="../../static/img/utilities   -icon.svg" alt="">
+                    <img class="sezfeatureicons" src="../static/img/utilities   -icon.svg" alt="">
                    </div>
                 </div>
               </div>
@@ -1845,7 +1843,7 @@
                 <div class="wrap-advantages-icon">
                   <!-- <i class="advantages-icon icon-c2t-promociones"></i> -->
                   <div class="sezfeatureiconsdiv">
-                    <img class="sezfeatureicons" src="../../static/img/wellbeing-icon.svg" alt="">
+                    <img class="sezfeatureicons" src="../static/img/wellbeing-icon.svg" alt="">
                    </div>
                 </div>
               </div>
@@ -1867,7 +1865,7 @@
                 <div class="wrap-advantages-icon">
                   <!-- <i class="advantages-icon icon-c2t-promociones"></i> -->
                   <div class="sezfeatureiconsdiv">
-                    <img class="sezfeatureicons" src="../../static/img/green-icon.svg" alt="">
+                    <img class="sezfeatureicons" src="../static/img/green-icon.svg" alt="">
                    </div>
                 </div>
               </div>
@@ -1889,7 +1887,7 @@
                 <div class="wrap-advantages-icon">
                   <!-- <i class="advantages-icon icon-c2t-promociones"></i> -->
                   <div class="sezfeatureiconsdiv">
-                    <img class="sezfeatureicons" src="../../static/img/safety-icon.svg" alt="">
+                    <img class="sezfeatureicons" src="../static/img/safety-icon.svg" alt="">
                    </div>
                 </div>
               </div>
@@ -1935,7 +1933,7 @@
                                         <img 
                                          class="images-element-photo " 
                                         
-                                        src="../../static/img/masterplanimg3.png" alt="">
+                                        src="../static/img/masterplanimg3.png" alt="">
                                       </div>
                                     </div>
                               </div>
@@ -2006,43 +2004,43 @@
               <div class="images-slider-element">
                 <div class="wrap-images-element">
                   
-                  <div class="images-element-photo" style="background-image: url('../../static/img/solarstreetlight.png')" aria-label="DELUXE"></div>
+                  <div class="images-element-photo" style="background-image: url('../static/img/solarstreetlight.png')" aria-label="DELUXE"></div>
                 </div>
               </div>
               <div class="images-slider-element">
                 <div class="wrap-images-element">
-                  <div class="images-element-photo" style="background-image: url('../../static/img/evchargingstation.png')" aria-label="DELUXE"></div>
+                  <div class="images-element-photo" style="background-image: url('../static/img/evchargingstation.png')" aria-label="DELUXE"></div>
                 </div>
               </div>
               <div class="images-slider-element">
                 <div class="wrap-images-element">
-                  <div class="images-element-photo" style="background-image: url('../../static/img/smartmeter.png')" aria-label="DELUXE"></div>
+                  <div class="images-element-photo" style="background-image: url('../static/img/smartmeter.png')" aria-label="DELUXE"></div>
                 </div>
               </div>
               <div class="images-slider-element">
                 <div class="wrap-images-element">
                   
-                  <div class="images-element-photo" style="background-image: url('../../static/img/bicyclesharing.png')" aria-label="DELUXE"></div>
+                  <div class="images-element-photo" style="background-image: url('../static/img/bicyclesharing.png')" aria-label="DELUXE"></div>
                 </div>
               </div>
               <div class="images-slider-element">
                 <div class="wrap-images-element">
-                  <div class="images-element-photo" style="background-image: url('../../static/img/evbikes.png')" aria-label="DELUXE"></div>
+                  <div class="images-element-photo" style="background-image: url('../static/img/evbikes.png')" aria-label="DELUXE"></div>
                 </div>
               </div>
               <div class="images-slider-element">
                 <div class="wrap-images-element">
-                  <div class="images-element-photo" style="background-image: url('../../static/img/evbuses.png')" aria-label="DELUXE"></div>
+                  <div class="images-element-photo" style="background-image: url('../static/img/evbuses.png')" aria-label="DELUXE"></div>
                 </div>
               </div>
               <div class="images-slider-element">
                 <div class="wrap-images-element">
-                  <div class="images-element-photo" style="background-image: url('../../static/img/solarpanelss.png')" aria-label="DELUXE"></div>
+                  <div class="images-element-photo" style="background-image: url('../static/img/solarpanelss.png')" aria-label="DELUXE"></div>
                 </div>
               </div>
               <div class="images-slider-element">
                 <div class="wrap-images-element">
-                  <div class="images-element-photo" style="background-image: url('../../static/img/greenbuilding.png')" aria-label="DELUXE"></div>
+                  <div class="images-element-photo" style="background-image: url('../static/img/greenbuilding.png')" aria-label="DELUXE"></div>
                 </div>
               </div>
               
@@ -2380,7 +2378,7 @@
                           aria-label=""
                           role="img"
                       ></figure> -->
-                      <div class="footer-gallery-img" style="background-image: url('../../static/img/footer_image.jpg');">
+                      <div class="footer-gallery-img" style="background-image: url('../static/img/footer_image.jpg');">
 
                       </div>
                   </div>
@@ -2481,10 +2479,10 @@
                 </div>
               </div>
               <div class="footer-links-section">
-                <a href="../../en/contact/index.html">
+                <a href="../contact/index.html">
                   <div class="wrap-footer-section">
                     <div class="footer-section-graphic">
-                      <img src="../../static/img/cropped-fav-icon-32x32.png" alt="">
+                      <img src="../static/img/cropped-fav-icon-32x32.png" alt="">
                       <!-- <i class="section-graphic-icon icon-info"></i> -->
                     </div>
                     <div class="footer-section-info">
@@ -3099,21 +3097,21 @@
       </div>
     </div>
     <!-- First INIT -->
-    <script src="../../static/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="../static/js/vendor/jquery-2.1.4.min.js"></script>
     <!-- /First INIT -->
 
     <!-- custom script start_footer   -->
     <!-- /custom script start_footer   -->
 
     <!-- Vendor JS -->
-    <script src="../../static/js/vendor/slick.min.js"></script>
-    <script src="../../static/js/vendor/jquery.cookie.min.js"></script>
+    <script src="../static/js/vendor/slick.min.js"></script>
+    <script src="../static/js/vendor/jquery.cookie.min.js"></script>
     <!-- /Vendor JS -->
 
     <!-- Local JS -->
-    <script src="../../static/js/main.js"></script>
-    <script src="../../static/js/custom.js"></script>
-    <script src="../../static/js/img-resp.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script src="../static/js/custom.js"></script>
+    <script src="../static/js/img-resp.js"></script>
     <!-- /Local JS -->
 
     <!-- custom script end_footer   -->
