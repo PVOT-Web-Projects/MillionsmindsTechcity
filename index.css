@@ -991,9 +991,18 @@ width: 100% !important;
     margin: 50px 0;
   }
 }
+@media(max-width:767px){
+  .paralax_wrap_item_left{
+    display: none;
+  }
+  .section-background {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 @media(max-width:575px){
   .paralax_wrap{
-    width: 90%;
+    width: 100%;
   }
   .paralax_title{
     font-size: 40px;
@@ -1008,6 +1017,10 @@ width: 100% !important;
   .partners-header-title b{
     font-size: 22px;
   }
+
 }
 
 
+.book_sec::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
