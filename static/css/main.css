@@ -613,10 +613,10 @@ html .ui-button.ui-state-disabled:active {
   font-family: 'Poppins';
   font-size: 17px;
   font-weight: 700;
-  color: #8c8782;
+  color: #1c75b7;
   text-transform: uppercase;
   letter-spacing: 0.12px;
-  border: 2px solid #8c8782;
+  border: 2px solid #1c75b7;
   padding: 13px 0;
   text-align: center;
   min-width: 250px;
@@ -1247,7 +1247,7 @@ html .ui-button.ui-state-disabled:active {
     width: 100%;
   }
 }
-.input-field.user .wrap-input-field:after {
+/* .input-field.user .wrap-input-field:after {
   content: "";
   font-size: 16px;
 }
@@ -1262,7 +1262,7 @@ html .ui-button.ui-state-disabled:active {
 .input-field.email .wrap-input-field:after {
   content: "";
   font-size: 13px;
-}
+} */
 .input-field.arrow-down .wrap-input-field:before {
   content: "";
   position: absolute;
@@ -2391,13 +2391,19 @@ html .ui-button.ui-state-disabled:active {
     height: 100%;
   }
   .menu-dropdown-gallery .wrap-dropdown-gallery:before {
-    content: "";
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     font-family: "icomoon";
     font-size: 310px;
+    background-image: url("../img/mainLogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 100%;
     color: #8c8782;
   }
   .menu-dropdown-gallery .wrap-dropdown-gallery .dropdown-gallery-img {
