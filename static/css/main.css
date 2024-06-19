@@ -631,7 +631,7 @@ html .ui-button.ui-state-disabled:active {
     left: 50%;
     width: 100%;
     height: 100%;
-    background-color: #8c8782;
+    background-color: #1c75b7;
     opacity: 0;
     transform: translateX(-50%) translateY(-50%) scale(0.6);
     transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
@@ -1328,11 +1328,11 @@ html .ui-button.ui-state-disabled:active {
 }
 .input-field .wrap-input-field .input {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 0 55px 0 23px;
+  top: 10px;
+  right: 23px;
+  /* width: 50%;
+  height: 50%; */
+  /* padding: 0 55px 0 23px; */
   font-family: 'Poppins';
   font-size: 15px;
   font-weight: 500;
