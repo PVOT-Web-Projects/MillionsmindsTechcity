@@ -25406,11 +25406,11 @@ color: #8c8782;
 cursor: pointer !important;
 transition: all 0.5s !important;
 }
-.wrap-top-scroll.js-scroll-down{
+/* .wrap-top-scroll.js-scroll-down{
   display: flex !important;
   justify-content: center !important;
   
-}
+} */
 .wrap-top-scroll.js-scroll-down img:hover{
   transform: scale(1.1) rotate(-90deg) !important;
 }
