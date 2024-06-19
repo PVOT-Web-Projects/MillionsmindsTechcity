@@ -3550,6 +3550,11 @@ html .ui-button.ui-state-disabled:active {
   padding-bottom: 20px;
   text-align: center;
 }
+.footer-section-graphic img{
+  max-width: 100%;
+  display: block;
+  width: 80px;
+}
 .footer-section-graphic .section-graphic-icon {
   position: relative;
   /* display: inline-block; */
@@ -4449,9 +4454,9 @@ body.motor .motor-page {
   text-align: center;
   cursor: pointer;
 }
-.top-module-scroll .wrap-top-scroll .top-scroll-title {
+/* .top-module-scroll .wrap-top-scroll .top-scroll-title {
   display: none;
-}
+} */
 .top-module-scroll .wrap-top-scroll .top-scroll-text {
   display: none;
 }
@@ -25404,4 +25409,22 @@ color: #8c8782;
 .wrap-menu-dropdown svg:hover{
   fill: #8c8782;
   border-color: #8c8782;
+}
+.wrap-top-scroll.js-scroll-down img{
+  width: 40px;
+  transform: rotate(-90deg);
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 20px 0 0;
+cursor: pointer;
+transition: all 0.5s;
+}
+.wrap-top-scroll.js-scroll-down{
+  display: flex;
+  justify-content: center;
+  
+}
+.wrap-top-scroll.js-scroll-down img:hover{
+  transform: scale(1.1) rotate(-90deg);
 }
