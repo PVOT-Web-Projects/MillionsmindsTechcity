@@ -2391,13 +2391,19 @@ html .ui-button.ui-state-disabled:active {
     height: 100%;
   }
   .menu-dropdown-gallery .wrap-dropdown-gallery:before {
-    content: "";
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     font-family: "icomoon";
     font-size: 310px;
+    background-image: url("../img/mainLogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 100%;
     color: #8c8782;
   }
   .menu-dropdown-gallery .wrap-dropdown-gallery .dropdown-gallery-img {
