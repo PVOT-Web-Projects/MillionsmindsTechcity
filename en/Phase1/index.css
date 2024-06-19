@@ -1061,7 +1061,7 @@ button a{
       width: 100%;
     }
   }
-  .input-field.user .wrap-input-field:after {
+  /* .input-field.user .wrap-input-field:after {
     content: "";
     font-size: 16px;
   }
@@ -1076,7 +1076,7 @@ button a{
   .input-field.email .wrap-input-field:after {
     content: "";
     font-size: 13px;
-  }
+  } */
   .input-field.arrow-down .wrap-input-field:before {
     content: "";
     position: absolute;
