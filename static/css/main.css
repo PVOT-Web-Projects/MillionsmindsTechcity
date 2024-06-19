@@ -4626,11 +4626,13 @@ body.motor .motor-page {
     display: block;
     position: absolute;
     top: 0;
-    left: 0;/* * {
-      box-sizing: border-box;
+    left: 0; 
+    {
+      /* box-sizing: border-box;
       -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    } */
+      -moz-osx-font-smoothing: grayscale; */
+    }
+     
     :after,
     :before {
       box-sizing: border-box;
