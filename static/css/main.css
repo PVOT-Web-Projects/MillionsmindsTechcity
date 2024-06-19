@@ -3550,6 +3550,11 @@ html .ui-button.ui-state-disabled:active {
   padding-bottom: 20px;
   text-align: center;
 }
+.footer-section-graphic img{
+  max-width: 100%;
+  display: block;
+  width: 80px;
+}
 .footer-section-graphic .section-graphic-icon {
   position: relative;
   /* display: inline-block; */
