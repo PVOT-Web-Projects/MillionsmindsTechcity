@@ -592,7 +592,7 @@ button a{
     cursor: pointer;
   }
   .mainlogoimg1{
-    max-width:100px !important;
+    max-width:80px !important;
   }
   .btn-circle:before {
     position: absolute;
@@ -3405,7 +3405,7 @@ button a{
       display: inline-block;
       vertical-align: top;
       width: 150px;
-      text-align: center;
+      text-align: left;
       padding-top: 15px;
     }
   }
