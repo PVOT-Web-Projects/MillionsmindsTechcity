@@ -301,22 +301,60 @@ $(document).on("ready", function () {
       );
     }
   );
-$(".accordion_item:first-child .accordion_item_heading").addClass("accordion_open");
+  $(".accordion_item:first-child .accordion_item_heading").addClass(
+    "accordion_open"
+  );
 
-$('.accordion_item_heading').click(function() {
-    $('.accordion_item_heading').removeClass("accordion_open");
-    
-    var $text = $(this).next('.accordion_item_text');
-    
-    $('.accordion_item_text').not($text).slideUp(300);
-    
-    if ($text.is(':visible')) {
-        $text.slideUp(300);
+  $(".accordion_item_heading").click(function () {
+    $(".accordion_item_heading").removeClass("accordion_open");
+
+    var $text = $(this).next(".accordion_item_text");
+
+    $(".accordion_item_text").not($text).slideUp(300);
+
+    if ($text.is(":visible")) {
+      $text.slideUp(300);
     } else {
-        $text.slideDown(300);
-        $(this).addClass("accordion_open");
+      $text.slideDown(300);
+      $(this).addClass("accordion_open");
     }
+  });
 });
+$(document).ready(function() {
+  // Hide all images initially except the first one
+  $('.tab_images_wrapper > div').hide();
+  $('.tab_images_wrapper > .tab_image1').show().addClass('active');
 
+  // Add active class to the first button
+  $('.tab_buttons_wrapper > div:first-child').addClass('active');
 
+  // Function to handle tab switching
+  function switchTab(index) {
+    // Remove active class from all buttons and add to the clicked one
+    $('.tab_buttons_wrapper ul > li').removeClass('active');
+    $('.tab_buttons_wrapper ul > li').eq(index).addClass('active');
+
+    // Hide all tab images and show the selected one
+    $('.tab_images_wrapper > div').removeClass('active').hide();
+    $('.tab_images_wrapper > div').eq(index).addClass('active').show();
+  }
+
+  // Handle click event on tab buttons
+  $('.tab_buttons_wrapper ul > li').click(function() {
+    // Get the index of the clicked button
+    const index = $(this).index();
+    switchTab(index);
+
+    // Reset the interval to start the timer over
+    clearInterval(autoSwitch);
+    autoSwitch = setInterval(autoChangeTab, 5000);
+  });
+
+  // Auto switch tabs every 5 seconds
+  let currentIndex = 0;
+  function autoChangeTab() {
+    currentIndex = (currentIndex + 1) % $('.tab_buttons_wrapper ul > li').length;
+    switchTab(currentIndex);
+  }
+  let autoSwitch = setInterval(autoChangeTab, 5000);
 });
