@@ -591,6 +591,9 @@ button a{
     transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
     cursor: pointer;
   }
+  .mainlogoimg1{
+    max-width:100px !important;
+  }
   .btn-circle:before {
     position: absolute;
     z-index: 1;
@@ -929,8 +932,9 @@ button a{
       font-size: 23px;
     }
   }
+ 
   @media (max-width: 1023px) {
-    .btn-more .btn-more-text:before {
+    /* .btn-more .btn-more-text:before {
       content: "";
       position: absolute;
       bottom: 0;
@@ -938,7 +942,7 @@ button a{
       width: 15px;
       height: 2px;
       background-color: rgba(140, 135, 130, 0.5);
-    }
+    } */
   }
   @media (min-width: 1280px) {
     .btn-more:hover.arrow-up .btn-more-text:after,
@@ -3428,13 +3432,13 @@ button a{
     .wrap-section-info
     .section-info-btn
     .btn-more-text:before {
-    content: "";
+    /* content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 15px;
     height: 2px;
-    background-color: rgba(140, 135, 130, 0.5);
+    background-color: rgba(140, 135, 130, 0.5); */
   }
   @media (min-width: 540px) {
     .footer-section-info {
@@ -3641,12 +3645,15 @@ button a{
       padding: 20px 0 15px;
       /* border-bottom: 1px solid #d0ccca; */
   
-      padding: 20px 0 90px;
+      padding: 20px 0 0px;
       /* border-bottom: 1px solid #d0ccca; */
     }
    
     .partners-content-element .wrap-partnerns-element .partnerns-element-img{
       max-width: 60px !important;
+    }
+    .partners-content-element .wrap-partnerns-element .partnerns-element-img1{
+      max-width: 100px !important;
     }
     .partners-content-element .wrap-partnerns-element .partnerns-element-text{
       line-height: normal !important;
@@ -3682,6 +3689,9 @@ button a{
     .footer-partners-header {
       text-align: left;
     }
+  }
+  .partnerns-element-img1{
+    max-width: 115px !important;
   }
   .footer-partners-content {
     font-size: 0;
