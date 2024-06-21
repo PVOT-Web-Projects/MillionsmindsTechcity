@@ -242,7 +242,7 @@
 .partners-header-title {
   font-size: 30px !important;
   color: #8c8782 !important;
-  text-align: left;
+  text-align: center;
   line-height: 40px !important;
 }
 .partners-header-title b {
@@ -1345,7 +1345,6 @@ li.pointer-item {
 }
 }
 .menu-dropdown-content .wrap-dropdown-content {
-  padding: 0;
   text-align: left;
 }
 .million_minds_images_slider{
