@@ -3475,7 +3475,7 @@ html .ui-button.ui-state-disabled:active {
     position: absolute;
     top: 50%;
     right: 20px;
-    transform: translateY(-50%);
+    transform: translateY(-50%) rotate(90deg);
     border-color: rgba(0, 0, 0, 0);
     background-color: #8c8782;
   }
@@ -3893,6 +3893,14 @@ html .ui-button.ui-state-disabled:active {
     text-align: left;
   }
 }
+@media(max-width:1280px){
+  
+.footer-partners-header .partners-header-title {
+  text-align: center;
+}
+
+}
+
 .footer-partners-content {
   font-size: 0;
   text-align: center;
