@@ -937,6 +937,8 @@ body {
 }
 .left_box1 {
   margin: 0 0 40px;
+  padding: 10px ;
+  border: 2px solid #1c75b7;
 }
 .paralax_title_wrap {
   width: 100% !important;
