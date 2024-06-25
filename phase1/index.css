@@ -199,8 +199,18 @@ button a{
   
   .footer_partner_flex {
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: row !important;
     gap: 4rem !important;
+  }
+  @media(max-width:767px){
+    .footer_partner_flex {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 4rem !important;
+    }
+    .partners-header-title{
+      text-align: center;
+    }
   }
   
   .ui-datepicker-calendar th {
@@ -3629,7 +3639,7 @@ button a{
       padding: 60px 0 15px;
       /* border-bottom: 1px solid #d0ccca; */
   
-      padding: 100px 0 90px;
+      padding: 100px 0 0;
       /* border-bottom: 1px solid #d0ccca; */
     }
    

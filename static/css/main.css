@@ -3872,7 +3872,7 @@ html .ui-button.ui-state-disabled:active {
     padding: 60px 0 15px;
     /* border-bottom: 1px solid #d0ccca; */
 
-    padding: 100px 0 0;
+    /* padding: 100px 0 0; */
     /* border-bottom: 1px solid #d0ccca; */
   }
 }
@@ -3896,7 +3896,7 @@ html .ui-button.ui-state-disabled:active {
 @media(max-width:1280px){
   
 .footer-partners-header .partners-header-title {
-  text-align: center;
+  text-align: left;
 }
 
 }
@@ -3925,6 +3925,11 @@ html .ui-button.ui-state-disabled:active {
   letter-spacing: 0.1em;
   padding-top: 25px;
   text-align: center;
+}
+@media(max-width:767px){
+  .footer-partners-header .partners-header-title {
+    text-align: center;
+  }
 }
 @media (min-width: 540px) {
   .partners-content-element {
@@ -25688,8 +25693,15 @@ i {
 
 .footer_partner_flex {
   display: flex !important;
-  flex-direction: column !important;
+  flex-direction: row !important;
   gap: 4rem !important;
+}
+@media(max-width:767px){
+  .footer_partner_flex {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4rem !important;
+  }
 }
 
 .ui-datepicker-calendar th {
