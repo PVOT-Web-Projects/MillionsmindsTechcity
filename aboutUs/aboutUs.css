@@ -356,3 +356,11 @@
     color: #fff;
   }
 }
+
+@media(min-width:768px){
+  .footer_partner_flex {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 4rem !important;
+  }
+}
