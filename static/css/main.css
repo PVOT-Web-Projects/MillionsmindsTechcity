@@ -3425,13 +3425,14 @@ html .ui-button.ui-state-disabled:active {
   }
 }
 .info-element-content .wrap-info-content .info-content-text .maintext {
+  font-family: "Brown" !important;
   display: inline-block;
   vertical-align: middle;
 }
 .info-element-content .wrap-info-content .info-content-text .subtext {
   display: inline-block;
   vertical-align: middle;
-  font-family: 'Poppins';
+  /* font-family: 'Poppins'; */
   font-size: 15px;
   font-weight: 500;
   color: #8c8782;
@@ -8068,6 +8069,7 @@ body.motor .motor-page {
     .info-element-content .wrap-info-content .info-content-text .maintext {
       display: inline-block;
       vertical-align: middle;
+      font-family: "Brown" !important;
     }
     .info-element-content .wrap-info-content .info-content-text .subtext {
       display: inline-block;
