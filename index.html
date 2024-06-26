@@ -53,15 +53,12 @@
 	    
   </head>
   <body class="home white-menu">
-    <input type="hidden" id="name_file" value="/index.php" />
-    <input type="hidden" id="idPagina" value="1" />
-    <input type="hidden" id="nombrePagina" value="home" />
-    <input type="hidden" id="lang-input" value="en" />
-    <input
-      type="hidden"
-      id="domain"
-      value="https://www.hotelcanferrereta.com"
-    />
+    <div class="loader-container" id="loader">
+      <div class="loader">
+          <img src="./static/img/mainLogo.png" alt="logo" class="loader-logo" style="width: 100px;" />
+      </div>
+  </div>
+  <div class="">
 
     <div class="page-nav">
       <div class="wrap-page-nav">
@@ -259,7 +256,7 @@
                 class="intro-footer-btn btn-hidden btn-more arrow-up js-hide-moretext"
               >
                 <button class="btn-4">
-                  <a href="javascript:void(0)" class="span">Hide</a>
+                  <a href="javascript:void(0)" class="span">READ LESS</a>
                 </button>
               </div>
             </div>
@@ -2743,7 +2740,7 @@
         <div class="wrap-footer-end"></div>
       </div>
     </div>
-
+  </div>
     <!-- First INIT -->
     <script src="./static/js/vendor/jquery-2.1.4.min.js"></script>
     <!-- /First INIT -->

@@ -38,6 +38,17 @@ function onCaptchaLoaded() {
 }
 
 $(document).on("ready", function () {
+
+  $(window).on('load', function() {
+    // Hide the loader
+    var $loader = $('#loader');
+    var $content = $('.content');
+
+    $loader.hide();
+    $content.show();
+});
+
+
   $(".js-close-cookies").click(function () {
     setCookie("aviso", "1", 365);
   });
