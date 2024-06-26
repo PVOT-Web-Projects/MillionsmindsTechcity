@@ -396,9 +396,9 @@ body {
     padding: 40px 20px 40px 20px;
   }
 }
-.menu-logo img {
+/* .menu-logo img {
   width: 80px;
-}
+} */
 .visionaries_heading {
   font-size: 50px;
   padding: 40px 20px 0;
@@ -1004,8 +1004,8 @@ width: 51%;
     display: none;
   }
   .section-background {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    background-size: cover;
   }
   .last_img_content{
     flex-direction: column;
@@ -1594,4 +1594,14 @@ width: 51%;
   .partners-content-element{
     justify-content: center;
   }
+}
+.flex_item_center{
+  align-items: center;
+  margin: 0 0 100px;
+}
+.flex_item_center .intro-info-header{
+  height: 500px;
+}
+.flex_item_center .intro-info-header img{
+  width: 100%;
 }
