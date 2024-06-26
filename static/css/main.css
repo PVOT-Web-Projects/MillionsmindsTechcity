@@ -26302,3 +26302,9 @@ html .ui-button.ui-state-disabled:active {
     height: calc(100% + 4px);
   }
 }
+@media(max-width:1280px){
+.btn-circle.slick-btn.prev.slick-prev.slick-arrow{
+  display: none !important;
+  ;
+}
+}

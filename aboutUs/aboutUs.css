@@ -263,7 +263,7 @@
     padding-left: 0 !important;
   }
 }
-
+/* 
 @media (min-width: 1280px) {
   .galleries-module.banner-mod .galleries-content .wrap-galleries-content {
     position: relative;
@@ -363,4 +363,4 @@
     flex-direction: row !important;
     gap: 4rem !important;
   }
-}
+} */
