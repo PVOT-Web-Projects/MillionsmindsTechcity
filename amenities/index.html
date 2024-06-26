@@ -73,6 +73,13 @@
 	</div>
 	<div class="modal-loading-logo"></div>
 </div> -->
+<div class="loader-container" id="loader">
+  <div class="loader">
+      <img src="../static/img/mainLogo.png" alt="logo" class="loader-logo" style="width: 100px;" />
+  </div>
+</div>
+<div class="content">
+
     <div class="page-nav">
       <div class="wrap-page-nav">
         <!--		TODO: programar menu iconos respnsive-->
@@ -1222,7 +1229,7 @@
         <div class="wrap-footer-end"></div>
       </div>
     </div>
-
+</div>
     <!-- NEWSLETTER POPUP -->
     <!-- First INIT -->
     <script src="../static/js/vendor/jquery-2.1.4.min.js"></script>
@@ -1241,6 +1248,16 @@
     <script src="../static/js/custom.js"></script>
     <script src="../static/js/img-resp.js"></script>
     <script src="../static/js/vendor/lightbox.min.js"></script>
+    <script>
+       window.addEventListener('load', function() {
+      // Hide the loader
+      var loader = document.getElementById('loader');
+      var content = document.querySelector('.content');
+      
+      loader.style.display = 'none';
+      content.style.display = 'block';
+    });
+    </script>
     <!-- /Local JS -->
 
     <!-- custom script end_footer   -->
