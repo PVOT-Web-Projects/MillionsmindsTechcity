@@ -37,7 +37,7 @@
     <link rel="icon" href="../static/img/cropped-fav-icon-32x32.png" sizes="32x32" />
     <link rel="icon" href="../static/img/cropped-fav-icon-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="../static/img/cropped-fav-icon-180x180.png" />
-   
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.5,user-scalable=yes">
     <!-- /Favicons -->
 
     <!-- custom script head   -->
@@ -46,6 +46,22 @@
     
     <!-- /custom script head   -->
     <style>
+
+
+
+.display_flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.sezfeatureiconsx{
+  width:60px;
+  object-fit: contain;
+  height:79%
+}
+
+
        .info-element-text {
         font-size: 14px !important;
     }
@@ -156,8 +172,22 @@
   .gallery-list-elements {
     width: 100% !important;
   }
+
+  /* .display_flex{
+    display: flex !important;
+    flex-direction: column !important;
+
+  } */
 }
 
+
+@media(min-width:200px) and (max-width:768px){
+  .display_flex{
+    display: flex !important;
+    flex-direction: column !important ;
+
+  }
+}
 
 
 
@@ -665,63 +695,14 @@
   <body class="">
     <!-- custom script start_body   -->
     <!-- /custom script start_body   -->
-
-    <input type="hidden" id="name_file" value="/awards.php" />
-    <input type="hidden" id="idPagina" value="10" />
-    <input type="hidden" id="nombrePagina" value="awards" />
-    <input type="hidden" id="lang-input" value="en" />
-    <input
-      type="hidden"
-      id="domain"
-      value="https://www.hotelcanferrereta.com"
-    /><!-- custom script start_body   -->
-    <!-- /custom script start_body   -->
-
-    <input type="hidden" id="name_file" value="/awards.php" />
-    <input type="hidden" id="idPagina" value="10" />
-    <input type="hidden" id="nombrePagina" value="awards" />
-    <input type="hidden" id="lang-input" value="en" />
-    <div class="modal-loading">
-      <!-- Place at bottom of page -->
-      <div class="modal-text">
-        <svg
-          width="210px"
-          height="210px"
-          xmlns="http://www.w3.org/2000/svg"
-          viewbox="0 0 100 100"
-          preserveaspectratio="xMidYMid"
-          class="lds-rolling"
-          style="background: none"
-        >
-          <circle
-            cx="50"
-            cy="50"
-            fill="none"
-            ng-attr-stroke="{{config.color}}"
-            ng-attr-stroke-width="{{config.width}}"
-            ng-attr-r="{{config.radius}}"
-            ng-attr-stroke-dasharray="{{config.dasharray}}"
-            stroke="#8c8782"
-            stroke-width="10"
-            r="35"
-            stroke-dasharray="164.93361431346415 56.97787143782138"
-            transform="rotate(101.881 50 50)"
-          >
-            <animatetransform
-              attributename="transform"
-              type="rotate"
-              calcmode="linear"
-              values="0 50 50;360 50 50"
-              keytimes="0;1"
-              dur="1s"
-              begin="0s"
-              repeatcount="indefinite"
-            ></animatetransform>
-          </circle>
-        </svg>
+    <div class="loader-container" id="loader">
+      <div class="loader">
+          <img src="../static/img/mainLogo.png" alt="logo" class="loader-logo" style="width: 100px;" />
       </div>
-      <div class="modal-loading-logo"></div>
-    </div>
+  </div>
+   
+  <div class="content">
+    
     <div class="page-nav">
       <div class="wrap-page-nav">
         <!--		TODO: programar menu iconos respnsive-->
@@ -1287,7 +1268,7 @@
                                   <div class="wrap-images-element">
                                       <!-- <figure class="images-element-photo lazyload" aria-label="DELUXE" role="img" data-filename="597-01cfhabdeluxe1300x870.jpg"></figure> -->
                                       <div>
-                                        <img  class="images-element-photo " src="../static/img/masterplanimg2.jpg" alt="">
+                                        <img  class="images-element-photo " src="../static/img/masterplan_ig.jpg" alt="">
                                       </div>
                                     </div>
                               </div>
@@ -1971,7 +1952,7 @@
                                         <img 
                                          class="images-element-photo " 
                                         
-                                        src="../static/img/masterplanimg3.png" alt="">
+                                        src="../static/img/masterplan_img2.jpg" alt="">
                                       </div>
                                     </div>
                               </div>
@@ -2010,6 +1991,452 @@
 
 
 
+<section class="advantages-module">
+  <div class="big-wrapper">
+    <div class="wrap-advantages-module">
+      <div class="advantages-header">
+        <div class="wrap-advantages-header">
+          <p class="advantages-header-title">Exploring </p>
+          <p class="advantages-header-subtitle">
+            AMENITIES
+          </p>
+        </div>
+      </div>
+   
+       <div class="display_flex">
+
+
+
+        
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">HOTEL & CLUB</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/hotel1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">NEIGHBORHOOD MALL</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/mall1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">RESTAURANTS & BANQUETS</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/decor1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">LANDSCAPE GARDENS</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/park1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">SMART TRAFFIC SYSTEM</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/traffic1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">BUSINESS CENTRE</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/business1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">CONFERENCE & MEETING ROOMS</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/meeting1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">NAP PODS</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/sleep.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">DAY CARE</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/care (1).png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">FOOD COURT/ CAFETERIA</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/food1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">ENTERTAINMENT ZONE</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/zone1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">LIBRARY</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/book1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">SALON & SPA</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/salon1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">AMPLE PARKING SPACE</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/parking1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">BANK & ATM</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/atm1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">GYMNASIUM</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/gym1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">SOLAR PANELS ON PODIUM</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/solar1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">SENSOR BASED LGIHTING IN COMMON AREAS</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/chip1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">AMBULANCE SERVICES</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/ambulance1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="advantages-element">
+          <div class="wrap-advantages-element">
+            <div class="advantages-element-info">
+              <div class="wrap-advantages-info">
+                <p class="advantages-info-text">DOCTOR ON CALL</p>
+                <!-- <p class="advantages-info-subtext">
+                  Enjoy income tax exemptions and business incentives for export income. Booking confirmation in real time
+                </p> -->
+              </div>
+            </div>
+            <div class="advantages-element-icon">
+              <div class="wrap-advantages-icon">
+                <!-- <i class="advantages-icon icon-c2t-mejor_tarifa"></i> -->
+                 <div class="sezfeatureiconsdiv">
+                  <img class="sezfeatureiconsx" src="../static/img/doc1.png" alt="">
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       </div>
+
+
+          
+
+       
+    
+    </div>
+  </div>
+</section>
 
 
 
@@ -2630,7 +3057,8 @@
           </footer>
           <footer class="footer-static">
             <div class="wrap-footer-static">
-              <div class="footer-static-content">
+
+              <!-- <div class="footer-static-content">
                 <ul class="static-content-links">
                   <li class="content-links-element">
                     <div
@@ -2656,7 +3084,8 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> -->
+
               <div class="footer-static-header">
                 <div class="wrap-static-header">
                   <p class="static-header-title">
@@ -2704,6 +3133,8 @@
   </div>
 </section>
 
+</div>
+
 
 
 
@@ -2732,266 +3163,20 @@
       </div>
     </aside> -->
     <!-- NEWSLETTER POPUP -->
-    <div class="popup-module full-page" data-popup="newsletter">
-      <div class="popup-backmask js-close-popup"></div>
-      <div class="popup-box">
-        <div class="wrap-popup-box">
-          <i class="close-popup btn-circle js-close-popup icon-cerrar"></i>
-          <div class="popup-box-newsletter">
-            <div class="wrap-popup-newsletter">
-              <div class="popup-newlsetter-header">
-                <div class="wrap-newsletter-header">
-                  <p class="popup-newsletter-title">Newsletter</p>
-                  <p class="popup-newsletter-subtitle">Can Ferrereta</p>
-                </div>
-              </div>
-              <div class="popup-newsletter-content">
-                <div class="wrap-newsletter-content">
-                  <form id="news-form">
-                    <div class="newsletter-inputs-box">
-                      <div class="popup-newsletter-input">
-                        <div class="wrap-newsletter-input">
-                          <div class="input-field email must">
-                            <div class="wrap-input-field">
-                              <span class="input-text">E-mail</span>
-                              <input
-                                class="input"
-                                name="email"
-                                type="email"
-                                placeholder="..."
-                              />
-                              <input
-                                type="hidden"
-                                value="newsletter"
-                                name="tipo_consulta"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="popup-newsletter-input">
-                        <div class="wrap-newsletter-input">
-                          <div class="input-field user must">
-                            <div class="wrap-input-field">
-                              <span class="input-text">NAME</span>
-                              <input
-                                class="input"
-                                name="nombre"
-                                type="text"
-                                placeholder="..."
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="popup-newsletter-input">
-                        <div class="wrap-newsletter-input">
-                          <div class="input-field user must">
-                            <div class="wrap-input-field">
-                              <span class="input-text">SURNAME</span>
-                              <input
-                                class="input"
-                                name="apellidos"
-                                type="text"
-                                placeholder="..."
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="popup-newsletter-input">
-                        <div class="wrap-newsletter-input">
-                          <div class="input-field arrow-down must">
-                            <div class="wrap-input-field">
-                              <span class="input-text">LANGUAGE</span>
-                              <select class="select" name="lang">
-                                <option selected="" value="">Select</option>
-                                <option value="es">ES</option>
-                                <option value="en" selected="">EN</option>
-                                <option value="de">DE</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="newsletter-checks-box">
-                      <div class="newsletter-must">
-                        <div class="must-element">
-                          <i class="must-icon"></i>
-                          <p class="must-text">Mandatory fields</p>
-                        </div>
-                      </div>
-                      <div class="newsletter-check">
-                        <label class="checkbox-element">
-                          <input
-                            class="checkbox-input"
-                            type="checkbox"
-                            id="conditions_news"
-                          />
-                          <div class="checkbox-icon"></div>
-                          <p class="checkbox-text">
-                            I accept
-                            <a
-                              href="../privacy/index.htm"
-                              target="_blank"
-                              class="checkbox-text-link"
-                              >Privacy conditions</a
-                            >
-                          </p>
-                        </label>
-                      </div>
-                      <div class="newsletter-check">
-                        <label class="checkbox-element">
-                          <input
-                            class="checkbox-input"
-                            type="checkbox"
-                            name="newsletter"
-                          />
-                          <div class="checkbox-icon"></div>
-                          <p class="checkbox-text">
-                            I want to receive the news
-                          </p>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="newsletter-btn-box">
-                      <button class="btn-corp" type="submit">
-                        <p class="btn-corp-text">SUBMIT</p>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="popup-module" data-popup="login">
-      <div class="popup-backmask js-close-popup"></div>
-      <div class="popup-box bigger">
-        <div class="wrap-popup-box">
-          <i class="close-popup btn-circle js-close-popup icon-cerrar"></i>
-          <div class="popup-box-content">
-            <div class="popup-login">
-              <div class="wrap-popup-login">
-                <!-- LOGIN -->
-                <div id="login" class="login-box active">
-                  <div class="login-header">
-                    <div class="wrap-login-header">
-                      <p class="login-header-title">INITIAR SESSION</p>
-                      <p class="login-header-subtitle">Can Ferrereta</p>
-                    </div>
-                  </div>
-                  <div class="login-inputs">
-                    <form>
-                      <div class="popup-login-input">
-                        <div class="wrap-login-input">
-                          <div class="input-field user">
-                            <div class="wrap-input-field">
-                              <span class="input-text">Username</span>
-                              <input
-                                class="input"
-                                type="text"
-                                placeholder="..."
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="popup-login-input">
-                        <div class="wrap-login-input">
-                          <div class="input-field lock">
-                            <div class="wrap-input-field">
-                              <span class="input-text">PASSWORD</span>
-                              <input
-                                class="input"
-                                type="password"
-                                placeholder="..."
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="popup-login-btn">
-                        <button type="submit" class="btn-corp">
-                          <p class="btn-corp-text">Enter</p>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <!-- RECOVERY -->
-                <div id="recovery" class="login-box">
-                  <div class="login-header">
-                    <div class="wrap-login-header">
-                      <p class="login-header-title">Recover password</p>
-                      <p class="login-header-subtitle">Can Ferrereta</p>
-                    </div>
-                  </div>
-                  <div class="login-inputs">
-                    <form>
-                      <div class="popup-login-input">
-                        <div class="wrap-login-input">
-                          <div class="input-field email">
-                            <div class="wrap-input-field">
-                              <span class="input-text">E-mail</span>
-                              <input
-                                class="input"
-                                type="email"
-                                placeholder="..."
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="popup-login-btn">
-                        <button type="submit" class="btn-corp">
-                          <p class="btn-corp-text">SUBMIT</p>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <!-- LOGN NAV -->
-                <div class="login-nav">
-                  <div class="wrap-login-nav">
-                    <div
-                      class="login-nav-element active js-login-section"
-                      data-section="login"
-                    >
-                      <div class="wrap-nav-element">
-                        <p class="login-nav-text">Login</p>
-                      </div>
-                    </div>
-                    <div
-                      class="login-nav-element js-login-section"
-                      data-section="recovery"
-                    >
-                      <div class="wrap-nav-element">
-                        <p class="login-nav-text">Recover</p>
-                      </div>
-                    </div>
-                    <div class="login-nav-element">
-                      <a href="/registry.php">
-                        <div class="wrap-nav-element">
-                          <p class="login-nav-text">Register</p>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <!-- First INIT -->
     <script src="../static/js/vendor/jquery-2.1.4.min.js"></script>
     <!-- /First INIT -->
-
+<script>
+      window.addEventListener('load', function() {
+      // Hide the loader
+      var loader = document.getElementById('loader');
+      var content = document.querySelector('.content');
+      
+      loader.style.display = 'none';
+      content.style.display = 'block';
+    });
+</script>
     <!-- custom script start_footer   -->
     <!-- /custom script start_footer   -->
 
