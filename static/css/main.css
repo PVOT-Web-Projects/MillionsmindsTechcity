@@ -26302,9 +26302,26 @@ html .ui-button.ui-state-disabled:active {
     height: calc(100% + 4px);
   }
 }
-@media(max-width:1280px){
-.btn-circle.slick-btn.prev.slick-prev.slick-arrow{
-  display: none !important;
-  ;
+
+/* Image Animation */
+.imgAnim {
+  position: relative;
+  transition: all 0.5s;
+  /* overflow: hidden; */
 }
+
+.imgAnim::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in;
+  z-index: 9;
+}
+
+.imgAnim.in-view::before {
+  height: 0;
 }
