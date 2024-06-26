@@ -35,31 +35,64 @@
 <link rel="icon" href="../static/img/cropped-fav-icon-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="../static/img/cropped-fav-icon-180x180.png" />
 
+   <style>
+       body{
+        background-color: white;
+       }
+        .loader-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+
+        .loader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .loader svg {
+            width: 100px;
+            height: 100px;
+        }
+
+        .loader-logo {
+            margin-top: 20px;
+            animation: abclogo 0.5s alternate infinite ease-in;
+        }
+        @keyframes abclogo {
+  100% {transform: scale(1.2);}
+}
+        .hidden {
+            display: none;
+        }
+        .content{
+          display: none;
+        }
+    </style>
+
 </head>
 
 <body class=''>
 
   <!-- custom script start_body   -->
   <!-- /custom script start_body   -->
-  <div class="modal-loading">
-    <!-- Place at bottom of page -->
-    <div class="modal-text">
-      <svg width="210px" height="210px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100"
-        preserveaspectratio="xMidYMid" class="lds-rolling" style="background: none;">
-        <circle cx="50" cy="50" fill="none" ng-attr-stroke="{{config.color}}" ng-attr-stroke-width="{{config.width}}"
-          ng-attr-r="{{config.radius}}" ng-attr-stroke-dasharray="{{config.dasharray}}" stroke="#8c8782"
-          stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138"
-          transform="rotate(101.881 50 50)">
-          <animatetransform attributename="transform" type="rotate" calcmode="linear" values="0 50 50;360 50 50"
-            keytimes="0;1" dur="1s" begin="0s" repeatcount="indefinite"></animatetransform>
-        </circle>
-      </svg>
+  <div class="loader-container" id="loader">
+    <div class="loader">
+        <img src="../static/img/mainLogo.png" alt="logo" class="loader-logo" style="width: 100px;" />
     </div>
-    <div class="modal-loading-logo"></div>
-  </div>
+</div>
+<div class="content">
   <div class="page-nav">
     <div class="wrap-page-nav">
-     
+
       <!--   BUTTON DROPDOWN -->
       <div class="menu-button js-open-menu">
         <div class="wrap-menu-button">
@@ -74,6 +107,8 @@
       <!-- MENU BUTTON LANGUAGES -->
      
       <!-- MENU LOGO -->
+
+
       <div class="menu-logo">
         <a href="../index.html">
           <!-- <i class="menu-logo-icon icon-logo_simbolo_sf_1"></i> -->
@@ -142,8 +177,7 @@
                   </div>
                   <div
                     class="dropdown-links-element js-swap-placehoder"
-                    data-placeholder="../static/img/aminitiesnav.jpg"
-                  >
+                    data-placeholder="../static/img/aminitiesnav.jpg">
                     <a href="../amenities/index.html">
                       <div class="wrap-links-element">
                         <h2 class="dropdown-element-text">AMENITIES</h2>
@@ -173,62 +207,12 @@
                   </div>
                 </div>
               </div>
-
-              <!-- <div class="dropdown-content-sublinks">
-                <div class="wrap-dropdown-sublinks">
-                  <div class="dropdown-sublinks-element">
-                    <a href="events/index.htm" target="_blank">
-                      <div class="wrap-sublinks-element">
-                        <p class="dropdown-element-text">Events</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="dropdown-sublinks-element">
-                    <a href="promotions/index.htm" target="_blank">
-                      <div class="wrap-sublinks-element">
-                        <p class="dropdown-element-text">Promotions</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="dropdown-sublinks-element">
-                    <a href="hotel/press/index.htm" target="_blank">
-                      <div class="wrap-sublinks-element">
-                        <p class="dropdown-element-text">Press</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="dropdown-sublinks-element">
-                    <a href="contact/index.htm" target="_blank">
-                      <div class="wrap-sublinks-element">
-                        <p class="dropdown-element-text">Contact</p>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
-  <!-- MENU COMPLEMENT-->
-  <!-- <div class="page-plusnav">
-	<div class="wrap-page-plusnav">
-    	<a href="tel:+34 971 905 905" class="plusnav-login btn-circle btn-white icon-telefono"></a>
-		<div class="plusnav-btn">
-			<div class="btn-corp btn-white">
-            				<a href="../reserve-rooms/index.htm" class="btn-corp-text">Book now</a>
-           	</div>
-		</div>
-		<span class="plusnav-languages js-open-popup btn-circle btn-white" data-selection="languages">
-            <span class="languages-code">en</span>
-        </span>
-	</div>
-</div> -->
-  <!-- MENU LANGUAGES PANEL -->
-
   <div class="devices-header">
     <div class="wrap-devices-header">
       <div class="devices-header-logo">
@@ -351,28 +335,7 @@
                       </div>
                     </div>
                   </div>
-                  <!-- <div class="card-checks-box">
-                                <div class="form-must">
-                                    <div class="must-element">
-                                        <i class="must-icon"></i>
-                                        <p class="must-text">Mandatory fields</p>
-                                    </div>
-                                </div>
-                                <div class="card-check">
-                                    <label class="checkbox-element">
-                                        <input class="checkbox-input" type="checkbox" name="conditions" id="check_contact">
-                                        <div class="checkbox-icon"></div>
-                                        <p class="checkbox-text">I accept  <a href="../privacy/index.htm" target="_blank" class="checkbox-text-link"> Privacy conditions</a></p>
-                                    </label>
-                                </div>
-                                <div class="card-check">
-                                    <label class="checkbox-element">
-                                        <input class="checkbox-input" type="checkbox" name="newsletter">
-                                        <div class="checkbox-icon"></div>
-                                        <p class="checkbox-text">I want to receive the news</p>
-                                    </label>
-                                </div>
-                            </div> -->
+                
                   <div class="form-btn-box">
                    <button class="btn-corp" type="submit">
                       <p class="btn-corp-text">SUBMIT</p>
@@ -490,208 +453,14 @@
     </div>
   </section>
   <div class="card-gallery-end"></div>
-  <!-- <section class="products-module">
-    <div class="big-wrapper">
-        <div class="wrap-products-module">
-            <div class="products-header">
-                <div class="wrap-products-header">
-                    <p class="products-header-title">YOU MIGHT BE INTERESTED IN</p>
-                    <div class="products-header-counter">
-                        <div class="slider-counter">
-                            <span class="counter-num">0</span>
-                            <span class="counter-total">0</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="products-content">
-                <div class="products-list js-products-slider">
-											<div class="products-element">
-															<a href="../hotel/can-ferrereta/index.htm">
-																<div class="wrap-products-element">
-									<div class="products-element-img">
-										<div class="wrap-products-img">
-											<img src="" data-filename="586-6cfbanner422x397.jpg" class="img lazyload">
-										</div>
-									</div>
-									<div class="products-element-info">
-										<div class="wrap-products-info">
-											<p class="products-info-title">THE HOTEL </p>
-											<p class="products-info-subtitle">Can Ferrereta </p>
-																							<div class="products-info-btns">
-													<div class="wrap-btns">
-														<div class="btn-more arrow-right">
-															<p class="btn-more-text">Learn more</p>
-														</div>
-													</div>
-												</div>
-																					</div>
-									</div>
-								</div>
-							</a>
-						</div>
-											<div class="products-element">
-															<a href="../mallorca/index.htm">
-																<div class="wrap-products-element">
-									<div class="products-element-img">
-										<div class="wrap-products-img">
-											<img src="" data-filename="99-12cfbanner422x397.jpg" class="img lazyload">
-										</div>
-									</div>
-									<div class="products-element-info">
-										<div class="wrap-products-info">
-											<p class="products-info-title">MAJORCA</p>
-											<p class="products-info-subtitle">What’s On? – Experiences – Santanyí</p>
-																							<div class="products-info-btns">
-													<div class="wrap-btns">
-														<div class="btn-more arrow-right">
-															<p class="btn-more-text">Learn more</p>
-														</div>
-													</div>
-												</div>
-																					</div>
-									</div>
-								</div>
-							</a>
-						</div>
-											<div class="products-element">
-														<a href="https://hotelsantfrancesc.com/" target="_blank">
-																<div class="wrap-products-element">
-									<div class="products-element-img">
-										<div class="wrap-products-img">
-											<img src="" data-filename="157-18cfbanner422x397.jpg" class="img lazyload">
-										</div>
-									</div>
-									<div class="products-element-info">
-										<div class="wrap-products-info">
-											<p class="products-info-title">Sant Francesc </p>
-											<p class="products-info-subtitle">Hotel singular - Mallorca</p>
-																							<div class="products-info-btns">
-													<div class="wrap-btns">
-														<div class="btn-more arrow-right">
-															<p class="btn-more-text">Learn more</p>
-														</div>
-													</div>
-												</div>
-																					</div>
-									</div>
-								</div>
-							</a>
-						</div>
-					                </div>
-            </div>
-
-
-        </div>
-    </div>
-	<div id="recaptcha_container"></div>
-</section> -->
-  <!-- 
-<div class="big-wrapper tablet-space">
-    <footer class="footer-static full-size">
-    <div class="wrap-footer-static">
-        <div class="footer-static-header">
-            <div class="wrap-static-header">
-                <p class="static-header-title">Can Ferrereta © 2022</p>
-            </div>
-        </div>
-        <div class="footer-static-content">
-            <ul class="static-content-links">
-                <li class="content-links-element">
-                    <a href="../hotel/press/index.htm">
-                    <div class="wrap-links-element">
-                        <p class="links-element-text">Press</p>
-                    </div>
-                    </a>
-                </li>
-                <li class="content-links-element">
-                    <a href="../legal/index.htm">
-                    <div class="wrap-links-element">
-                        <p class="links-element-text">Legal Notice</p>
-                    </div>
-                    </a>
-                </li>
-
-				<li class="content-links-element">
-					<a href="../cookies/index.htm">
-						<div class="wrap-links-element">
-							<p class="links-element-text">Cookies</p>
-						</div>
-					</a>
-				</li>
-                <li class="content-links-element">
-                    <a href="../privacy/index.htm">
-                    <div class="wrap-links-element">
-                        <p class="links-element-text">Privacy Policy</p>
-                    </div>
-                    </a>
-                </li>
-                <li class="content-links-element">
-                    <div class="wrap-links-element js-open-popup" data-selection="employment">
-                        <p class="links-element-text">Work with us</p>
-                    </div>
-                </li>
-				<li class="content-links-element js-open-popup" data-selection="newsletter">
-						<div class="wrap-links-element">
-							<p class="links-element-text">Newsletter</p>
-						</div>
-				</li>
-                <li class="content-links-element">
-                    <a href="../webmap/index.htm">
-                    <div class="wrap-links-element">
-                        <p class="links-element-text">Webmap</p>
-                    </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</footer>
-  </div>
-  <div class="footer-end background-white">
-    <div class="big-wrapper">
-      <div class="wrap-footer-end">
-        <div class="footer-end-element">
-          <div class="wrap-end-element">
-            <a href="https://www.preludecollection.com/" target="_blank">
-              <div class="end-element-img">
-                <img src="" class="element-img-logo lazyload-static" alt="Majestic Hotel Group"
-                  data-filename="/static/svg/logos/prelude_colletion.svg">
-              </div>
-              <div class="end-element-info">
-
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="footer-end-element">
-          <div class="wrap-end-element">
-            <div class="end-element-add">
-              <img src="" class="element-add-logo lazyload-static" alt="Fundación IRES"
-                data-filename="/static/svg/logos/ires_logo.svg">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-   NEWSLETTER POPUP -->
-
+</div>
   <!-- First INIT -->
   <script src="../static/js/vendor/jquery-2.1.4.min.js"></script>
   <!-- /First INIT -->
-
-  <!-- custom script start_footer   -->
-  <!-- /custom script start_footer   -->
-
   <!-- Vendor JS -->
   <script src="../static/js/vendor/slick.min.js"></script>
   <script src="../static/js/vendor/jquery.cookie.min.js"></script>
   <!-- /Vendor JS -->
-
   <!-- Local JS -->
   <script src="../static/js/main.js"></script>
   <script src="../static/js/custom.js"></script>
@@ -699,11 +468,22 @@
   <script src="https://maps.google.com/maps/api/js?key=AIzaSyAoFfF-qPFMvlEs8Igu6NnDXESdOeL-gqw"></script>
   <script src='../static/js/vendor/gmaps.min.js'></script>
   <script src='../static/js/maps.js'></script> <!-- /Local JS -->
-
-
   <!-- custom script end_footer   -->
   <!-- /custom script end_footer   -->
   <script src='../../recaptcha/api.js?render=explicit&onload=onCaptchaLoaded'></script>
+  <script>
+    // Wait for the page to fully load
+    window.addEventListener('load', function() {
+      // Hide the loader
+      var loader = document.getElementById('loader');
+      var content = document.querySelector('.content');
+      
+      loader.style.display = 'none';
+      content.style.display = 'block';
+    });
+  </script>
+  
+  
 </body>
 
 </html>

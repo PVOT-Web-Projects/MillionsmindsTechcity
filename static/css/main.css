@@ -26325,3 +26325,15 @@ html .ui-button.ui-state-disabled:active {
 .imgAnim.in-view::before {
   height: 0;
 }
+.footer-static-header .static-header-title{
+  display: flex;
+  align-items: flex-end;
+}
+.footer-static-header .static-header-title a{
+  margin-left: 5px;
+}
+@media(max-width:575px){
+  .footer-static-header .static-header-title{
+    display: inline;
+  }
+}

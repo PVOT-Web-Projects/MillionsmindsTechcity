@@ -42,10 +42,84 @@
     <link rel="icon" href="../static/img/cropped-fav-icon-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="../static/img/cropped-fav-icon-180x180.png" />
    
+
   </head>
   <body class="full-intern submenu-white">
    
     
+
+    <!-- /custom script head   -->
+       <style>
+       body{
+        background-color: white;
+       }
+        .loader-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+
+        .loader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .loader svg {
+            width: 100px;
+            height: 100px;
+        }
+
+        .loader-logo {
+            margin-top: 20px;
+            animation: abclogo 0.5s alternate infinite ease-in;
+        }
+        @keyframes abclogo {
+  100% {transform: scale(1.2);}
+}
+        .hidden {
+            display: none;
+        }
+        .content{
+          display: none;
+        }
+    </style>
+  </head>
+  <body class="full-intern submenu-white">
+    <div class="loader-container" id="loader">
+      <div class="loader">
+          <img src="../static/img/mainLogo.png" alt="logo" class="loader-logo" style="width: 100px;" />
+      </div>
+  </div>
+
+    <!-- custom script start_body   -->
+    <!-- /custom script start_body   -->
+
+    <!-- <input type="hidden" id="name_file" value="/hotel.php" />
+    <input type="hidden" id="idPagina" value="24" />
+    <input type="hidden" id="nombrePagina" value="hotel-CanFerreretaHotel" />
+    <input type="hidden" id="lang-input" value="en" /> -->
+    <!-- <input
+      type="hidden"
+      id="domain"
+      value="https://www.hotelcanferrereta.com"
+    /> -->
+    <!-- custom script start_body   -->
+    <!-- /custom script start_body   -->
+
+    <!-- <input type="hidden" id="name_file" value="/hotel.php" />
+    <input type="hidden" id="idPagina" value="24" />
+    <input type="hidden" id="nombrePagina" value="hotel-CanFerreretaHotel" />
+    <input type="hidden" id="lang-input" value="en" /> -->
+    <div class="content">
+
     <div class="page-nav">
       <div class="wrap-page-nav">
        
@@ -2175,6 +2249,9 @@
           </div>
       </div>
   </div>
+
+
+</div>
     <!--TODO: include de esta section? sale en bastantes fichas-->
     <!-- <section class="footer-container">
       <div class="wrap-footer-container">
@@ -2724,6 +2801,14 @@
     <!-- custom script end_footer   -->
     <!-- /custom script end_footer   -->
     <script>
+       window.addEventListener('load', function() {
+      // Hide the loader
+      var loader = document.getElementById('loader');
+      var content = document.querySelector('.content');
+      
+      loader.style.display = 'none';
+      content.style.display = 'block';
+    });
       if (window.innerWidth >= 1280) {
         var tag = document.createElement("script");
         tag.src = "https://www.youtube.com/player_api";
