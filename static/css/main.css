@@ -22151,7 +22151,7 @@ body.motor .motor-page {
 }
 .devices-header-logo .logo {
   display: inline-block;
-  width: 55px;
+  width: 80px;
   height: auto;
 }
 @media (max-width: 767px) {
@@ -22159,7 +22159,7 @@ body.motor .motor-page {
     padding: 9px 0;
   }
   .devices-header-logo .logo {
-    width: 50px;
+    width: 70px;
   }
 }
 @media (max-width: 539px) {
@@ -22167,7 +22167,7 @@ body.motor .motor-page {
     padding: 7px 0;
   }
   .devices-header-logo .logo {
-    width: 40px;
+    width: 65px;
   }
 }
 .devices-header-info {
@@ -26408,7 +26408,7 @@ body{
 
   .loader-logo {
       margin-top: 20px;
-      animation: abclogo 0.5s alternate infinite ease-in;
+      animation: abclogo 0.7s alternate infinite ease-out;
   }
   @keyframes abclogo {
 100% {transform: scale(1.2);}
