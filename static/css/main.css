@@ -24708,7 +24708,7 @@ body.motor .motor-page {
     padding: 15px 30px;
   }
   .gallery-element-name .wrap-element-name:after {
-    content: "";
+    content: " ";
     position: absolute;
     top: 50%;
     right: 15px;
