@@ -25520,7 +25520,7 @@ color: #8c8782;
   border-color: #8c8782;
 }
 .wrap-top-scroll.js-scroll-down img{
-  width: 40px !important;
+  /* width: 40px !important; */
   transform: rotate(-90deg) !important;
   border: 2px solid #fff !important;
   padding: 5px !important;
