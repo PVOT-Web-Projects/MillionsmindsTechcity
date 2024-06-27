@@ -209,7 +209,7 @@ button a{
       gap: 4rem !important;
     }
     .partners-header-title{
-      text-align: center;
+      text-align: left;
     }
   }
   
@@ -3132,6 +3132,7 @@ button a{
     font-size: 14px;
     font-weight: 400;
     color: #8c8782;
+    text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     line-height: 142.8571428571%;
