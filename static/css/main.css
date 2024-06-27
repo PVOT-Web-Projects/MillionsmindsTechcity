@@ -18542,7 +18542,7 @@ body.motor .motor-page {
 }
 .galleries-module .wrap-galleries-module {
   position: relative;
-  padding: 40px 0;
+  padding: 28px 0;
 }
 @media (min-width: 540px) {
   .galleries-module .wrap-galleries-module {
@@ -18834,9 +18834,9 @@ body.motor .motor-page {
     letter-spacing: 0.2em;
   }
 }
-.galleries-header {
+/* .galleries-header {
   display: none;
-}
+} */
 @media (min-width: 1024px) {
   .galleries-header {
     display: block;
@@ -21725,7 +21725,17 @@ body.motor .motor-page {
   .valorations-element-info .wrap-valorations-info .valorations-info-text {
     font-size: 19px;
   }
+ 
 }
+
+
+@media(min-width:200px) and (max-width:1024px){
+  .btn-4{
+    border:1px solid #1c75b7;
+  }
+}
+
+
 @media (min-width: 768px) {
   .valorations-element-info {
     display: inline-block;
