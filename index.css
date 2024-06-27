@@ -1605,3 +1605,12 @@ width: 51%;
 .flex_item_center .intro-info-header img{
   width: 100%;
 }
+.two_btns{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 0 0 100px;
+}
+.two_btns .wrap-intro-footer{
+  padding: 0 !important;
+}
