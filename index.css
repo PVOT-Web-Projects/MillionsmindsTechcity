@@ -1639,3 +1639,9 @@ padding-bottom: 0 !important;
     display: block;
   }
 }
+
+@media (max-width: 500px) {
+  .invest-in-the-future{
+    display: none;
+  }
+}
