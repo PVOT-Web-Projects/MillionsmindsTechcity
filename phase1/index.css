@@ -281,7 +281,7 @@ button a{
     
     }
     .footer-static .wrap-footer-static {
-      padding: 45px 0px 0px !important;
+      padding: 45px 0px 50px !important;
     }
     .footer-end .wrap-footer-end{
       padding-bottom: 0rem !important;
@@ -3787,6 +3787,11 @@ button a{
   @media (min-width: 540px) {
     .footer-static .wrap-footer-static {
       padding: 70px 0 100px;
+    }
+  }
+  @media (max-width: 768px) {
+    .footer-static .wrap-footer-static {
+      padding: 70px 0 130px;
     }
   }
   @media (min-width: 1024px) {
