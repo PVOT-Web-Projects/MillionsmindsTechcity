@@ -3784,6 +3784,7 @@ html .ui-button.ui-state-disabled:active {
   font-size: 19px;
   color: #8c8782;
 }
+
 @media (min-width: 1280px) {
   .footer-socials-content .wrap-socials-content .socials-content-element {
     transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;
@@ -8634,6 +8635,7 @@ body.motor .motor-page {
         padding: 70px 0 100px;
       }
     }
+  
     @media (min-width: 1024px) {
       .footer-static.full-size .wrap-footer-static {
         padding: 70px 0 40px;
@@ -26430,3 +26432,8 @@ body{
     display: none;
   }
 
+  @media (max-width:575px){
+    .footer-static .wrap-footer-static {
+      padding: 45px 0px 50px !important;
+    }
+  }
