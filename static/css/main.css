@@ -391,12 +391,6 @@ html .ui-button.ui-state-disabled:active {
     padding: 0 75px;
   }
 }
-@media (max-width: 1279px) {
-  .big-wrapper {
-    max-width: 660px;
-    padding: 0 30px;
-  }
-}
 @media (min-width: 1024px) and (max-width: 1279px) {
   .big-wrapper.tablet-space {
     max-width: initial;
@@ -25489,6 +25483,7 @@ body.motor .motor-page {
   .gallery-list-element {
     width: 50% !important;
     display: inline-block;
+    padding: 5px;
   }
 }
 
@@ -25848,7 +25843,7 @@ html .ui-button.ui-state-disabled:active {
 @media (max-width: 1279px) {
   .big-wrapper {
     max-width: 660px;
-    padding: 0 30px;
+    padding: 0 0px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
