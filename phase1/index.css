@@ -3678,13 +3678,13 @@ button a{
     text-align: center;
   }
   .footer-partners-header .partners-header-title {
-    font-family: "Brown", sans-serif;
-    font-size: 14px;
+    font-family: "Brown";
+    font-size: 15px;
     font-weight: 400;
     color: #8c8782;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    line-height: 142.8571428571%;
+    letter-spacing: 0.03em;
+    line-height: 157.888888889%;
   }
   @media (max-width: 768px) and (min-width:540px) {
     .partners-content-element{
