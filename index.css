@@ -1645,3 +1645,42 @@ padding-bottom: 0 !important;
     display: none;
   }
 }
+.book_sec {
+  height: auto !important;
+}
+.bookWrapperNew{
+  width: 50%;
+  height: auto;
+}
+.imggg1{
+  height: 100% !important;
+  object-fit: cover;
+}
+.book_sec_heading.btn-corp{
+  padding-bottom: 3rem;
+}
+@media (max-width:768px){
+  .bookWrapperNew{
+    width: 100%;
+    height: auto !important;
+  }
+  .imggg1{
+    height: auto !important;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1199px) {
+  .bookWrapperNew{
+    width: 100%;
+    padding-bottom: 3rem !important;
+    height: auto !important;
+  }
+  .book_sec_heading.btn-corp{
+    padding-bottom: 3rem;
+  }
+  .book_sec {
+      height: auto !important;
+      flex-direction: column !important;
+  }
+}
