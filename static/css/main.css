@@ -3600,7 +3600,7 @@ html .ui-button.ui-state-disabled:active {
 }
 @media (min-width: 540px) {
   .footer-links .wrap-footer-links {
-    padding-top: 80px;
+    padding-top: 30px;
   }
 }
 .footer-info-element:first-child .wrap-info-element {
@@ -18548,7 +18548,7 @@ body.motor .motor-page {
 }
 @media (min-width: 540px) {
   .galleries-module .wrap-galleries-module {
-    padding: 80px 0;
+    padding: 25px 0;
   }
 }
 @media (min-width: 1280px) {
@@ -19651,7 +19651,7 @@ body.motor .motor-page {
 }
 @media (min-width: 768px) {
   .info-slider-element .wrap-info-element {
-    padding: 35px 20px 0;
+    padding: 15px 0px 0;
   }
   .info-slider-element .wrap-info-element .info-element-title {
     letter-spacing: 0.12em;
