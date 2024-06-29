@@ -1684,3 +1684,17 @@ padding-bottom: 0 !important;
       flex-direction: column !important;
   }
 }
+.hero_banner_desk{
+  display: block;
+}
+.hero_banner_mobile{
+  display: none;
+}
+@media(max-width:767px){
+  .hero_banner_desk{
+    display: none;
+  }
+  .hero_banner_mobile{
+    display: block;
+  } 
+}
