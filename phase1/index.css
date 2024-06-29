@@ -3685,6 +3685,7 @@ button a{
     text-transform: uppercase;
     letter-spacing: 0.03em;
     line-height: 157.888888889%;
+    width: 100% !important;
   }
   @media (max-width: 768px) and (min-width:540px) {
     .partners-content-element{
@@ -3707,10 +3708,12 @@ button a{
   .footer-partners-content {
     font-size: 0;
     text-align: center;
+    flex-wrap: wrap;
   }
   .partners-content-element .wrap-partnerns-element {
     padding: 45px 0;
     border-bottom: 1px solid #d0ccca;
+    width: 100%;
   }
   .partners-content-element .wrap-partnerns-element .partnerns-element-img {
     display: block;
@@ -12614,6 +12617,7 @@ button a{
     fill: #8c8782;
     border-color: #8c8782;
   }
+  
   @media (max-width:575px){
     .footer-partners-header .partners-header-title{
       width: 100% !important;
