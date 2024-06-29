@@ -1698,3 +1698,55 @@ padding-bottom: 0 !important;
     display: block;
   } 
 }
+.master_plan{
+  font-size: 50px;
+  text-align: center;
+  margin: 0 0 40px;
+  text-transform: capitalize;
+  color: #1c75b7;
+}
+.connectivity{
+  font-size: 50px;
+  text-align: center;
+  margin: 0 0 40px;
+  text-transform: capitalize;
+  color: #1c75b7;
+}
+.full_width_text{
+  margin: 40px 0 60px;
+}
+.full_width_text p{
+  color: #494542 ; 
+  font-size: 20px !important;
+  line-height: 25px;
+}
+@media(max-width:1280px){
+  .master_plan{
+   margin: 0;
+  }
+ 
+}
+@media(max-width:575px){
+  .partners-header-title {
+    font-size: 25px !important;
+    color: #8c8782 !important;
+    text-align: center;
+    line-height: 30px !important;
+}
+.master_plan{
+  font-size: 35px;
+
+}
+.connectivity{
+  font-size: 35px;
+  margin: 0 0 40px;
+}
+}
+.btn-corp.explore_phase1{
+  margin: 0 0 0 auto;
+}
+@media(max-width:991px){
+  .btn-corp.explore_phase1{
+    margin: 0 auto;
+  } 
+}
