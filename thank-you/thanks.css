@@ -1,0 +1,18 @@
+.thank_you{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.thank_you h2{
+    color: #1c75b7;
+    text-align: center;
+    margin: 0 0 20px;
+}
+.thank_you p{
+    text-align: center;
+    font-size: 20px !important;
+    padding: 0 20px;
+    line-height: 25px;
+}

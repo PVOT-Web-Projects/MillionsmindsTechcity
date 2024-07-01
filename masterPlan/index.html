@@ -118,11 +118,13 @@
         display: flex !important;
       }
       .visionaries_heading {
-        color: #2f4d7f !important;
-        font-size: 40px !important;
+        color: #1c75b7 !important;
+        font-size: 60px !important;
         display: flex !important;
         justify-content: center !important;
-        padding: 40px 0px;
+        padding: 40px 20px;
+        text-align: center;
+        text-transform: uppercase;
       }
       .advantages-element-icon {
         display: flex;
@@ -189,6 +191,15 @@
           display: flex;
           align-items: center;
         }
+        .visionaries_heading {
+        color: #1c75b7 !important;
+        font-size: 45px !important;
+        display: flex !important;
+        justify-content: center !important;
+        padding: 40px 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
       }
       @media (max-width: 1024px) {
         .gallery-list-elements {
@@ -356,7 +367,7 @@
           padding: 0 20px !important;
         }
         .visionaries_heading {
-          font-size: 22px !important;
+          font-size: 35px !important;
           padding: 25px 17px;
         }
         .wrap-galleries-module {
@@ -478,12 +489,22 @@
         flex-direction: row !important;
       }
       .footer-partners-header .partners-header-title {
-        font-size: 16px !important;
-        color: #8c8782 !important;
+        font-size: 60px !important;
+        color: #1c75b7 !important;
         font-weight: 400 !important;
-        text-align: left !important;
-        letter-spacing: 0.1em !important;
+        text-align: center !important;
+        letter-spacing: 0em !important;
         line-height: 122.2222222222% !important;
+      }
+      @media(max-width:1280px){
+        .footer-partners-header .partners-header-title {
+    font-size: 45px !important;
+    color: #1c75b7 !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    letter-spacing: 0em !important;
+    line-height: 122.2222222222% !important;
+}
       }
 
       @media (max-width: 767px) {
@@ -504,6 +525,16 @@
           padding-bottom: 3rem;
           float: none !important;
         }
+      }
+      @media(max-width:575px){
+        .footer-partners-header .partners-header-title {
+        font-size: 35px !important;
+        color: #1c75b7 !important;
+        font-weight: 400 !important;
+        text-align: center !important;
+        letter-spacing: 0em !important;
+        line-height: 122.2222222222% !important;
+    }
       }
       @media (max-width: 475px) {
         .galleries-content-info {
@@ -689,10 +720,10 @@
           </div>
           <div class="top-module-scroll">
             <div class="wrap-top-scroll js-scroll-down">
-              <p class="top-scroll-title">
+              <!-- <p class="top-scroll-title">
                 Elevating Lifestyles Million Minds Tech City Pioneers a New Era
                 of Balanced Living
-              </p>
+              </p> -->
               <div class="wrap-top-scroll js-scroll-down">
                 <img
                   src="../static/img/left_arrow.svg"
@@ -759,7 +790,7 @@
         </div>
       </section>
 
-      <section class="gallery-page">
+      <!-- <section class="gallery-page">
         <div class="big-wrapper tablet-space">
           <div class="wrap-gallery-page">
             <div class="gallery-page-header">
@@ -856,7 +887,6 @@
                       title="Landscape Gardens"
                     >
                       <div class="wrap-gallery-element">
-                        <!-- <figure class="gallery-element-img lazyload" data-filename="../backoffice/images/4.png" role="img" aria-label="Landscape Gardens"></figure> -->
                         <div>
                           <img
                             class="gallery-element-img"
@@ -872,7 +902,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="advantages-module" style="overflow: hidden">
         <div class="footer-links-partners">
@@ -934,7 +964,7 @@
                     </g>
                   </svg>
 
-                  <p class="partnerns-element-text">Luxury Residences</p>
+                  <p class="partnerns-element-text partnerns_title">Luxury Residences</p>
                   <p class="partnerns-element-text">
                     3&4 BHK High Rise Apartments designed for comfort and
                     sophistication
@@ -978,7 +1008,7 @@
                       />
                     </g>
                   </svg>
-                  <p class="partnerns-element-text">Co-living Spaces</p>
+                  <p class="partnerns-element-text partnerns_title">Co-living Spaces</p>
                   <p class="partnerns-element-text">
                     Fostering connections and collaboration among like-minded
                     individuals
@@ -1027,7 +1057,7 @@
                       />
                     </g>
                   </svg>
-                  <p class="partnerns-element-text">Hotels and Malls</p>
+                  <p class="partnerns-element-text partnerns_title">Hotels and Malls</p>
                   <p class="partnerns-element-text">
                     Premium hospitality and retail developments within reach
                   </p>

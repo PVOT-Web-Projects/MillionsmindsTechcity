@@ -1,0 +1,27 @@
+.gallery_heading{
+    font-size: 60px;
+    color: #1c75b7;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0 20px;
+}
+@media(max-width:1280px){
+
+    .gallery_heading{
+        font-size: 40px;
+        color: #1c75b7;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 50px 0 20px;
+    }
+}
+@media(max-width:575px){
+
+    .gallery_heading{
+        font-size: 30px;
+        color: #1c75b7;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 50px 0 20px;
+    }
+}
