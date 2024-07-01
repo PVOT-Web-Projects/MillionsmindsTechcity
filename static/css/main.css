@@ -40,7 +40,10 @@ h6 {
   padding: 0;
   line-height: 1;
   font-weight: normal;
-  font-family: 'opulent regular' !important;
+  font-family: "Brown" !important;
+  
+  /* 'opulent regular' !important; */
+
 }
 p,
 ul,
@@ -1372,7 +1375,7 @@ html .ui-button.ui-state-disabled:active {
 .input-field .wrap-input-field .input {
   position: absolute;
   top: 10px;
-  right: 23px;
+  left: 10px;
   /* width: 50%;
   height: 50%; */
   /* padding: 0 55px 0 23px; */
@@ -1381,6 +1384,11 @@ html .ui-button.ui-state-disabled:active {
   font-weight: 500;
   color: #494542;
   letter-spacing: 0.03em;
+}
+svg.input{
+  right: 10px;
+  position: absolute !important;
+  left: auto !important;
 }
 .input-field .wrap-input-field .input.placeholder {
   font-family: 'Poppins';
@@ -3952,14 +3960,17 @@ html .ui-button.ui-state-disabled:active {
   height: auto;
 }
 .partners-content-element .wrap-partnerns-element .partnerns-element-text {
-  font-family: 'Poppins';
+  font-family: 'Brown';
   font-size: 18px;
   font-weight: 400;
-  color: #8c8782;
-  text-transform: uppercase;
+  color: #494542;
   letter-spacing: 0.1em;
   padding-top: 25px;
   text-align: center;
+}
+.partnerns_title{
+  font-size: 22px !important;
+  color: #1c75b7 !important;
 }
 @media(max-width:767px){
   .footer-partners-header .partners-header-title {
@@ -18183,7 +18194,7 @@ body.motor .motor-page {
   font-family: 'opulent regular';
   font-size: 50px;
   font-weight: 500;
-  color: #8c8782;
+  color: #1c75b7;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 110%;
@@ -18233,9 +18244,10 @@ body.motor .motor-page {
     padding-right: 40px;
   }
   .intro-info-header .intro-header-title {
-    font-size: 90px;
+    font-size: 60px !important;
     line-height: 113.3333333333%;
     letter-spacing: 0.015em;
+    color: #1c75b7;
   }
   .intro-info-header .intro-header-subtitle {
     font-size: 18px;
@@ -19024,9 +19036,9 @@ body.motor .motor-page {
 }
 .info-slider-element .wrap-info-element .info-element-title {
   font-family: "Brown", sans-serif;
-  font-size: 22px;
+  font-size: 35px;
   font-weight: 400;
-  color: #8c8782;
+  color: #1c75b7;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   line-height: 100%;
@@ -19594,8 +19606,8 @@ body.motor .motor-page {
     padding-top: 20px;
   }
   .info-slider-element .wrap-info-element .info-element-title {
-    font-size: 26px;
-    letter-spacing: 0.1em;
+    font-size: 45px;
+    letter-spacing: 0em;
   }
   .info-slider-element .wrap-info-element .info-element-text {
     font-size: 19px;
@@ -19648,7 +19660,7 @@ body.motor .motor-page {
     padding: 15px 0px 0;
   }
   .info-slider-element .wrap-info-element .info-element-title {
-    letter-spacing: 0.12em;
+    letter-spacing: 0em;
     padding-bottom: 20px;
   }
   .info-slider-element .wrap-info-element .info-element-text {
@@ -19671,11 +19683,11 @@ body.motor .motor-page {
     padding-bottom: 80px;
   }
   .info-slider-element .wrap-info-element .info-element-title {
-    font-family: 'opulent regular';
+    font-family: 'Brown';
     font-size: 60px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    color: #8c8782;
+    color: #1c75b7;
     padding-bottom: 10px;
   }
   .info-slider-element .wrap-info-element .info-element-title.bigger {
@@ -20321,7 +20333,7 @@ body.motor .motor-page {
   font-weight: 400;
   color: #494542;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0em;
   line-height: 125%;
   padding-bottom: 10px;
 }
@@ -24122,11 +24134,11 @@ body.motor .motor-page {
 }
 .card-form-header .wrap-form-header .form-header-title {
   font-family: "Brown", sans-serif;
-  font-size: 16px;
+  font-size: 60px;
   font-weight: 400;
-  color: #8c8782;
+  color: #1c75b7;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0em;
   line-height: 137.5%;
 }
 .card-form-header .wrap-form-header .form-header-text {
@@ -24142,10 +24154,7 @@ body.motor .motor-page {
   .card-form-header .wrap-form-header {
     padding-bottom: 40px;
   }
-  .card-form-header .wrap-form-header .form-header-title {
-    font-size: 18px;
-    letter-spacing: 0.1em;
-  }
+
   .card-form-header .wrap-form-header .form-header-text {
     font-size: 19px;
     line-height: 157.8947368421%;
@@ -24155,9 +24164,7 @@ body.motor .motor-page {
   .card-form-header .wrap-form-header {
     padding-bottom: 50px;
   }
-  .card-form-header .wrap-form-header .form-header-title {
-    letter-spacing: 0.15em;
-  }
+ 
   .card-form-header .wrap-form-header .form-header-text {
     font-size: 20px;
     padding-top: 30px;
@@ -25589,7 +25596,7 @@ h6 {
   padding: 0;
   line-height: 1;
   font-weight: normal;
-  font-family: 'opulent regular' !important;
+  font-family: 'Brown' !important;
 }
 input[type="number"] {
   -moz-appearance: textfield;
@@ -25795,9 +25802,10 @@ html .ui-button.ui-state-disabled:active {
   margin: 0 auto;
 }
 .visionaries_heading{
-  font-size: 50px;
+  font-size: 60px;
   padding: 40px 0px 0;
   color: #8c8782;
+  color: #1c75b7;
   /* text-align: center; */
   /* font-family: "CFType", sans-serif" */
 }
@@ -26097,10 +26105,10 @@ html .ui-button.ui-state-disabled:active {
   /* font-family: "Brandon", sans-serif; */
   font-size: 17px;
   font-weight: 700;
-  color: #8c8782;
+  color: #1c75b7;
   text-transform: uppercase;
   letter-spacing: 0.12px;
-  border: 2px solid #8c8782;
+  border: 2px solid #1c75b7;
   padding: 13px 0;
   text-align: center;
   min-width: 250px;
@@ -26115,7 +26123,7 @@ html .ui-button.ui-state-disabled:active {
     left: 50%;
     width: 100%;
     height: 100%;
-    background-color: #8c8782;
+    background-color: #1c75b7;
     opacity: 0;
     transform: translateX(-50%) translateY(-50%) scale(0.6);
     transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.7s;

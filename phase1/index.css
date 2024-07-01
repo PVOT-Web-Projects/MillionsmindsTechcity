@@ -47,7 +47,7 @@
     padding: 0;
     line-height: 1;
     font-weight: normal;
-    font-family: 'opulent regular' !important;
+    font-family: 'Brown' !important;
   }
   input[type="number"] {
     -moz-appearance: textfield;
@@ -256,9 +256,9 @@ button a{
     margin: 0 auto;
   }
   .visionaries_heading{
-    font-size: 50px;
+    font-size: 60px;
     padding: 40px 0px 0;
-    color: #8c8782;
+    color: #1c75b7;
     /* text-align: center; */
     /* font-family: "CFType", sans-serif" */
   }
@@ -3679,11 +3679,19 @@ button a{
   }
   .footer-partners-header .partners-header-title {
     font-family: "Brown";
-    font-size: 15px;
+    font-size: 18px !important;
     font-weight: 400;
-    color: #8c8782;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
+    color: #000 !important;
+    letter-spacing: 0em;
+    line-height: 157.888888889%;
+    width: 100% !important;
+  }
+  .partners-header-title.overview_title{
+    font-family: "Brown";
+    font-size: 18px !important;
+    font-weight: 400;
+    color: #000 !important;
+    letter-spacing: 0em;
     line-height: 157.888888889%;
     width: 100% !important;
   }
