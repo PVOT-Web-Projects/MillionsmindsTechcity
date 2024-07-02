@@ -3342,8 +3342,8 @@ button a{
       font-weight: 400;
       color: #fff;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      line-height: 144.4444444444%;
+      letter-spacing: 0.032em;
+      line-height: 157.898989%;
       padding-bottom: 25px;
     }
     .footer-gallery-info .footer-gallery-subtext {
@@ -3352,8 +3352,18 @@ button a{
       font-weight: 400;
       color: #fff;
       letter-spacing: 0.035em;
-      line-height: 128.5714285714%;
+      line-height: 157.5714285714%;
     }
+  }
+
+  .footer-partners-header .partners-header-title1 {
+    font-size: 60px !important;
+    color: #1c75b7 !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    letter-spacing: 0em !important;
+    line-height: 122.2222222222% !important;
+    text-transform: uppercase !important;
   }
   @media (min-width: 1280px) {
     .footer-content {
@@ -3661,7 +3671,7 @@ button a{
     }
    
     .partners-content-element .wrap-partnerns-element .partnerns-element-img{
-      max-width: 60px !important;
+      max-width: 100px !important;
     }
     .partners-content-element .wrap-partnerns-element .partnerns-element-img1{
       max-width: 100px !important;
