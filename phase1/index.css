@@ -3342,8 +3342,8 @@ button a{
       font-weight: 400;
       color: #fff;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      line-height: 144.4444444444%;
+      letter-spacing: 0.032em;
+      line-height: 157.898989%;
       padding-bottom: 25px;
     }
     .footer-gallery-info .footer-gallery-subtext {
@@ -3352,7 +3352,7 @@ button a{
       font-weight: 400;
       color: #fff;
       letter-spacing: 0.035em;
-      line-height: 128.5714285714%;
+      line-height: 157.5714285714%;
     }
   }
   @media (min-width: 1280px) {
