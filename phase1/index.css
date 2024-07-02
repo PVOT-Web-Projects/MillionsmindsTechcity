@@ -3434,7 +3434,7 @@ button a{
     font-weight: 400;
     color: #494542;
     letter-spacing: 0.03em;
-    line-height: 138.8888888889%;
+    line-height: 157.0909090909%;
   }
   .footer-section-info .wrap-section-info .section-info-btn {
     margin-top: 20px;
@@ -3682,8 +3682,8 @@ button a{
     font-size: 18px !important;
     font-weight: 400;
     color: #000 !important;
-    letter-spacing: 0em;
-    line-height: 157.888888889%;
+    letter-spacing: 0.03em;
+    line-height: 157.0909090909%;
     width: 100% !important;
   }
   .partners-header-title.overview_title{
@@ -3691,8 +3691,8 @@ button a{
     font-size: 18px !important;
     font-weight: 400;
     color: #000 !important;
-    letter-spacing: 0em;
-    line-height: 157.888888889%;
+    letter-spacing: 0.03em;
+    line-height: 157.0909090909%;
     width: 100% !important;
   }
   @media (max-width: 768px) and (min-width:540px) {
@@ -5378,8 +5378,8 @@ button a{
     font-size: 22px;
     font-weight: 300;
     color: #494542;
-    letter-spacing: 0.01em;
-    line-height: 159.0909090909%;
+    letter-spacing: 0.03em;
+    line-height: 157.0909090909%;
   }
   @media (min-width: 540px) {
     .intro-info-content .intro-content-text {
@@ -6154,7 +6154,7 @@ button a{
     font-weight: 400;
     color: #494542;
     letter-spacing: 0.03em;
-    line-height: 138.8888888889%;
+    line-height: 157.0909090909%;
   }
   .info-slider-element .wrap-info-element .info-element-list {
     text-align: left;
@@ -13093,4 +13093,14 @@ img.sezfeatureiconsx {
     width: 125px;
     height: auto;
 }
+}
+
+.text_upper {
+  letter-spacing: 0.035em !important;
+  font-size: 17px !important;
+  text-transform: none !important;
+  line-height: 157.8947368421% !important;
+}
+.imgggg{
+  max-width: 125px !important;
 }

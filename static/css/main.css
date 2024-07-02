@@ -18278,7 +18278,7 @@ body.motor .motor-page {
   font-size: 22px;
   font-weight: 300;
   color: #494542;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
   line-height: 159.0909090909%;
 }
 @media (min-width: 540px) {
@@ -24166,7 +24166,7 @@ body.motor .motor-page {
   }
  
   .card-form-header .wrap-form-header .form-header-text {
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 30px;
   }
 }
@@ -26445,4 +26445,27 @@ body{
   }
   }
 
-  
+  .aminites_text {
+    width: 100% !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    color: #494542 !important;
+    letter-spacing: 0.035em !important;
+    line-height: 157.8947368421% !important; 
+    
+  }
+  @media(max-width: 575px){
+    .aminites_text{
+      width: 100% !important;
+    }
+  }
+  .text_info{
+    font-size: 18px !important;
+  }
+
+  .text_upper {
+    letter-spacing: 0.035em !important;
+    font-size: 17px !important;
+    text-transform: none !important;
+    line-height: 157.8947368421% !important;
+  }
