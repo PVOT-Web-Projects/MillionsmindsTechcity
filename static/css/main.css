@@ -3602,7 +3602,7 @@ svg.input{
 }
 @media (min-width: 540px) {
   .footer-links .wrap-footer-links {
-    padding-top: 30px;
+    padding-top: 80px !important;
   }
 }
 .footer-info-element:first-child .wrap-info-element {
@@ -3970,7 +3970,8 @@ svg.input{
 }
 .partnerns_title{
   font-size: 22px !important;
-  color: #1c75b7 !important;
+  color: #8c8782 !important;
+  text-transform: uppercase !important;;
 }
 @media(max-width:767px){
   .footer-partners-header .partners-header-title {
