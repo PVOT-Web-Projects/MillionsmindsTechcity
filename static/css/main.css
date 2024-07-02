@@ -19681,7 +19681,7 @@ body.motor .motor-page {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #8c8782;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
   }
   .info-slider-element .wrap-info-element .info-element-title {
     font-family: 'Brown';
