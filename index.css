@@ -225,7 +225,7 @@
   line-height: 22px;
   color: #494542;
   line-height: 25px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.035em !important;;
 }
 .promotions-module .promotions-header-title {
   font-size: 60px !important;
@@ -1608,7 +1608,7 @@ width: 51%;
 }
 .tech_city_text .partners-header-title {
   text-align: left;
-  line-height: 22px;
+  line-height: 157%;
   color: #494542 !important;
 }
 
@@ -1808,16 +1808,12 @@ width: 51%;
   }
 }
 
-.flex_intro_text {
-  flex-direction: column;
-}
+
 .text_picture {
   padding-left: 0px !important;
   width: 100%;
 }
-.center_header_text {
-  text-align: center !important;
-}
+
 /* .title_center {
   text-align: center !important;
 }
@@ -1831,15 +1827,15 @@ width: 51%;
 
 @media (min-width: 1024px) {
   .intro-module .intro_module_text {
-    padding-top: 40px !important;
+    padding-top: 50px !important;
   }
 }
 
 .tech_city_text {
   font-size: 18px;
   font-weight: 400;
-  letter-spacing: 0.03em;
-  line-height: 138.8888888889%;
+  letter-spacing: 0.035em !important;;
+  line-height: 157%;
 }
 /* mail text class enquiries footer */
 
@@ -1848,4 +1844,7 @@ width: 51%;
     /* font-size: 17px !important; */
     /* text-transform: none !important; */
     line-height: 157.8947368421% !important;
+}
+.home_first{
+  padding: 0 0 50px;
 }
