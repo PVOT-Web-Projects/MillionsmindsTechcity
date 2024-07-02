@@ -6115,7 +6115,7 @@ button a{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
   }
   @media (min-width: 1280px) {
     .images-slider-element .wrap-images-element {
