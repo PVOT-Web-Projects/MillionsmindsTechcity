@@ -602,7 +602,7 @@ button a{
     cursor: pointer;
   }
   .mainlogoimg1{
-    max-width:80px !important;
+    max-width: 100px !important;
   }
   .btn-circle:before {
     position: absolute;
@@ -3434,7 +3434,7 @@ button a{
       vertical-align: top;
       width: 150px;
       text-align: left;
-      padding-top: 15px;
+      /* padding-top: 15px; */
     }
   }
   @media (min-width: 768px) and (max-width: 1279px), (min-width: 1680px) {
@@ -12726,7 +12726,9 @@ button a{
     top: 0;
     transition-duration: 0.4s;
   }
-  
+  .img_width{
+    max-width: 165px !important;
+  }
 
   .footer-static-header .static-header-title{
     display: flex;

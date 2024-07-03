@@ -3635,7 +3635,7 @@ svg.input{
 .footer-section-graphic img{
   max-width: 100%;
   display: block;
-  width: 80px;
+  width: 100px;
 }
 .footer-section-graphic .section-graphic-icon {
   position: relative;
@@ -3685,7 +3685,7 @@ svg.input{
     vertical-align: top;
     width: 150px;
     text-align: left;
-    padding-top: 15px;
+    /* padding-top: 15px; */
   }
  
 }
@@ -3912,7 +3912,7 @@ svg.input{
 }
 @media (min-width: 540px) {
   .footer-links-partners .wrap-footer-partners {
-    padding: 60px 0 15px;
+    padding: 40px 0 15px;
     /* border-bottom: 1px solid #d0ccca; */
 
     /* padding: 100px 0 0; */
@@ -3956,7 +3956,7 @@ svg.input{
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 125px;
+  max-width: 165px;
   height: auto;
 }
 .partners-content-element .wrap-partnerns-element .partnerns-element-text {
@@ -26150,7 +26150,7 @@ html .ui-button.ui-state-disabled:active {
   cursor: pointer;
 }
 .mainlogoimg1{
-  max-width:80px !important;
+  max-width:100px !important;
 }
 .btn-circle:before {
   position: absolute;
