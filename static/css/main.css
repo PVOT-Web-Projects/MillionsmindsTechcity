@@ -26384,7 +26384,8 @@ html .ui-button.ui-state-disabled:active {
 }
 .footer-static-header .static-header-title{
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  align-items: center;
 }
 .footer-static-header .static-header-title a{
   margin-left: 5px;
