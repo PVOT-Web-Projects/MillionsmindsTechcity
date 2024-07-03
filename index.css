@@ -1637,7 +1637,7 @@ width: 51%;
 
 @media (max-width: 767px) {
   .footer-partners-header .partners-header-title {
-    text-align: center;
+    text-align: left;
     font-size: 14px !important;
   }
   .wrap-partnerns-element.footer_partner_flex {
