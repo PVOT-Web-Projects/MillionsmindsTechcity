@@ -13123,3 +13123,8 @@ img.sezfeatureiconsx {
 .imgggg{
   max-width: 125px !important;
 }
+
+.home_Full_new{
+  max-width: 100%;
+  height: auto !important;
+}
