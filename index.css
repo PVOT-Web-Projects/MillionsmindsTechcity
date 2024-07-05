@@ -270,6 +270,9 @@
 .bottom_space {
   margin: 0 0 20px;
 }
+.wrap-partnerns-element img{
+  width: 80px;
+}
 .wrap-partnerns-element svg {
   width: 60px;
   fill: #8c8782;
@@ -322,6 +325,7 @@ body {
   .wrap-top-logo img {
     width: 120px !important;
   }
+
 }
 @media (max-width: 575px) {
   .intro-module .intro-header-title {
@@ -353,6 +357,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 @media (max-width: 991px) {
   .footer-partners-content {
     flex-wrap: wrap !important;
@@ -370,6 +375,17 @@ body {
   }
   .partners-content-element:nth-child(4) {
     justify-content: end;
+  }
+}
+@media(max-width:767px){
+  .vr_border {
+   display: none;
+  }
+  .partners-content-element:nth-child(2) {
+    justify-content: center;
+  }
+  .partners-content-element:nth-child(4) {
+    justify-content: center;
   }
 }
 @media (max-width: 575px) {
