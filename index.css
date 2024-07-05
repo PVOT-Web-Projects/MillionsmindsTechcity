@@ -1822,7 +1822,7 @@ width: 51%;
   }
 }
 .btn-corp.explore_phase1 {
-  margin: 0 0 0 auto;
+  margin: 0 auto;
 }
 @media (max-width: 991px) {
   .btn-corp.explore_phase1 {
