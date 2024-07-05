@@ -287,7 +287,7 @@ body {
   color: #1c75b7;
 }
 .wrap-top-logo img {
-  width: 100px !important;
+  width: 130px !important;
 }
 .top-module-logo {
   top: 10px !important;
@@ -318,6 +318,9 @@ body {
   }
   .home_amenities {
     margin: 50px 0 0;
+  }
+  .wrap-top-logo img {
+    width: 120px !important;
   }
 }
 @media (max-width: 575px) {
